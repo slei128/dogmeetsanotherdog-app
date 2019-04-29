@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=FilterToAField
+comment0.text=\n\ FilterToAField\ allows\ filtering\ multiple\ dogs\ by\ a\ given\ criteria\n\ (e.g.\ name\ of\ dog\ has\ to\ be\ "bella")\n
+comment1.params=element
+comment1.target=boolean\ apply(fastcsv.CsvRow)
+comment1.text=\n\ Determines\ whether\ the\ eviction\ rate\ in\ a\ row\ is\ less\ than\ the\ threshold\ for\ a\ low\ eviction\ rate.\n\n\ @param\ element\ the\ row\ to\ be\ filtered\ through\ for\ its\ eviction\ rate\n\ @return\ true\ if\ the\ eviction\ rate\ is\ less\ than\ the\ set\ threshold\ in\ this\ given\ row\ false\ otherwise\n
+numComments=2

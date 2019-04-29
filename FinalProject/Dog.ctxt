@@ -1,10 +1,14 @@
 #BlueJ class context
 comment0.target=Dog
-comment0.text=\n\ Write\ a\ description\ of\ class\ Dog\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=
-comment1.target=Dog()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Dog\n
-comment2.params=y
-comment2.target=int\ sampleMethod(int)
-comment2.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\n
-numComments=3
+comment1.params=name\ sex\ age\ breed\ location
+comment1.target=Dog(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=variable
+comment2.target=java.lang.String\ getData(java.lang.String)
+comment2.text=\n\ Getter\ method\ for\ data\ variable.\n\ @return\ requested\ data\ value\ for\ this\ Dog\ instance.\n
+comment3.params=obj
+comment3.target=boolean\ equals(java.lang.Object)
+comment4.params=
+comment4.target=int\ hashCode()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
