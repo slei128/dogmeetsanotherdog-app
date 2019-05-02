@@ -13,14 +13,14 @@ public class Dog {
     public Dog(
         String name,
         String sex,
-        String age,
+        Integer age,
         String breed,
         String location
     ) {
         this.dogData = new HashMap<String, String>();
         this.dogData.put("name", name);
         this.dogData.put("sex", sex);
-        this.dogData.put("age", age);
+        this.dogData.put("age", Integer.toString(age));
         this.dogData.put("breed", breed);
         this.dogData.put("location", location);
     }

@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Vector;
 /**
  * Sorts a dog's favourite dogs list by preferences
  *
@@ -8,19 +9,21 @@ import java.util.LinkedList;
 public class FavoriteDogs
 {
     // instance variables - replace the example below with your own
-    private LinkedList<Dog> list;
+    private Vector<LinkedList<Dog>> list;
 
     /**
      * Constructor for objects of class FavoriteDogs
      */
     public FavoriteDogs()
     {
-        this.list = new LinkedList<Dog>();
+        this.list = new Vector<LinkedList<Dog>>();
     }
     
     
-    public void sortFavDogsBy(String dataField) {
-        //Sorting.mergeSort(subset, "name");
+    public static void main(String[] args){
+        //list.add()
+        //list.remove()
+        
     
     }
 }

@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Dog
 comment1.params=name\ sex\ age\ breed\ location
-comment1.target=Dog(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.target=Dog(java.lang.String,\ java.lang.String,\ java.lang.Integer,\ java.lang.String,\ java.lang.String)
 comment2.params=variable
 comment2.target=java.lang.String\ getData(java.lang.String)
 comment2.text=\n\ Getter\ method\ for\ data\ variable.\n\ @return\ requested\ data\ value\ for\ this\ Dog\ instance.\n

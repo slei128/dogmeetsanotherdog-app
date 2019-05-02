@@ -24,11 +24,11 @@ public class Sorting {
      * @param c - Comparator specifying a method to compare between two 
      *            Row objects
      */
-    public static void mergeSort(Vector<CsvRow> data, Comparator<CsvRow> c) {
+    public static void mergeSort(Vector<Row> data, Comparator<Row> c) {
         mergeSortRecursive(data, c, 0, data.size() - 1);
     }
 
-    public static void mergeSortRecursive (Vector<CsvRow> data, Comparator<CsvRow> c, int min, int max) {
+    public static void mergeSortRecursive (Vector<Row> data, Comparator<Row> c, int min, int max) {
         if (min < max) {
             int mid = (min + max) / 2;
             mergeSortRecursive (data, c, min, mid);
@@ -37,8 +37,8 @@ public class Sorting {
         }
     }
 
-    public static void merge(Vector<CsvRow> data, Comparator<CsvRow> c, int first, int mid, int last) {
-        Vector<CsvRow> temp = new Vector<CsvRow>();
+    public static void merge(Vector<Row> data, Comparator<Row> c, int first, int mid, int last) {
+        Vector<Row> temp = new Vector<Row>();
         int first1 = first, last1 = mid; // endpoints of first subarray
         int first2 = mid + 1, last2 = last; // endpoints of second subarray
         
@@ -63,7 +63,7 @@ public class Sorting {
         }
 
         // Copy temp into original array.
-        Iterator<CsvRow> tempIter = temp.iterator();
+        Iterator<Row> tempIter = temp.iterator();
         for(int i = first; i <= last; i++) {
             data.set(i, tempIter.next());
         }

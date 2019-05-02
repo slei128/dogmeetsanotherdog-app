@@ -1,4 +1,4 @@
-AnimalName,AnimalGender,AgeAsOf2015,BreedName,Borough
+Name,AnimalGender,AgeAsOf2015,BreedName,Borough
 TERRY,M,13,Labrador Retriever,Manhattan
 MISTY,F,8,Maltese,Manhattan
 MIKEY,M,3,Maltese,Staten Island
@@ -30440,7 +30440,7 @@ CASSIE,F,7,Yorkshire Terrier,Brooklyn
 WILLOW,F,6,Unknown,Staten Island
 WILLARD,M,3,Unknown,Manhattan
 MILO,M,4,Maltese,Brooklyn
-10/22/2008,F,2,Maltese,Queens
+10/22/08,F,2,Maltese,Queens
 ADELAIDE,F,4,Boxer,Manhattan
 BANX,M,12,Doberman Pinscher,Staten Island
 BAMBINA,F,4,American Pit Bull Mix / Pit Bull Mix,Brooklyn
@@ -30465,7 +30465,7 @@ TILA,F,5,Jack Russell Terrier,Queens
 TITAN,M,6,Labrador Retriever Crossbreed,Bronx
 JENNA,F,3,Australian Shepherd,Brooklyn
 MICKEY,M,14,Pekingese,Staten Island
-10/22/2003,M,2,Maltese,QUEENS
+10/22/03,M,2,Maltese,QUEENS
 ARI,M,7,Shih Tzu,Manhattan
 MUCHI,M,10,Pomeranian,Manhattan
 GUS,M,8,American Pit Bull Terrier/Pit Bull,Staten Island
@@ -30518,7 +30518,7 @@ CAYMAN,F,3,American Staffordshire Terrier,Manhattan
 XIQUI,F,16,"Poodle, Standard",Queens
 WINTER,M,2,Great Pyrenees,Brooklyn
 WINNIE,F,5,Greyhound,Brooklyn
-10/22/2004,F,2,Maltese,Queens
+10/22/04,F,2,Maltese,Queens
 MOLLY,F,4,Maltese,Brooklyn
 N/A,M,2,"Schnauzer, Miniature",Manhattan
 HENRY,M,4,Labrador Retriever,Manhattan
@@ -88222,7 +88222,7 @@ ROBBIE,M,14,Unknown,Staten Island
 BAILEY,F,1,Beagle,Brooklyn
 GWENDOLINE,F,6,Pug,Brooklyn
 ROSIE,F,7,Unknown,Manhattan
-8/19/2006,M,1,Maltese,Queens
+8/19/06,M,1,Maltese,Queens
 ACE,M,4,Pomeranian,Bronx
 APOLLO,M,11,Labrador Retriever Crossbreed,Queens
 APOLLO,M,7,Labrador Retriever Crossbreed,Manhattan
@@ -93556,7 +93556,7 @@ BULLET,M,6,Unknown,Queens
 CAELAN,F,12,Jack Russell Terrier,Staten Island
 FIDEL,M,5,"Poodle, Toy",Queens
 EBONY,F,14,Portuguese Water Dog,Manhattan
-8/19/2005,F,1,Maltese,Brooklyn
+8/19/05,F,1,Maltese,Brooklyn
 BARLEY,M,3,Shih Tzu,Manhattan
 BAMBII,F,1,Chihuahua Crossbreed,Manhattan
 BELLA,F,9,Maltese,Queens
@@ -100927,7 +100927,7 @@ TESS,F,1,American Pit Bull Terrier/Pit Bull,Brooklyn
 PANDA,M,2,Labrador Retriever Crossbreed,Queens
 PATCHES,M,14,Shih Tzu,Brooklyn
 ZIGGY,M,13,Yorkshire Terrier,BROOKLYN
-8/13/2003,F,1,Maltese,Queens
+8/13/03,F,1,Maltese,Queens
 RUSTY,M,6,Yorkshire Terrier,Manhattan
 MOCHI,F,1,Terrier mix,Brooklyn
 ROSCOE,M,10,Unknown,Manhattan

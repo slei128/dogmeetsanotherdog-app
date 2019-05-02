@@ -21,36 +21,49 @@ import fastcsv.*;
 public class Reader {
 
     //private final AdjListsGraph<Person> g;
-    private final Map<String, Dog> nameMap;
-    
-    private final Vector<Dog> v;
+    //private final Map<String, Dog> nameMap;
+    private final FilterableDataset data;
+    //private final Vector<Dog> v;
     
 
     /**
      * Constructor for Reader class. 
      */
-    public Reader(String dataFilepath) throws IOException {
-        System.out.println("Reading in Dog dataset:");
-        this.v = new Vector<Dog>();
+    public Reader(String filepath) throws IOException {
+        this.data = new FilterableDataset();
+
+        File file = new File(filepath);
+        CsvReader reader = new CsvReader();
+        reader.setContainsHeader(true);
+        //System.out.println("Reading in Dog dataset:");
+        //this.v = new Vector<Dog>();
 
         // reading nodes
+        /*
         System.out.println("==> Reading in Dog objects...");
         CsvParser nodesParser = getParser(dataFilepath);
         CsvRow nodeRow;
         this.nameMap = new HashMap<String, Dog>();
-        while ( (nodeRow = nodesParser.nextRow()) != null) {
-            Dog dog = new Dog(
-                nodeRow.getField("AnimalName"),
-                nodeRow.getField("AnimalGender"),
-                nodeRow.getField("AgeAsOf2015"),
-                nodeRow.getField("BreedName"),
-                nodeRow.getField("Borough")
+        */
+       try (CsvParser parser = reader.parse(file, StandardCharsets.UTF_8)) {
+            CsvRow dataRow;
+            //int currentNumberRows = 0;
+            while  ((dataRow = parser.nextRow()) != null) {
+                Row row = new Row(
+                dataRow.getField("Name"),
+                dataRow.getField("AnimalGender"),
+                getIntField(dataRow,"AgeAsOf2015"),
+                dataRow.getField("BreedName"),
+                dataRow.getField("Borough")
             );
-            v.add(dog);
-            this.nameMap.put(dog.getData("AnimalName"), dog);
+            //v.add(dog);
+            data.add(row);
+            //currentNumberRows ++;
+            //this.nameMap.put(dog.getData("AnimalName"), dog);
         }
         System.out.println("==> All done!");
     }
+}
 
     /**
      * Given a filepath, will return a CsvParser that can be used to iterate 
@@ -69,21 +82,34 @@ public class Reader {
         return parser;
     }
 
-    /**
-     * Returns all dogs in the vector
-     * @return 
-     */
-    public Vector<Dog> getAllDogsVector() { 
-        return this.v;
+    private static int getIntField(CsvRow row, String field) {
+        return Integer.parseInt(row.getField(field));
     }
+    
+    // /**
+     // * Returns all dogs in the vector
+     // * @return 
+     // */
+    // public Vector<Dog> getAllDogsVector() { 
+        // return this.v;
+    // }
 
+    // /**
+     // * Returns a mapping between names and Dogs
+     // * @return a Map between each name in the dataset and the Dog that name
+     // *         corresponds to.
+     // */
+    // public Map<String, Dog> getNameMap() {
+        // return this.nameMap;
+    // }
+    
     /**
-     * Returns a mapping between names and Dogs
+     * Returns the current filterableDataset created
      * @return a Map between each name in the dataset and the Dog that name
      *         corresponds to.
      */
-    public Map<String, Dog> getNameMap() {
-        return this.nameMap;
+    public final FilterableDataset getDataset() {
+        //System.out.println(this.data);
+        return this.data;
     }
-    
 }
