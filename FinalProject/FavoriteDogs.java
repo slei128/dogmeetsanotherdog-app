@@ -28,8 +28,9 @@ public class FavoriteDogs
         sortByCriteria("age");
         Sorting.mergeSort(subset,new AgeComparator());
         GUIPanel gp = new GUIPanel();
-        owndog = gp.getOwnDog();
-        System.out.println(owndog);
+        //owndog = gp.getOwnDog();
+        owndog = new Dog ("Daisy", "F", 5, "Bulldog", "Manhattan", "S");
+        //System.out.println(owndog);
         hashing();
         //in hashtable, put the user's dog and the filtered results from before
         //hash.put(owndog,filteredCollection);

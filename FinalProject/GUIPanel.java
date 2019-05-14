@@ -11,7 +11,7 @@ public class GUIPanel extends JPanel {
     private JLabel breedLabel;
     private JLabel boroughLabel;
     private JLabel sizeLabel;
-    private JLabel confirmationLabel;
+    private JLabel confirmationLabel, resultsLabel;
     
     private JTextField nameField;
     private JTextField sexField;
@@ -29,6 +29,9 @@ public class GUIPanel extends JPanel {
     private Dog daisy;
     
     public GUIPanel(){
+        // Constructor. Notice how it takes an instance of the game as input!
+      // public TicTacToePanel(TicTacToe g) {
+        // this.game = g;
         
         this.dog = dog;
         
@@ -73,6 +76,8 @@ public class GUIPanel extends JPanel {
         //add(submitButton);
         confirmationLabel = new JLabel("");
         add(confirmationLabel);
+        resultsLabel = new JLabel("");
+        add(resultsLabel);
         setPreferredSize(new Dimension(1300,500));
         setBackground(Color.pink);
         //add(nameLabel);
@@ -91,10 +96,23 @@ public class GUIPanel extends JPanel {
                 size = sizeField.getText();
                 daisy = new Dog(name,sex,age,breed,borough,size);
                 confirmationLabel.setText("Your dog profile " + daisy + " is created.");
-                JPanel newPanel = new JPanel();
+                
+                /*JPanel newPanel = new JPanel();
                 remove(createPanel);
                 remove(buttonPanel);
                 add(newPanel);
+                */
+               //EDIT
+               FavoriteDogs fDogs = new  FavoriteDogs("datasets/dogs_50.csv");
+               fDogs.sortByCriteria("age");
+                Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
+                fDogs.hashing();
+                System.out.println(fDogs);
+                resultsLabel.setText(fDogs.toString());
+                //1. make sex a drop down
+                //2. make seperate buttons for each sort (e.g sort to same age as Daisy, sort to same location as Daisy)
+                //3. make fDogs a global variable so it doesnt get recreated everytime (slow), and sorted by a specfici dimension only if that speciic button is clicked
+                //4. dont need to pass Dog into gui
             }
         }
     }
