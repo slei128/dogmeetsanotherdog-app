@@ -27,7 +27,9 @@ public class FavoriteDogs
         subset = collection.getFilteredDataset();
         sortByCriteria("age");
         Sorting.mergeSort(subset,new AgeComparator());
-        owndog = new Dog("Daisy","F",4,"Bulldog","Manhattan");
+        GUIPanel gp = new GUIPanel();
+        owndog = gp.getOwnDog();
+        System.out.println(owndog);
         hashing();
         //in hashtable, put the user's dog and the filtered results from before
         //hash.put(owndog,filteredCollection);
@@ -44,7 +46,7 @@ public class FavoriteDogs
     public void hashing(){
         for (Row dog: subset){
             Dog current = new Dog(dog.getName(),dog.getSex(), 
-                dog.getAge(),dog.getBreed(),dog.getBorough());
+                dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize());
             this.filteredDogCollection.add(current);
         }
         hash.put(owndog,filteredDogCollection);

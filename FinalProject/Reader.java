@@ -54,7 +54,8 @@ public class Reader {
                 dataRow.getField("AnimalGender"),
                 getIntField(dataRow,"AgeAsOf2015"),
                 dataRow.getField("BreedName"),
-                dataRow.getField("Borough")
+                dataRow.getField("Borough"),
+                dataRow.getField("Size")
             );
             //v.add(dog);
             data.add(row);

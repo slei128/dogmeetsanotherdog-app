@@ -8,12 +8,14 @@
 
 import java.io.*;
 import java.util.Vector;
+
 public class DogCollection
 {
     // instance variables - replace the example below with your own
     private FilterableDataset fd;
     private Vector<Dog> dogCollection;
     private FilterableDataset filteredSet;
+    //private FilterableDataset 
 
     /**
      * Constructor for objects of class DogCollection
@@ -46,6 +48,7 @@ public class DogCollection
         for (Row r: filteredSet){
             filteredSet.add(r);
         }
+        //filter by borough
         if (category.equals("borough")){
             if (criteria.equals("Manhattan"))
                 filteredSet.filterBy(new FilterToManhattan());
@@ -57,18 +60,27 @@ public class DogCollection
                 filteredSet.filterBy(new FilterToQueens());
             else if (criteria.equals("Staten Island"))
                 filteredSet.filterBy(new FilterToStatenIsland());
+        //filter by age
         } else if (category.equals("age")){
             if (criteria.equals("Old"))
                 filteredSet.filterBy(new FilterToOld());
             else if (criteria.equals("Young"))
                 filteredSet.filterBy(new FilterToYoung());
+        //filter by sex
         } else if (category.equals("sex")){
             if (criteria.equals("F"))
                 filteredSet.filterBy(new FilterToFemale());
             else if (criteria.equals("M"))
                 filteredSet.filterBy(new FilterToMale());
+        //filter by size
+        } else if (category.equals("size")){
+            if (criteria.equals("L"))
+                filteredSet.filterBy(new FilterToL());
+            else if (criteria.equals("M"))
+                filteredSet.filterBy(new FilterToM());
+            else if (criteria.equals("S"))
+                filteredSet.filterBy(new FilterToS());
         }
-        //can also filter by size
 
         //Sorting.mergeSort(subset,new AgeComparator());
         return filteredSet;
@@ -78,11 +90,10 @@ public class DogCollection
         return filteredSet;
     }
     
-    
     public Vector<Dog> getCollection(){
         for (Row dog: filteredSet){
             Dog current = new Dog(dog.getName(),dog.getSex(), 
-                dog.getAge(),dog.getBreed(),dog.getBorough());
+                dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize());
             this.dogCollection.add(current);
         }
         return dogCollection;

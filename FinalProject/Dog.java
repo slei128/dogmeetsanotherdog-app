@@ -15,7 +15,8 @@ public class Dog {
         String sex,
         Integer age,
         String breed,
-        String location
+        String location,
+        String size
     ) {
         this.dogData = new HashMap<String, String>();
         this.dogData.put("name", name);
@@ -23,6 +24,7 @@ public class Dog {
         this.dogData.put("age", Integer.toString(age));
         this.dogData.put("breed", breed);
         this.dogData.put("location", location);
+        this.dogData.put("size",size);
     }
 
     /**
@@ -53,6 +55,7 @@ public class Dog {
         sb.append("\n\tage=" + this.getData("age"));
         sb.append("\n\tbreed=" + this.getData("breed"));
         sb.append("\n\tlocation=" + this.getData("location"));
+        sb.append("\n\tsize=" + this.getData("size"));
         sb.append("\n}");
         return sb.toString();
     }
