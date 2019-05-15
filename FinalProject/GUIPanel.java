@@ -29,19 +29,18 @@ public class GUIPanel extends JPanel {
     private Dog daisy;
     
     public GUIPanel(){
-<<<<<<< HEAD
+
         this.dog = dog;
-=======
+
         // Constructor. Notice how it takes an instance of the game as input!
       // public TicTacToePanel(TicTacToe g) {
         // this.game = g;
         
         //setCanvasSize(1000, 1000);
->>>>>>> 74a03ad6a068e41d8b8ea2065104ac4fc26aa499
         
         createPanel = new JPanel();
         createPanel.setPreferredSize(new Dimension(1350,400));
-        createPanel.setBorder(BorderFactory.createLineBorder(Color.red, 10));
+        //createPanel.setBorder(BorderFactory.createLineBorder(Color.red, 10));
         
         nameLabel = new JLabel("Enter name.");
         createPanel.add(nameLabel);
@@ -127,11 +126,8 @@ public class GUIPanel extends JPanel {
                 fDogs.hashing();
                 System.out.println(fDogs);
                 for (Dog d: fDogs.getHash().get(daisy)) {
-                    JPanel dogDiv = new JPanel();
-                    dogDiv.setBorder(BorderFactory.createLineBorder(Color.red, 10));
-                    //dogDiv.setBorder(BorderFactory.createMatteBorder(10,40,10,40,Color.red));
+                    JPanel dogDiv = new JPanel(new BorderLayout());
                     
-                    //dogDiv.setBorder(new EmptyBorder(10, 10, 10, 10));
                     dogDiv.setLayout(new BoxLayout(dogDiv, BoxLayout.PAGE_AXIS));
                     JLabel nameLabel = new JLabel(d.getData("name"));
                     JLabel sexLabel = new JLabel(d.getData("sex"));
@@ -148,7 +144,7 @@ public class GUIPanel extends JPanel {
                     dogDiv.add(sizeLabel);
                     dogDiv.add(Box.createRigidArea(new Dimension(0,5)));
                     //listPane.add(listScroller);
-                    dogDiv.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
+                    dogDiv.setBorder(BorderFactory.createLineBorder(Color.black));
                     allDogsDiv.add(dogDiv);
                 
                 }
