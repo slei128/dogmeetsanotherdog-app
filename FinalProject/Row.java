@@ -12,7 +12,7 @@ import java.util.HashMap;
 
 public class Row {
     
-    private final String name,sex,breed,borough,size;
+    private final String name,sex,breed,borough,size,area,phone;
     private int age;
 
     /**
@@ -25,7 +25,9 @@ public class Row {
         int age,
         String breed,
         String borough,
-        String size
+        String size,
+        String area,
+        String phone
     ) {
         this.name = name;
         this.sex = sex;
@@ -33,6 +35,8 @@ public class Row {
         this.breed = breed;
         this.borough = borough;
         this.size = size;
+        this.area = area;
+        this.phone = phone;
     }
 
     /**
@@ -71,6 +75,13 @@ public class Row {
         return this.size;
     }
     
+    public final String getArea() {
+        return this.area;
+    }
+    
+    public final String getPhone() {
+        return this.phone;
+    }
     /**
      * Returns a String representing all the data in this Row instance.
      @return a String representation of this Row.

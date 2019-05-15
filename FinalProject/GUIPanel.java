@@ -11,6 +11,8 @@ public class GUIPanel extends JPanel {
     private JLabel breedLabel;
     private JLabel boroughLabel;
     private JLabel sizeLabel;
+    private JLabel areaLabel;
+    private JLabel phoneLabel;
     private JLabel confirmationLabel, resultsLabel;
     
     private JTextField nameField;
@@ -19,11 +21,13 @@ public class GUIPanel extends JPanel {
     private JTextField breedField;
     private JTextField boroughField;
     private JTextField sizeField;
+    private JTextField areaField;
+    private JTextField phoneField;
 
     private JButton submitButton;
     private JPanel createPanel;
     private JPanel buttonPanel;
-    private String name,sex,breed,borough,size;
+    private String name,sex,breed,borough,size,area,phone;
     private int age;
     
     private Dog daisy;
@@ -33,13 +37,13 @@ public class GUIPanel extends JPanel {
         this.dog = dog;
 
         // Constructor. Notice how it takes an instance of the game as input!
-      // public TicTacToePanel(TicTacToe g) {
+       // public TicTacToePanel(TicTacToe g) {
         // this.game = g;
         
         //setCanvasSize(1000, 1000);
         
         createPanel = new JPanel();
-        createPanel.setPreferredSize(new Dimension(1350,400));
+        createPanel.setPreferredSize(new Dimension(500,400));
         //createPanel.setBorder(BorderFactory.createLineBorder(Color.red, 10));
         
         nameLabel = new JLabel("Enter name.");
@@ -72,6 +76,16 @@ public class GUIPanel extends JPanel {
         sizeField = new JTextField(5);
         createPanel.add(sizeField);
         
+        areaLabel = new JLabel("Enter area code.");
+        createPanel.add(areaLabel);
+        areaField = new JTextField(5);
+        createPanel.add(areaField);
+        
+        phoneLabel = new JLabel("Enter phone number.");
+        createPanel.add(phoneLabel);
+        phoneField = new JTextField(5);
+        createPanel.add(phoneField);
+        
         submitButton = new JButton("Submit!");
         submitButton.addActionListener(new ButtonListener());
         buttonPanel = new JPanel();
@@ -84,14 +98,13 @@ public class GUIPanel extends JPanel {
         add(confirmationLabel);
         resultsLabel = new JLabel("");
         add(resultsLabel);
-        setPreferredSize(new Dimension(1300,500));
+        setPreferredSize(new Dimension(700,500));
         setBackground(Color.pink);
         //add(nameLabel);
         add(createPanel);
     }
     
-    
-    
+
     private class ButtonListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             //System.out.println("WOW, YOU KNOW HOW TO CLICK A BUTTON! good for you.");
@@ -102,26 +115,30 @@ public class GUIPanel extends JPanel {
                 breed = breedField.getText();
                 borough = boroughField.getText();
                 size = sizeField.getText();
-                daisy = new Dog(name,sex,age,breed,borough,size);
+                area = areaField.getText();
+                phone = phoneField.getText();
+                daisy = new Dog(name,sex,age,breed,borough,size,area,phone);
                 //confirmationLabel.setPreferredSize(new Dimension(1350,500));
                 confirmationLabel.setLocation(900,1000);
                 confirmationLabel.setText("Your dog profile " + daisy + " is created.");
-                
                 
                 remove(createPanel);
                 //remove(buttonPanel);
                 //add(newPanel);
                 
-                // JScrollPane listScroller = new JScrollPane(list);
-                // listScroller.setPreferredSize(new Dimension(250, 80));
-                // listScroller.setAlignmentX(LEFT_ALIGNMENT);
+                
+                
+                
                 
                 //Lay out the label and scroll pane from top to bottom.
                 
-               JPanel allDogsDiv = new JPanel();
-               //EDIT
-               FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_50.csv", daisy);
-               fDogs.sortByCriteria("age");
+                JPanel allDogsDiv = new JPanel();
+                //EDIT
+
+        //add(vertical);
+                //dogScroller.setAlignmentX(LEFT_ALIGNMENT);
+                FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_50.csv", daisy);
+                fDogs.sortByCriteria("age");
                 Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
                 fDogs.hashing();
                 System.out.println(fDogs);
@@ -135,29 +152,70 @@ public class GUIPanel extends JPanel {
                     JLabel breedLabel = new JLabel(d.getData("breed"));
                     JLabel locationLabel = new JLabel(d.getData("location"));
                     JLabel sizeLabel = new JLabel(d.getData("size"));
+                    JLabel areaLabel = new JLabel(d.getData("area"));
+                    JLabel phoneLabel = new JLabel(d.getData("phone"));
                     
+                    //create a name card for each dog
                     dogDiv.add(nameLabel);
                     dogDiv.add(sexLabel);
                     dogDiv.add(ageLabel);
                     dogDiv.add(breedLabel);
                     dogDiv.add(locationLabel);
                     dogDiv.add(sizeLabel);
+                    dogDiv.add(areaLabel);
+                    dogDiv.add(phoneLabel);
                     dogDiv.add(Box.createRigidArea(new Dimension(0,5)));
-                    //listPane.add(listScroller);
+                    //dogDiv.add(dogScroller);
                     dogDiv.setBorder(BorderFactory.createLineBorder(Color.black));
                     allDogsDiv.add(dogDiv);
                 
                 }
-                add(allDogsDiv);
+                
+                JScrollPane dogScroller = new JScrollPane(allDogsDiv);
+                //dogScroller.ScrolledPane();
+                dogScroller.setPreferredSize(new Dimension(1000, 200));
+                dogScroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+                add(dogScroller);
+                //dogScroller.add(allDogsDiv);
+                
                 //resultsLabel.setAlignmentX(LEFT_ALIGNMENT);
-                resultsLabel.setText(fDogs.toString());
+                //resultsLabel.setText(fDogs.toString());
                 //1. make sex a drop down
-                //2. make seperate buttons for each sort (e.g sort to same age as Daisy, sort to same location as Daisy)
-                //3. make fDogs a global variable so it doesnt get recreated everytime (slow), and sorted by a specfici dimension only if that speciic button is clicked
+                //2. make seperate buttons for each sort (e.g sort to same age 
+                //as Daisy, sort to same location as Daisy)
+                //3. make fDogs a global variable so it doesnt get recreated 
+                //everytime (slow), and sorted by a specfici dimension only 
+                //if that speciic button is clicked
                 //4. dont need to pass Dog into gui
             }
         }
     }
+    
+    public class ScrolledPane extends JPanel {
+    private JScrollPane vertical;
+    private JTextArea console;
+
+    public ScrolledPane()
+    {
+        setPreferredSize(new Dimension(200, 250));
+        console = new JTextArea(15, 15);
+
+        vertical = new JScrollPane(console);
+        vertical.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        add(vertical);
+    }
+
+
+    // public static void main( String args[] )
+    // {
+        // new JFrame()
+        // {{
+            // getContentPane().add(new ScrolledPane());
+            // pack();
+            // setVisible(true);
+        // }};
+    // }
+     }
     
     public Dog getOwnDog(){
             return daisy;

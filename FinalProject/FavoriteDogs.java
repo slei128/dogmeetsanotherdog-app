@@ -48,7 +48,8 @@ public class FavoriteDogs
     public void hashing(){
         for (Row dog: subset){
             Dog current = new Dog(dog.getName(),dog.getSex(), 
-                dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize());
+                dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize(),
+                dog.getArea(),dog.getPhone());
             this.filteredDogCollection.add(current);
         }
         hash.put(owndog,filteredDogCollection);
@@ -74,13 +75,14 @@ public class FavoriteDogs
     
     
     
-    // public static void main(String[] args){
-        // FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_50.csv");
-        // //System.out.println(fDogs);
+    public static void main(String[] args){
+        FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size.csv",
+                new Dog("Daisy","F",12,"Bulldog","L","A","A","A"));
+        //System.out.println(fDogs);
 
-        // fDogs.sortByCriteria("age");
-        // Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
-        // fDogs.hashing();
-        // System.out.println(fDogs);
-    // }
+        fDogs.sortByCriteria("age");
+        Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
+        fDogs.hashing();
+        System.out.println(fDogs);
+    }
 }

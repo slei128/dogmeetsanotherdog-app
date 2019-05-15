@@ -11,6 +11,7 @@ import java.util.Hashtable;
 public class AllDogsGraph
 {
     // instance variables - replace the example below with your own
+    private Dog owndog;
     private AdjListsGraph<Dog> graph;
     private FavoriteDogs fDogs;
     private Hashtable<Dog, Vector<Dog>> hash;
@@ -19,11 +20,12 @@ public class AllDogsGraph
     /**
      * Constructor for objects of class DogsGraph
      */
-    public AllDogsGraph()
+    public AllDogsGraph(Dog owndog)
     {
         // initialise instance variables
         graph = new AdjListsGraph<Dog>();
-        fDogs = new FavoriteDogs("datasets/dogs_50.csv", //insertdoghere);
+        this.owndog = owndog;
+        fDogs = new FavoriteDogs("datasets/dogs_50.csv",owndog);
         System.out.println(fDogs);
         hash = fDogs.getHash();
         for (Dog d:hash.keySet()){
@@ -39,8 +41,9 @@ public class AllDogsGraph
         System.out.println(graph);
     }
     
-    public static void main(String[] args){
-        AllDogsGraph test = new AllDogsGraph();
-    }
+    
+    //public static void main(String[] args){
+     //   AllDogsGraph test = new AllDogsGraph(new Dog());
+    //}
 }
 

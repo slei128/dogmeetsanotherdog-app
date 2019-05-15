@@ -93,7 +93,8 @@ public class DogCollection
     public Vector<Dog> getCollection(){
         for (Row dog: filteredSet){
             Dog current = new Dog(dog.getName(),dog.getSex(), 
-                dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize());
+                dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize(),
+                dog.getArea(),dog.getPhone());
             this.dogCollection.add(current);
         }
         return dogCollection;
