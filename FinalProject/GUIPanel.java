@@ -29,7 +29,6 @@ public class GUIPanel extends JPanel {
     private Dog daisy;
     
     public GUIPanel(){
-        
         this.dog = dog;
         
         createPanel = new JPanel();
