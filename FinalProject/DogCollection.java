@@ -12,6 +12,7 @@ import java.util.Vector;
 public class DogCollection
 {
     // instance variables - replace the example below with your own
+    private String category,criteria;
     private FilterableDataset fd;
     private Vector<Dog> dogCollection;
     private FilterableDataset filteredSet;
@@ -24,14 +25,20 @@ public class DogCollection
     {
         try {
             Reader r = new Reader (fileName);
+            this.category = category;
+            this.criteria = criteria;
             this.fd = r.getDataset();
             this.dogCollection = new Vector<Dog>();
             //create a copy of the original dataset so it can be used for other
             //filtering criterion
             this.filteredSet = new FilterableDataset();
+            
             for (Row row: fd){
+                //filteredSet1.add(row);
                 filteredSet.add(row);
             }
+            
+            getCollection();
         } catch (IOException e){
             System.out.println(e);
         }
@@ -100,4 +107,7 @@ public class DogCollection
         return dogCollection;
     }
     
+    public static void main (String[] args){
+        DogCollection test = new DogCollection("datasets/dogs_100_size.csv");
+    }
 }

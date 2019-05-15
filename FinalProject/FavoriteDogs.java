@@ -18,19 +18,22 @@ public class FavoriteDogs
     /**
      * Constructor for objects of class FavoriteDogs
      */
-    public FavoriteDogs(String filename, Dog owndog)
+    public FavoriteDogs(Vector<Dog> vectorDogs, Dog owndog)
     {
-        DogCollection collection = new DogCollection(filename);
+
+        //DogCollection collection = new DogCollection(filename);
+        //vectorDogs = collection.getCollection();
+        this.owndog = owndog;
         this.hash = new Hashtable<Dog, Vector<Dog>>();
         //filter by criterion specified earlier by the user
-        filteredDogCollection = new Vector<Dog>();
-        subset = collection.getFilteredDataset();
-        sortByCriteria("age");
-        Sorting.mergeSort(subset,new AgeComparator());
-        GUIPanel gp = new GUIPanel();
+        //filteredDogCollection = new Vector<Dog>();
+        //subset = collection.getFilteredDataset();
+        //sortByCriteria("age");
+        //Sorting.mergeSort(subset,new AgeComparator());
+        //GUIPanel gp = new GUIPanel();
         //owndog = gp.getOwnDog();
         //owndog = new Dog ("Daisy", "F", 5, "Bulldog", "Manhattan", "S");
-        this.owndog=owndog;
+        //this.owndog = owndog;
         //System.out.println(owndog);
         hashing();
         //in hashtable, put the user's dog and the filtered results from before
@@ -75,14 +78,14 @@ public class FavoriteDogs
     
     
     
-    public static void main(String[] args){
-        FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size.csv",
-                new Dog("Daisy","F",12,"Bulldog","L","A","A","A"));
-        //System.out.println(fDogs);
+    // public static void main(String[] args){
+        // FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size.csv",
+                // new Dog("Daisy","F",12,"Bulldog","L","A","A","A"));
+        // System.out.println(fDogs);
 
-        fDogs.sortByCriteria("age");
-        Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
-        fDogs.hashing();
-        System.out.println(fDogs);
-    }
+        // fDogs.sortByCriteria("age");
+        // Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
+        // fDogs.hashing();
+        // System.out.println(fDogs);
+    // }
 }

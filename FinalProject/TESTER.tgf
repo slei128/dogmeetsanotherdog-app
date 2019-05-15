@@ -119,6 +119,16 @@
 	phone=3929178
 }
 13 Dog {
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
+}
+14 Dog {
 	name=CUDDLES
 	sex=F
 	age=3
@@ -128,7 +138,7 @@
 	area=212
 	phone=3642792
 }
-14 Dog {
+15 Dog {
 	name=FLOYD
 	sex=M
 	age=7
@@ -138,7 +148,7 @@
 	area=212
 	phone=5879203
 }
-15 Dog {
+16 Dog {
 	name=ASKHIM
 	sex=M
 	age=5
@@ -148,7 +158,7 @@
 	area=929
 	phone=2333797
 }
-16 Dog {
+17 Dog {
 	name=MISTY
 	sex=F
 	age=9
@@ -158,7 +168,7 @@
 	area=929
 	phone=4011873
 }
-17 Dog {
+18 Dog {
 	name=HANNIBAL
 	sex=M
 	age=2
@@ -168,7 +178,7 @@
 	area=212
 	phone=7934027
 }
-18 Dog {
+19 Dog {
 	name=LOUIE
 	sex=M
 	age=8
@@ -178,7 +188,7 @@
 	area=718
 	phone=3328150
 }
-19 Dog {
+20 Dog {
 	name=DIVA
 	sex=F
 	age=11
@@ -188,7 +198,7 @@
 	area=929
 	phone=8198910
 }
-20 Dog {
+21 Dog {
 	name=SILVER
 	sex=M
 	age=6
@@ -198,7 +208,7 @@
 	area=917
 	phone=1352676
 }
-21 Dog {
+22 Dog {
 	name=BRIGGS
 	sex=M
 	age=4
@@ -208,7 +218,7 @@
 	area=212
 	phone=5771253
 }
-22 Dog {
+23 Dog {
 	name=HAZEL
 	sex=F
 	age=2
@@ -218,7 +228,7 @@
 	area=929
 	phone=1278797
 }
-23 Dog {
+24 Dog {
 	name=MATEO
 	sex=M
 	age=9
@@ -228,7 +238,7 @@
 	area=917
 	phone=8171662
 }
-24 Dog {
+25 Dog {
 	name=UNKNOWN
 	sex=M
 	age=1
@@ -238,7 +248,7 @@
 	area=929
 	phone=3290666
 }
-25 Dog {
+26 Dog {
 	name=MORGAN
 	sex=F
 	age=1
@@ -248,7 +258,7 @@
 	area=212
 	phone=7483688
 }
-26 Dog {
+27 Dog {
 	name=CHARLIE
 	sex=F
 	age=15
@@ -258,7 +268,7 @@
 	area=212
 	phone=3736080
 }
-27 Dog {
+28 Dog {
 	name=CORA
 	sex=F
 	age=4
@@ -268,7 +278,7 @@
 	area=929
 	phone=4929928
 }
-28 Dog {
+29 Dog {
 	name=LUCILLE
 	sex=F
 	age=6
@@ -278,7 +288,7 @@
 	area=917
 	phone=7769846
 }
-29 Dog {
+30 Dog {
 	name=SARA
 	sex=F
 	age=6
@@ -288,7 +298,7 @@
 	area=212
 	phone=2099896
 }
-30 Dog {
+31 Dog {
 	name=BUDDY
 	sex=M
 	age=2
@@ -298,7 +308,7 @@
 	area=212
 	phone=6071760
 }
-31 Dog {
+32 Dog {
 	name=NELSON
 	sex=M
 	age=16
@@ -308,7 +318,7 @@
 	area=929
 	phone=1925515
 }
-32 Dog {
+33 Dog {
 	name=HERMES
 	sex=M
 	age=11
@@ -318,7 +328,7 @@
 	area=212
 	phone=9643728
 }
-33 Dog {
+34 Dog {
 	name=BEAR
 	sex=M
 	age=3
@@ -328,7 +338,7 @@
 	area=929
 	phone=5546382
 }
-34 Dog {
+35 Dog {
 	name=TITUS
 	sex=M
 	age=2
@@ -338,7 +348,7 @@
 	area=718
 	phone=2594434
 }
-35 Dog {
+36 Dog {
 	name=NICO
 	sex=M
 	age=6
@@ -348,7 +358,7 @@
 	area=917
 	phone=1127255
 }
-36 Dog {
+37 Dog {
 	name=TAZER
 	sex=M
 	age=3
@@ -358,7 +368,7 @@
 	area=917
 	phone=5873573
 }
-37 Dog {
+38 Dog {
 	name=TEDDY
 	sex=M
 	age=9
@@ -368,7 +378,7 @@
 	area=929
 	phone=3057549
 }
-38 Dog {
+39 Dog {
 	name=MACARONI
 	sex=M
 	age=1
@@ -378,7 +388,7 @@
 	area=212
 	phone=2123226
 }
-39 Dog {
+40 Dog {
 	name=CINDY
 	sex=F
 	age=16
@@ -388,7 +398,7 @@
 	area=917
 	phone=3664554
 }
-40 Dog {
+41 Dog {
 	name=HANA
 	sex=F
 	age=6
@@ -398,7 +408,7 @@
 	area=929
 	phone=8898269
 }
-41 Dog {
+42 Dog {
 	name=MISKA
 	sex=F
 	age=8
@@ -408,7 +418,7 @@
 	area=917
 	phone=7124846
 }
-42 Dog {
+43 Dog {
 	name=SILAS
 	sex=M
 	age=6
@@ -418,7 +428,7 @@
 	area=212
 	phone=9338353
 }
-43 Dog {
+44 Dog {
 	name=MERCEDES
 	sex=F
 	age=9
@@ -428,7 +438,7 @@
 	area=212
 	phone=7786850
 }
-44 Dog {
+45 Dog {
 	name=OZZY
 	sex=M
 	age=3
@@ -438,7 +448,7 @@
 	area=929
 	phone=4401173
 }
-45 Dog {
+46 Dog {
 	name=JAX
 	sex=M
 	age=1
@@ -448,7 +458,7 @@
 	area=929
 	phone=8887701
 }
-46 Dog {
+47 Dog {
 	name=EINSTEIN
 	sex=M
 	age=1
@@ -458,7 +468,7 @@
 	area=212
 	phone=2031492
 }
-47 Dog {
+48 Dog {
 	name=SHEENA
 	sex=F
 	age=9
@@ -468,7 +478,7 @@
 	area=929
 	phone=5734409
 }
-48 Dog {
+49 Dog {
 	name=DIAMOND
 	sex=F
 	age=3
@@ -478,7 +488,7 @@
 	area=929
 	phone=7410313
 }
-49 Dog {
+50 Dog {
 	name=PARRIS
 	sex=F
 	age=11
@@ -488,7 +498,7 @@
 	area=212
 	phone=1959973
 }
-50 Dog {
+51 Dog {
 	name=LUCKY
 	sex=M
 	age=16
@@ -498,7 +508,7 @@
 	area=917
 	phone=1325684
 }
-51 Dog {
+52 Dog {
 	name=FABIO
 	sex=M
 	age=8
@@ -508,7 +518,7 @@
 	area=929
 	phone=6771089
 }
-52 Dog {
+53 Dog {
 	name=BUDDY
 	sex=M
 	age=12
@@ -518,7 +528,7 @@
 	area=718
 	phone=1555265
 }
-53 Dog {
+54 Dog {
 	name=RICO
 	sex=M
 	age=1
@@ -528,7 +538,7 @@
 	area=929
 	phone=9523754
 }
-54 Dog {
+55 Dog {
 	name=TOSIA
 	sex=F
 	age=17
@@ -538,7 +548,7 @@
 	area=718
 	phone=9044234
 }
-55 Dog {
+56 Dog {
 	name=ANDY
 	sex=M
 	age=4
@@ -548,7 +558,7 @@
 	area=929
 	phone=8353569
 }
-56 Dog {
+57 Dog {
 	name=BEEF
 	sex=M
 	age=7
@@ -558,7 +568,7 @@
 	area=929
 	phone=6308877
 }
-57 Dog {
+58 Dog {
 	name=PATSY
 	sex=F
 	age=3
@@ -567,16 +577,6 @@
 	size=M
 	area=212
 	phone=5907214
-}
-58 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
 }
 59 Dog {
 	name=BALEIA
@@ -1010,14 +1010,14 @@
 }
 #
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=ROCKO
 	sex=M
@@ -1029,14 +1029,14 @@ Dog {
 	phone=6958244
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=SMOKIE
 	sex=M
@@ -1048,14 +1048,14 @@ Dog {
 	phone=2857534
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=UNKNOWN
 	sex=M
@@ -1067,14 +1067,14 @@ Dog {
 	phone=3290666
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=RICO
 	sex=M
@@ -1086,14 +1086,14 @@ Dog {
 	phone=9523754
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=JAX
 	sex=M
@@ -1105,14 +1105,14 @@ Dog {
 	phone=8887701
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=EINSTEIN
 	sex=M
@@ -1124,14 +1124,14 @@ Dog {
 	phone=2031492
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MACARONI
 	sex=M
@@ -1143,14 +1143,14 @@ Dog {
 	phone=2123226
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MORGAN
 	sex=F
@@ -1162,14 +1162,14 @@ Dog {
 	phone=7483688
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MAX
 	sex=M
@@ -1181,14 +1181,14 @@ Dog {
 	phone=6070814
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=HAZEL
 	sex=F
@@ -1200,14 +1200,14 @@ Dog {
 	phone=1278797
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=SHORTY
 	sex=M
@@ -1219,14 +1219,14 @@ Dog {
 	phone=1081057
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=BALEIA
 	sex=F
@@ -1238,14 +1238,14 @@ Dog {
 	phone=7619482
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=RUDE
 	sex=M
@@ -1257,14 +1257,14 @@ Dog {
 	phone=2245336
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=VARRO
 	sex=M
@@ -1276,14 +1276,14 @@ Dog {
 	phone=8149012
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=CITO
 	sex=M
@@ -1295,14 +1295,14 @@ Dog {
 	phone=7068414
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=PANSY
 	sex=M
@@ -1314,14 +1314,14 @@ Dog {
 	phone=3009473
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=HANNIBAL
 	sex=M
@@ -1333,14 +1333,14 @@ Dog {
 	phone=7934027
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=BUDDY
 	sex=M
@@ -1352,14 +1352,14 @@ Dog {
 	phone=6071760
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TITUS
 	sex=M
@@ -1371,14 +1371,14 @@ Dog {
 	phone=2594434
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=GYPSY
 	sex=F
@@ -1390,14 +1390,14 @@ Dog {
 	phone=9475786
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=KING
 	sex=M
@@ -1409,14 +1409,14 @@ Dog {
 	phone=6160344
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=DIAMOND
 	sex=F
@@ -1428,14 +1428,14 @@ Dog {
 	phone=7410313
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=OZZY
 	sex=M
@@ -1447,14 +1447,14 @@ Dog {
 	phone=4401173
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=BEAR
 	sex=M
@@ -1466,14 +1466,14 @@ Dog {
 	phone=5546382
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=WILEY
 	sex=M
@@ -1485,14 +1485,14 @@ Dog {
 	phone=3472440
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=CARLO
 	sex=M
@@ -1504,14 +1504,14 @@ Dog {
 	phone=6931968
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=DEXTER
 	sex=M
@@ -1523,14 +1523,14 @@ Dog {
 	phone=9339383
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=CUDDLES
 	sex=F
@@ -1542,14 +1542,14 @@ Dog {
 	phone=3642792
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=PATSY
 	sex=F
@@ -1561,14 +1561,14 @@ Dog {
 	phone=5907214
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TAZER
 	sex=M
@@ -1580,14 +1580,14 @@ Dog {
 	phone=5873573
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MI
 	sex=M
@@ -1599,14 +1599,14 @@ Dog {
 	phone=1258681
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=LOUIE
 	sex=M
@@ -1618,14 +1618,14 @@ Dog {
 	phone=1047993
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=CORA
 	sex=F
@@ -1637,14 +1637,14 @@ Dog {
 	phone=4929928
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=ANDY
 	sex=M
@@ -1656,14 +1656,14 @@ Dog {
 	phone=8353569
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=HOWARD
 	sex=M
@@ -1675,14 +1675,14 @@ Dog {
 	phone=9694010
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=LUCY
 	sex=F
@@ -1694,14 +1694,14 @@ Dog {
 	phone=5733712
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=BRIGGS
 	sex=M
@@ -1713,14 +1713,14 @@ Dog {
 	phone=5771253
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=EVA
 	sex=F
@@ -1732,14 +1732,14 @@ Dog {
 	phone=5950097
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TUBBA
 	sex=M
@@ -1751,14 +1751,14 @@ Dog {
 	phone=5275816
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=OLLIE
 	sex=M
@@ -1770,14 +1770,14 @@ Dog {
 	phone=9710228
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=OSO
 	sex=M
@@ -1789,14 +1789,14 @@ Dog {
 	phone=9901609
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=ASKHIM
 	sex=M
@@ -1808,14 +1808,14 @@ Dog {
 	phone=2333797
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TOM
 	sex=M
@@ -1827,14 +1827,14 @@ Dog {
 	phone=2373558
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=ROMAN
 	sex=M
@@ -1846,14 +1846,14 @@ Dog {
 	phone=7089407
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MIU
 	sex=F
@@ -1865,14 +1865,14 @@ Dog {
 	phone=3164386
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TEDDY
 	sex=M
@@ -1884,14 +1884,14 @@ Dog {
 	phone=4764069
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=BISCUIT
 	sex=M
@@ -1903,14 +1903,14 @@ Dog {
 	phone=3164155
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TRUFFLE
 	sex=F
@@ -1922,14 +1922,14 @@ Dog {
 	phone=3030470
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=HANA
 	sex=F
@@ -1941,14 +1941,14 @@ Dog {
 	phone=8898269
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TOFU
 	sex=M
@@ -1960,14 +1960,14 @@ Dog {
 	phone=8867770
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MYSTIC
 	sex=F
@@ -1979,14 +1979,14 @@ Dog {
 	phone=5481825
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=LOUIE
 	sex=M
@@ -1998,14 +1998,14 @@ Dog {
 	phone=3865593
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TELLY
 	sex=F
@@ -2017,14 +2017,14 @@ Dog {
 	phone=3074671
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=SILAS
 	sex=M
@@ -2036,14 +2036,14 @@ Dog {
 	phone=9338353
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=SARA
 	sex=F
@@ -2055,14 +2055,14 @@ Dog {
 	phone=2099896
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=NICO
 	sex=M
@@ -2074,14 +2074,14 @@ Dog {
 	phone=1127255
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=LUCILLE
 	sex=F
@@ -2093,14 +2093,14 @@ Dog {
 	phone=7769846
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=SILVER
 	sex=M
@@ -2112,14 +2112,14 @@ Dog {
 	phone=1352676
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=DOSIE
 	sex=F
@@ -2131,14 +2131,14 @@ Dog {
 	phone=6452273
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=BEEF
 	sex=M
@@ -2150,14 +2150,14 @@ Dog {
 	phone=6308877
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=GIZMO
 	sex=M
@@ -2169,14 +2169,14 @@ Dog {
 	phone=9591204
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=FLOYD
 	sex=M
@@ -2188,14 +2188,14 @@ Dog {
 	phone=5879203
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=BLEU
 	sex=F
@@ -2207,14 +2207,14 @@ Dog {
 	phone=2127324
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=SANS
 	sex=F
@@ -2226,14 +2226,14 @@ Dog {
 	phone=7132850
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=FABIO
 	sex=M
@@ -2245,14 +2245,14 @@ Dog {
 	phone=6771089
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=PIPER
 	sex=M
@@ -2264,14 +2264,14 @@ Dog {
 	phone=9049062
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MISKA
 	sex=F
@@ -2283,14 +2283,14 @@ Dog {
 	phone=7124846
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=BUDDY
 	sex=M
@@ -2302,14 +2302,14 @@ Dog {
 	phone=2274677
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=LOUIE
 	sex=M
@@ -2321,14 +2321,14 @@ Dog {
 	phone=3328150
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MISTY
 	sex=F
@@ -2340,14 +2340,14 @@ Dog {
 	phone=4011873
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=SHEENA
 	sex=F
@@ -2359,14 +2359,14 @@ Dog {
 	phone=5734409
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MACY
 	sex=M
@@ -2378,14 +2378,14 @@ Dog {
 	phone=2818751
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TEDDY
 	sex=M
@@ -2397,14 +2397,14 @@ Dog {
 	phone=3057549
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=CARTER
 	sex=M
@@ -2416,14 +2416,14 @@ Dog {
 	phone=2459357
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MERCEDES
 	sex=F
@@ -2435,14 +2435,14 @@ Dog {
 	phone=7786850
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MATEO
 	sex=M
@@ -2454,14 +2454,14 @@ Dog {
 	phone=8171662
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=LAKOTA
 	sex=F
@@ -2473,14 +2473,14 @@ Dog {
 	phone=6239131
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MAXIMILLION
 	sex=M
@@ -2492,14 +2492,14 @@ Dog {
 	phone=6841831
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=DIVA
 	sex=F
@@ -2511,14 +2511,14 @@ Dog {
 	phone=8198910
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=LACEY
 	sex=F
@@ -2530,14 +2530,14 @@ Dog {
 	phone=6824797
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=HERMES
 	sex=M
@@ -2549,14 +2549,14 @@ Dog {
 	phone=9643728
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TIKI
 	sex=M
@@ -2568,14 +2568,14 @@ Dog {
 	phone=5643720
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=PARRIS
 	sex=F
@@ -2587,14 +2587,14 @@ Dog {
 	phone=1959973
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=GIZMO
 	sex=M
@@ -2606,14 +2606,14 @@ Dog {
 	phone=4795056
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=COSMO
 	sex=M
@@ -2625,14 +2625,14 @@ Dog {
 	phone=5346325
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MILO
 	sex=M
@@ -2644,14 +2644,14 @@ Dog {
 	phone=3960811
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=BUDDY
 	sex=M
@@ -2663,14 +2663,14 @@ Dog {
 	phone=1555265
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=CHRISTMAS
 	sex=M
@@ -2682,14 +2682,14 @@ Dog {
 	phone=8137117
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MISTER
 	sex=M
@@ -2701,14 +2701,14 @@ Dog {
 	phone=3929178
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=LILY
 	sex=F
@@ -2720,14 +2720,14 @@ Dog {
 	phone=6733506
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=SABACHE
 	sex=M
@@ -2739,14 +2739,14 @@ Dog {
 	phone=4628839
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=CORKY
 	sex=M
@@ -2758,14 +2758,14 @@ Dog {
 	phone=3563953
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=MOGWAI
 	sex=M
@@ -2777,14 +2777,14 @@ Dog {
 	phone=6616377
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=CHARLIE
 	sex=F
@@ -2796,14 +2796,14 @@ Dog {
 	phone=3736080
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=CONFETTA
 	sex=F
@@ -2815,14 +2815,14 @@ Dog {
 	phone=4235917
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=NALA
 	sex=F
@@ -2834,14 +2834,14 @@ Dog {
 	phone=3881356
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=NELSON
 	sex=M
@@ -2853,14 +2853,14 @@ Dog {
 	phone=1925515
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=CINDY
 	sex=F
@@ -2872,14 +2872,14 @@ Dog {
 	phone=3664554
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=LUCKY
 	sex=M
@@ -2891,14 +2891,14 @@ Dog {
 	phone=1325684
 }
 Dog {
-	name=j
-	sex=J
-	age=7
-	breed=J
-	location=J
-	size=J
-	area=J
-	phone=J
+	name=a
+	sex=a
+	age=8
+	breed=a
+	location=a
+	size=a
+	area=a
+	phone=a
 } Dog {
 	name=TOSIA
 	sex=F

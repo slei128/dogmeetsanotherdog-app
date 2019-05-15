@@ -1,9 +1,12 @@
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
 public class GUIPanel extends JPanel {
     private Dog dog;
+    
+    private JPanel allDogsDiv,filteredDogsDiv;
     
     private JLabel nameLabel;
     private JLabel sexLabel;
@@ -13,7 +16,8 @@ public class GUIPanel extends JPanel {
     private JLabel sizeLabel;
     private JLabel areaLabel;
     private JLabel phoneLabel;
-    private JLabel confirmationLabel, resultsLabel,clickedGraphLabel;
+    private JLabel confirmationLabel, resultsLabel,clickedGraphLabel,filterInstruction;
+    private JLabel filteredLabel;
     
     private JTextField nameField;
     private JTextField sexField;
@@ -23,14 +27,17 @@ public class GUIPanel extends JPanel {
     private JTextField sizeField;
     private JTextField areaField;
     private JTextField phoneField;
+    
 
-    private JButton submitButton,generateGraphButton;
+    private JButton submitButton,generateGraphButton,sameSexButton,sameAgeButton,sameBoroughButton,sameSizeButton;
     private JPanel createPanel;
     private JPanel buttonPanel;
     private String name,sex,breed,borough,size,area,phone;
     private int age;
     
     private Dog daisy;
+    
+    private DogCollection allDogs;
     
     public GUIPanel(){
 
@@ -86,6 +93,19 @@ public class GUIPanel extends JPanel {
         phoneField = new JTextField(5);
         createPanel.add(phoneField);
         
+        filterInstruction = new JLabel("Filter results that match on your dog! Based on...");
+        sameSexButton = new JButton("Same sex");
+        sameSexButton.addActionListener(new ButtonListener());
+        
+        sameBoroughButton = new JButton("Same borough");
+        sameBoroughButton.addActionListener(new ButtonListener());
+        
+        sameSizeButton = new JButton("Same size");
+        sameSizeButton.addActionListener(new ButtonListener());
+        
+        sameAgeButton = new JButton("Same age");
+        sameAgeButton.addActionListener(new ButtonListener());
+        
         submitButton = new JButton("Submit!");
         submitButton.addActionListener(new ButtonListener());
         buttonPanel = new JPanel();
@@ -101,7 +121,7 @@ public class GUIPanel extends JPanel {
         
         generateGraphButton = new JButton("Generate dog connections graph!");
         generateGraphButton.addActionListener(new ButtonListener());
-        clickedGraphLabel = new JLabel("123");
+        clickedGraphLabel = new JLabel("");
         
         setPreferredSize(new Dimension(700,500));
         setBackground(Color.pink);
@@ -114,6 +134,12 @@ public class GUIPanel extends JPanel {
         public void actionPerformed(ActionEvent e) {
             //System.out.println("WOW, YOU KNOW HOW TO CLICK A BUTTON! good for you.");
             if (e.getSource() == submitButton){
+                add(filterInstruction);
+                add(sameSexButton);
+                add(sameBoroughButton);
+                add(sameSizeButton);
+                add(sameAgeButton);
+                
                 name = nameField.getText();
                 sex = sexField.getText();
                 age = Integer.parseInt(ageField.getText());
@@ -131,20 +157,22 @@ public class GUIPanel extends JPanel {
                 //remove(buttonPanel);
                 //add(newPanel);
                 
-
                 //Lay out the label and scroll pane from top to bottom.
                 
-                JPanel allDogsDiv = new JPanel();
+                allDogsDiv = new JPanel();
                 //EDIT
-
+                filteredDogsDiv = new JPanel();
                 //add(vertical);
                 //dogScroller.setAlignmentX(LEFT_ALIGNMENT);
-                FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size.csv", daisy);
-                fDogs.sortByCriteria("age");
-                Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
-                fDogs.hashing();
-                System.out.println(fDogs);
-                for (Dog d: fDogs.getHash().get(daisy)) {
+                allDogs = new DogCollection("datasets/dogs_100_size.csv");
+                //FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size.csv", daisy);
+                //fDogs.sortByCriteria("age");
+                //Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
+                //fDogs.hashing();
+                //System.out.println(fDogs);
+                //for (Dog d: fDogs.getHash().get(daisy)) {
+                for (Dog d: allDogs.getCollection()){
+                    //create individual panel
                     JPanel dogDiv = new JPanel(new BorderLayout());
                     
                     dogDiv.setLayout(new BoxLayout(dogDiv, BoxLayout.PAGE_AXIS));
@@ -167,21 +195,19 @@ public class GUIPanel extends JPanel {
                     dogDiv.add(areaLabel);
                     dogDiv.add(phoneLabel);
                     dogDiv.add(Box.createRigidArea(new Dimension(0,5)));
-                    //dogDiv.add(dogScroller);
+                    
                     dogDiv.setBorder(BorderFactory.createLineBorder(Color.black));
                     allDogsDiv.add(dogDiv);
                 
                 }
                 
+                //create scroller
                 JScrollPane dogScroller = new JScrollPane(allDogsDiv);
-                //dogScroller.ScrolledPane();
-                dogScroller.setPreferredSize(new Dimension(1000, 200));
+                dogScroller.setPreferredSize(new Dimension(2000, 200));
                 dogScroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+                //add scroller to canvas
                 add(dogScroller);
-                //dogScroller.add(allDogsDiv);
                 
-                //resultsLabel.setAlignmentX(LEFT_ALIGNMENT);
-                //resultsLabel.setText(fDogs.toString());
                 //1. make sex a drop down
                 //2. make seperate buttons for each sort (e.g sort to same age 
                 //as Daisy, sort to same location as Daisy)
@@ -195,15 +221,31 @@ public class GUIPanel extends JPanel {
                 
             }
             
-            if (e.getSource() == generateGraphButton){
+            if (e.getSource() == sameSexButton){
+                FilterableDataset sameSex = allDogs.filterCollection("sex",daisy.getData("sex").toString());
+                //filteredLabel = new JLabel("hi");
+                filteredLabel = new JLabel(sameSex.toString());
+                //FavoriteDogs sameSexSubset = new FavoriteDogs(allDogs.getCollection(),daisy);
+                //FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size.csv", daisy);
+                //fDogs.sortByCriteria("age");
+                //Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
+                
+                filteredDogsDiv.add(filteredLabel);
+                add(filteredDogsDiv);
+                //allDogsDiv.add(filteredLabel);
+            }
+            
+            
+            
+            //if (e.getSource() == generateGraphButton){
                 //JPanel dogGraph = new JPanel();
-                    clickedGraphLabel.setText("Your dog graph is generated"); 
-                    AllDogsGraph dogConnections = new AllDogsGraph(daisy);
-                    System.out.println("Clicked");
+                    //clickedGraphLabel.setText("Your dog graph is saved to your computer"); 
+                    //AllDogsGraph dogConnections = new AllDogsGraph();
+                    //System.out.println("Clicked");
                     //saves tgf ??
                     //dogGraph.add(dogConnections);
                     //add(dogGraph);
-                }
+                //}
         }
     }
     

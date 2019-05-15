@@ -12,7 +12,7 @@ import java.util.Hashtable;
 public class AllDogsGraph
 {
     // instance variables - replace the example below with your own
-    private Dog owndog;
+    //private Dog owndog;
     private AdjListsGraph<Dog> graph;
     private FavoriteDogs fDogs;
     private Hashtable<Dog, Vector<Dog>> hash;
@@ -21,15 +21,15 @@ public class AllDogsGraph
     /**
      * Constructor for objects of class DogsGraph
      */
-    public AllDogsGraph(Dog owndog)
+    public AllDogsGraph(Hashtable<Dog, Vector<Dog>> inputHash)
     {
-        // initialise instance variables
+        // create an empty graph
         graph = new AdjListsGraph<Dog>();
         
-        this.owndog = owndog;
-        fDogs = new FavoriteDogs("datasets/dogs_100_size.csv",owndog);
-        System.out.println(fDogs);
-        hash = fDogs.getHash();
+        //this.owndog = owndog;
+        //fDogs = new FavoriteDogs("datasets/dogs_100_size.csv",owndog);
+        //System.out.println(fDogs);
+        hash = inputHash;
         for (Dog d:hash.keySet()){
             //System.out.println(d);
             graph.addVertex(d);
@@ -52,10 +52,10 @@ public class AllDogsGraph
         // return s;
     // }
     
-    public static void main(String[] args){
-       AdjListsGraph<Dog> hack = new AdjListsGraph<Dog>();
-       AllDogsGraph test = new AllDogsGraph(new Dog("Daisy","F",12,"Bulldog","L","A","A","A"));
+    // public static void main(String[] args){
+       // AdjListsGraph<Dog> hack = new AdjListsGraph<Dog>();
+       // AllDogsGraph test = new AllDogsGraph(new Dog("Daisy","F",12,"Bulldog","L","A","A","A"));
        
-    }
+    // }
 }
 
