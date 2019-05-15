@@ -76,7 +76,7 @@ public class FavoriteDogs
     
     
     public static void main(String[] args){
-        FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size.csv",
+        FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size_tester.csv",
                 new Dog("Daisy","F",12,"Bulldog","L","A","A","A"));
         //System.out.println(fDogs);
 

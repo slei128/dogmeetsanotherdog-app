@@ -50,7 +50,7 @@ public class Reader {
             //int currentNumberRows = 0;
             while  ((dataRow = parser.nextRow()) != null) {
                 Row row = new Row(
-                dataRow.getField("Name"),
+                dataRow.getField("FullName"),
                 dataRow.getField("AnimalGender"),
                 getIntField(dataRow,"AgeAsOf2015"),
                 dataRow.getField("BreedName"),
