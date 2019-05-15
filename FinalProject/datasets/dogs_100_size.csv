@@ -1,0 +1,100 @@
+﻿Name,AnimalGender,AgeAsOf2015,BreedName,Borough,Size
+EINSTEIN,M,1,Affenpinscher,Manhattan,S
+CHARLIE,F,15,Affenpinscher,Manhattan,S
+KING,M,3,Affenpinscher,Brooklyn,S
+CARLO,M,3,Afghan Hound,Manhattan,L
+MISTY,F,9,Afghan Hound,Bronx,L
+DOSIE,F,7,Afghan Hound,Brooklyn,L
+BALEIA,F,2,Airedale Terrier,Manhattan,L
+TAZER,M,3,Akita,Queens,M
+DEXTER,M,3,Akita,Manhattan,M
+SHEENA,F,9,Akita,Brooklyn,M
+OSO,M,5,Akita Crossbreed,Brooklyn,M
+ASKHIM,M,5,Akita Crossbreed,Brooklyn,M
+DIAMOND,F,3,American Pit Bull Mix / Pit Bull Mix,Brooklyn,M
+TELLY,F,6,American Pit Bull Mix / Pit Bull Mix,Manhattan,M
+TUBBA,M,4,American Pit Bull Mix / Pit Bull Mix,Queens,M
+FLOYD,M,7,Boston Terrier,Manhattan,S
+CINDY,F,16,Boston Terrier,Queens,S
+OZZY,M,3,Boston Terrier,Brooklyn,S
+CORA,F,4,Boston Terrier,Brooklyn,S
+HANA,F,6,Boston Terrier,Bronx,S
+RUDE,M,2,Boston Terrier,Manhattan,S
+MISKA,F,8,Boxer,Queens,M
+LOUIE,M,8,Boxer,Staten Island,M
+NICO,M,6,Boxer,Queens,M
+COSMO,M,11,"Bull Dog, English",Staten Island,M
+BEEF,M,7,"Bull Dog, English",Brooklyn,M
+LUCILLE,F,6,"Bull Dog, English",Queens,M
+CARTER,M,9,Chihuahua,Manhattan,S
+VARRO,M,2,Chihuahua,Manhattan,S
+CITO,M,2,Chihuahua,Manhattan,S
+PANSY,M,2,Chihuahua,Manhattan,S
+DIVA,F,11,Chihuahua,Brooklyn,S
+TOM,M,5,Chihuahua,Manhattan,S
+LUCY,F,4,Labrador Retriever,Manhattan,L
+ANDY,M,4,Labrador Retriever,Brooklyn,L
+BEAR,M,3,Labrador Retriever,Brooklyn,L
+SILAS,M,6,Labrador Retriever,Manhattan,L
+BUDDY,M,8,Labrador Retriever,Queens,L
+MERCEDES,F,9,Pekingese,Manhattan,S
+SMOKIE,M,1,Pekingese,Brooklyn,S
+ROMAN,M,5,Pekingese,Manhattan,S
+MOGWAI,M,15,Pekingese,Brooklyn,S
+MIU,F,5,Pekingese,Manhattan,S
+BLEU,F,7,Pekingese,Manhattan,S
+MACARONI,M,1,Pembroke Welsh Corgi,Manhattan,M
+SARA,F,6,Pembroke Welsh Corgi,Manhattan,M
+UNKNOWN,M,1,Pembroke Welsh Corgi,Brooklyn,M
+SHORTY,M,2,Perro de Presa Canario,Brooklyn,L
+MAX,M,2,Perro de Presa Canario,Bronx,L
+HAZEL,F,2,Perro de Presa Canario,Bronx,L
+RICO,M,1,Perro de Presa Canario,Brooklyn,L
+ROCKO,M,1,Perro de Presa Canario,Bronx,L
+FABIO,M,8,Peruvian Inca Orchid,Brooklyn,L
+HANNIBAL,M,2,Petit Basset Griffon Vendeen,Manhattan,M
+GIZMO,M,7,Petit Basset Griffon Vendeen,Brooklyn,M
+LACEY,F,11,Polish Lowland Sheepdog,Manhattan,M
+PIPER,M,8,Pomeranian,Manhattan,S
+MACY,M,9,Pomeranian,Brooklyn,S
+GYPSY,F,3,Pomeranian,Bronx,S
+TRUFFLE,F,5,Pomeranian,Queens,S
+TEDDY,M,9,Pomeranian,Brooklyn,S
+HOWARD,M,4,Pomeranian,Brooklyn,S
+MI,M,3,Pomeranian,Queens,S
+SILVER,M,6,Pomeranian,Queens,S
+NELSON,M,16,Pomeranian,Brooklyn,S
+SANS,F,7,Pomeranian,Queens,S
+SABACHE,M,14,Pomeranian,Bronx,S
+TOSIA,F,17,Pomeranian,Staten Island,S
+CORKY,M,14,Poodle,Bronx,L
+TOFU,M,6,Poodle,Brooklyn,L
+LUCKY,M,16,Poodle,Queens,L
+MISTER,M,13,Poodle,Manhattan,L
+CUDDLES,F,3,Poodle,Manhattan,L
+MATEO,M,9,Poodle,Queens,L
+WILEY,M,3,Poodle,Brooklyn,L
+CONFETTA,F,15,Poodle,Manhattan,L
+PATSY,F,3,Portuguese Water Dog,Manhattan,M
+BRIGGS,M,4,Portuguese Water Dog,Manhattan,M
+MORGAN,F,1,Portuguese Water Dog,Manhattan,M
+NALA,F,15,Portuguese Water Dog,Manhattan,M
+MILO,M,12,Portuguese Water Dog,Manhattan,M
+HERMES,M,11,Portuguese Water Dog,Manhattan,M
+EVA,F,4,Portuguese Water Dog,Manhattan,M
+TEDDY,M,5,Pug,Manhattan,S
+MYSTIC,F,6,Pug,Brooklyn,S
+BUDDY,M,2,"Schnauzer, Miniature",Manhattan,S
+LILY,F,13,"Schnauzer, Miniature",Queens,S
+BUDDY,M,12,"Schnauzer, Miniature",Staten Island,S
+LOUIE,M,4,Shih Tzu,Bronx,S
+TIKI,M,11,Shiba Inu,Manhattan,M
+PARRIS,F,11,Shiba Inu,Manhattan,M
+BISCUIT,M,5,Shiba Inu,Manhattan,M
+LOUIE,M,6,Shih Tzu,Brooklyn,S
+CHRISTMAS,M,13,Shih Tzu,Brooklyn,S
+GIZMO,M,11,Shih Tzu,Manhattan,S
+MAXIMILLION,M,10,Tibetan Spaniel,Brooklyn,S
+OLLIE,M,4,Tibetan Spaniel,Queens,S
+JAX,M,1,Siberian Husky,Brooklyn,L
+LAKOTA,F,9,Siberian Husky,Queens,L
