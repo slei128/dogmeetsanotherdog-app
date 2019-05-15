@@ -23,7 +23,7 @@ public class AllDogsGraph
     {
         // initialise instance variables
         graph = new AdjListsGraph<Dog>();
-        fDogs = new FavoriteDogs("datasets/dogs_50.csv");
+        fDogs = new FavoriteDogs("datasets/dogs_50.csv", //insertdoghere);
         System.out.println(fDogs);
         hash = fDogs.getHash();
         for (Dog d:hash.keySet()){
