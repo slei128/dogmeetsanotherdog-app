@@ -1,101 +1,101 @@
-﻿Name,AnimalGender,AgeAsOf2015,BreedName,Borough,Size,AreaCode,PhoneNum
-MISTY,F,9,Afghan Hound,Bronx,L,929,4011873
-HANA,F,6,Boston Terrier,Bronx,S,929,8898269
-MAX,M,2,Perro de Presa Canario,Bronx,L,929,6070814
-HAZEL,F,2,Perro de Presa Canario,Bronx,L,929,1278797
-ROCKO,M,1,Perro de Presa Canario,Bronx,L,929,6958244
-GYPSY,F,3,Pomeranian,Bronx,S,929,9475786
-SABACHE,M,14,Pomeranian,Bronx,S,929,4628839
-CORKY,M,14,Poodle,Bronx,L,929,3563953
-LOUIE,M,4,Shih Tzu,Bronx,S,929,1047993
-KING,M,3,Affenpinscher,Brooklyn,S,929,6160344
-DOSIE,F,7,Afghan Hound,Brooklyn,L,929,6452273
-SHEENA,F,9,Akita,Brooklyn,M,929,5734409
-OSO,M,5,Akita Crossbreed,Brooklyn,M,929,9901609
-ASKHIM,M,5,Akita Crossbreed,Brooklyn,M,929,2333797
-DIAMOND,F,3,American Pit Bull Mix / Pit Bull Mix,Brooklyn,M,929,7410313
-OZZY,M,3,Boston Terrier,Brooklyn,S,929,4401173
-CORA,F,4,Boston Terrier,Brooklyn,S,929,4929928
-BEEF,M,7,"Bull Dog, English",Brooklyn,M,929,6308877
-DIVA,F,11,Chihuahua,Brooklyn,S,929,8198910
-ANDY,M,4,Labrador Retriever,Brooklyn,L,929,8353569
-BEAR,M,3,Labrador Retriever,Brooklyn,L,929,5546382
-SMOKIE,M,1,Pekingese,Brooklyn,S,929,2857534
-MOGWAI,M,15,Pekingese,Brooklyn,S,929,6616377
-UNKNOWN,M,1,Pembroke Welsh Corgi,Brooklyn,M,929,3290666
-SHORTY,M,2,Perro de Presa Canario,Brooklyn,L,929,1081057
-RICO,M,1,Perro de Presa Canario,Brooklyn,L,929,9523754
-FABIO,M,8,Peruvian Inca Orchid,Brooklyn,L,929,6771089
-GIZMO,M,7,Petit Basset Griffon Vendeen,Brooklyn,M,929,9591204
-MACY,M,9,Pomeranian,Brooklyn,S,929,2818751
-TEDDY,M,9,Pomeranian,Brooklyn,S,929,3057549
-HOWARD,M,4,Pomeranian,Brooklyn,S,929,9694010
-NELSON,M,16,Pomeranian,Brooklyn,S,929,1925515
-TOFU,M,6,Poodle,Brooklyn,L,929,8867770
-WILEY,M,3,Poodle,Brooklyn,L,929,3472440
-MYSTIC,F,6,Pug,Brooklyn,S,929,5481825
-LOUIE,M,6,Shih Tzu,Brooklyn,S,929,3865593
-CHRISTMAS,M,13,Shih Tzu,Brooklyn,S,929,8137117
-MAXIMILLION,M,10,Tibetan Spaniel,Brooklyn,S,929,6841831
-JAX,M,1,Siberian Husky,Brooklyn,L,929,8887701
-EINSTEIN,M,1,Affenpinscher,Manhattan,S,212,2031492
-CHARLIE,F,15,Affenpinscher,Manhattan,S,212,3736080
-CARLO,M,3,Afghan Hound,Manhattan,L,212,6931968
-BALEIA,F,2,Airedale Terrier,Manhattan,L,212,7619482
-DEXTER,M,3,Akita,Manhattan,M,212,9339383
-TELLY,F,6,American Pit Bull Mix / Pit Bull Mix,Manhattan,M,212,3074671
-FLOYD,M,7,Boston Terrier,Manhattan,S,212,5879203
-RUDE,M,2,Boston Terrier,Manhattan,S,212,2245336
-CARTER,M,9,Chihuahua,Manhattan,S,212,2459357
-VARRO,M,2,Chihuahua,Manhattan,S,212,8149012
-CITO,M,2,Chihuahua,Manhattan,S,212,7068414
-PANSY,M,2,Chihuahua,Manhattan,S,212,3009473
-TOM,M,5,Chihuahua,Manhattan,S,212,2373558
-LUCY,F,4,Labrador Retriever,Manhattan,L,212,5733712
-SILAS,M,6,Labrador Retriever,Manhattan,L,212,9338353
-MERCEDES,F,9,Pekingese,Manhattan,S,212,7786850
-ROMAN,M,5,Pekingese,Manhattan,S,212,7089407
-MIU,F,5,Pekingese,Manhattan,S,212,3164386
-BLEU,F,7,Pekingese,Manhattan,S,212,2127324
-MACARONI,M,1,Pembroke Welsh Corgi,Manhattan,M,212,2123226
-SARA,F,6,Pembroke Welsh Corgi,Manhattan,M,212,2099896
-HANNIBAL,M,2,Petit Basset Griffon Vendeen,Manhattan,M,212,7934027
-LACEY,F,11,Polish Lowland Sheepdog,Manhattan,M,212,6824797
-PIPER,M,8,Pomeranian,Manhattan,S,212,9049062
-MISTER,M,13,Poodle,Manhattan,L,212,3929178
-CUDDLES,F,3,Poodle,Manhattan,L,212,3642792
-CONFETTA,F,15,Poodle,Manhattan,L,212,4235917
-PATSY,F,3,Portuguese Water Dog,Manhattan,M,212,5907214
-BRIGGS,M,4,Portuguese Water Dog,Manhattan,M,212,5771253
-MORGAN,F,1,Portuguese Water Dog,Manhattan,M,212,7483688
-NALA,F,15,Portuguese Water Dog,Manhattan,M,212,3881356
-MILO,M,12,Portuguese Water Dog,Manhattan,M,212,3960811
-HERMES,M,11,Portuguese Water Dog,Manhattan,M,212,9643728
-EVA,F,4,Portuguese Water Dog,Manhattan,M,212,5950097
-TEDDY,M,5,Pug,Manhattan,S,212,4764069
-BUDDY,M,2,"Schnauzer, Miniature",Manhattan,S,212,6071760
-TIKI,M,11,Shiba Inu,Manhattan,M,212,5643720
-PARRIS,F,11,Shiba Inu,Manhattan,M,212,1959973
-BISCUIT,M,5,Shiba Inu,Manhattan,M,212,3164155
-GIZMO,M,11,Shih Tzu,Manhattan,S,212,4795056
-TAZER,M,3,Akita,Queens,M,917,5873573
-TUBBA,M,4,American Pit Bull Mix / Pit Bull Mix,Queens,M,917,5275816
-CINDY,F,16,Boston Terrier,Queens,S,917,3664554
-MISKA,F,8,Boxer,Queens,M,917,7124846
-NICO,M,6,Boxer,Queens,M,917,1127255
-LUCILLE,F,6,"Bull Dog, English",Queens,M,917,7769846
-BUDDY,M,8,Labrador Retriever,Queens,L,917,2274677
-TRUFFLE,F,5,Pomeranian,Queens,S,917,3030470
-MI,M,3,Pomeranian,Queens,S,917,1258681
-SILVER,M,6,Pomeranian,Queens,S,917,1352676
-SANS,F,7,Pomeranian,Queens,S,917,7132850
-LUCKY,M,16,Poodle,Queens,L,917,1325684
-MATEO,M,9,Poodle,Queens,L,917,8171662
-LILY,F,13,"Schnauzer, Miniature",Queens,S,917,6733506
-OLLIE,M,4,Tibetan Spaniel,Queens,S,917,9710228
-LAKOTA,F,9,Siberian Husky,Queens,L,917,6239131
-LOUIE,M,8,Boxer,Staten Island,M,718,3328150
-COSMO,M,11,"Bull Dog, English",Staten Island,M,718,5346325
-TOSIA,F,17,Pomeranian,Staten Island,S,718,9044234
-BUDDY,M,12,"Schnauzer, Miniature",Staten Island,S,718,1555265
-TITUS,M,2,Airedale Terrier,Staten Island,L,718,2594434
+﻿Name,AnimalGender,AgeAsOf2015,BreedName,Borough,Size,AreaCode,PhoneNum,FullName,
+MISTY,F,9,Afghan Hound,Bronx,L,929,4011873,MISTY,
+HANA,F,6,Boston Terrier,Bronx,S,929,8898269,HANA,
+MAX,M,2,Perro de Presa Canario,Bronx,L,929,6070814,MAX,
+HAZEL,F,2,Perro de Presa Canario,Bronx,L,929,1278797,HAZEL,
+ROCKO,M,1,Perro de Presa Canario,Bronx,L,929,6958244,ROCKO,
+GYPSY,F,3,Pomeranian,Bronx,S,929,9475786,GYPSY,
+SABACHE,M,14,Pomeranian,Bronx,S,929,4628839,SABACHE,
+CORKY,M,14,Poodle,Bronx,L,929,3563953,CORKY,
+LOUIE,M,4,Shih Tzu,Bronx,S,929,1047993,LOUIE,
+KING,M,3,Affenpinscher,Brooklyn,S,929,6160344,KING,
+DOSIE,F,7,Afghan Hound,Brooklyn,L,929,6452273,DOSIE,
+SHEENA,F,9,Akita,Brooklyn,M,929,5734409,SHEENA,
+OSO,M,5,Akita Crossbreed,Brooklyn,M,929,9901609,OSO,
+ASKHIM,M,5,Akita Crossbreed,Brooklyn,M,929,2333797,ASKHIM,
+DIAMOND,F,3,American Pit Bull Mix / Pit Bull Mix,Brooklyn,M,929,7410313,DIAMOND,
+OZZY,M,3,Boston Terrier,Brooklyn,S,929,4401173,OZZY,
+CORA,F,4,Boston Terrier,Brooklyn,S,929,4929928,CORA,
+BEEF,M,7,"Bull Dog, English",Brooklyn,M,929,6308877,BEEF,
+DIVA,F,11,Chihuahua,Brooklyn,S,929,8198910,DIVA,
+ANDY,M,4,Labrador Retriever,Brooklyn,L,929,8353569,ANDY,
+BEAR,M,3,Labrador Retriever,Brooklyn,L,929,5546382,BEAR,
+SMOKIE,M,1,Pekingese,Brooklyn,S,929,2857534,SMOKIE,
+MOGWAI,M,15,Pekingese,Brooklyn,S,929,6616377,MOGWAI,
+UNKNOWN,M,1,Pembroke Welsh Corgi,Brooklyn,M,929,3290666,UNKNOWN,
+SHORTY,M,2,Perro de Presa Canario,Brooklyn,L,929,1081057,SHORTY,
+RICO,M,1,Perro de Presa Canario,Brooklyn,L,929,9523754,RICO,
+FABIO,M,8,Peruvian Inca Orchid,Brooklyn,L,929,6771089,FABIO,
+GIZMO,M,7,Petit Basset Griffon Vendeen,Brooklyn,M,929,9591204,GIZMO,
+MACY,M,9,Pomeranian,Brooklyn,S,929,2818751,MACY,
+TEDDY,M,9,Pomeranian,Brooklyn,S,929,3057549,TEDDY,
+HOWARD,M,4,Pomeranian,Brooklyn,S,929,9694010,HOWARD,
+NELSON,M,16,Pomeranian,Brooklyn,S,929,1925515,NELSON,
+TOFU,M,6,Poodle,Brooklyn,L,929,8867770,TOFU,
+WILEY,M,3,Poodle,Brooklyn,L,929,3472440,WILEY,
+MYSTIC,F,6,Pug,Brooklyn,S,929,5481825,MYSTIC,
+LOUIE,M,6,Shih Tzu,Brooklyn,S,929,3865593,LOUIE,
+CHRISTMAS,M,13,Shih Tzu,Brooklyn,S,929,8137117,CHRISTMAS,
+MAXIMILLION,M,10,Tibetan Spaniel,Brooklyn,S,929,6841831,MAXIMILLION,
+JAX,M,1,Siberian Husky,Brooklyn,L,929,8887701,JAX,
+EINSTEIN,M,1,Affenpinscher,Manhattan,S,212,2031492,EINSTEIN,
+CHARLIE,F,15,Affenpinscher,Manhattan,S,212,3736080,CHARLIE,
+CARLO,M,3,Afghan Hound,Manhattan,L,212,6931968,CARLO,
+BALEIA,F,2,Airedale Terrier,Manhattan,L,212,7619482,BALEIA,
+DEXTER,M,3,Akita,Manhattan,M,212,9339383,DEXTER,
+TELLY,F,6,American Pit Bull Mix / Pit Bull Mix,Manhattan,M,212,3074671,TELLY,
+FLOYD,M,7,Boston Terrier,Manhattan,S,212,5879203,FLOYD,
+RUDE,M,2,Boston Terrier,Manhattan,S,212,2245336,RUDE,
+CARTER,M,9,Chihuahua,Manhattan,S,212,2459357,CARTER,
+VARRO,M,2,Chihuahua,Manhattan,S,212,8149012,VARRO,
+CITO,M,2,Chihuahua,Manhattan,S,212,7068414,CITO,
+PANSY,M,2,Chihuahua,Manhattan,S,212,3009473,PANSY,
+TOM,M,5,Chihuahua,Manhattan,S,212,2373558,TOM,
+LUCY,F,4,Labrador Retriever,Manhattan,L,212,5733712,LUCY,
+SILAS,M,6,Labrador Retriever,Manhattan,L,212,9338353,SILAS,
+MERCEDES,F,9,Pekingese,Manhattan,S,212,7786850,MERCEDES,
+ROMAN,M,5,Pekingese,Manhattan,S,212,7089407,ROMAN,
+MIU,F,5,Pekingese,Manhattan,S,212,3164386,MIU,
+BLEU,F,7,Pekingese,Manhattan,S,212,2127324,BLEU,
+MACARONI,M,1,Pembroke Welsh Corgi,Manhattan,M,212,2123226,MACARONI,
+SARA,F,6,Pembroke Welsh Corgi,Manhattan,M,212,2099896,SARA,
+HANNIBAL,M,2,Petit Basset Griffon Vendeen,Manhattan,M,212,7934027,HANNIBAL,
+LACEY,F,11,Polish Lowland Sheepdog,Manhattan,M,212,6824797,LACEY,
+PIPER,M,8,Pomeranian,Manhattan,S,212,9049062,PIPER,
+MISTER,M,13,Poodle,Manhattan,L,212,3929178,MISTER,
+CUDDLES,F,3,Poodle,Manhattan,L,212,3642792,CUDDLES,
+CONFETTA,F,15,Poodle,Manhattan,L,212,4235917,CONFETTA,
+PATSY,F,3,Portuguese Water Dog,Manhattan,M,212,5907214,PATSY,
+BRIGGS,M,4,Portuguese Water Dog,Manhattan,M,212,5771253,BRIGGS,
+MORGAN,F,1,Portuguese Water Dog,Manhattan,M,212,7483688,MORGAN,
+NALA,F,15,Portuguese Water Dog,Manhattan,M,212,3881356,NALA,
+MILO,M,12,Portuguese Water Dog,Manhattan,M,212,3960811,MILO,
+HERMES,M,11,Portuguese Water Dog,Manhattan,M,212,9643728,HERMES,
+EVA,F,4,Portuguese Water Dog,Manhattan,M,212,5950097,EVA,
+TEDDY,M,5,Pug,Manhattan,S,212,4764069,TEDDY,
+BUDDY,M,2,"Schnauzer, Miniature",Manhattan,S,212,6071760,BUDDY,
+TIKI,M,11,Shiba Inu,Manhattan,M,212,5643720,TIKI,
+PARRIS,F,11,Shiba Inu,Manhattan,M,212,1959973,PARRIS,
+BISCUIT,M,5,Shiba Inu,Manhattan,M,212,3164155,BISCUIT,
+GIZMO,M,11,Shih Tzu,Manhattan,S,212,4795056,GIZMO,
+TAZER,M,3,Akita,Queens,M,917,5873573,TAZER,
+TUBBA,M,4,American Pit Bull Mix / Pit Bull Mix,Queens,M,917,5275816,TUBBA,
+CINDY,F,16,Boston Terrier,Queens,S,917,3664554,CINDY,
+MISKA,F,8,Boxer,Queens,M,917,7124846,MISKA,
+NICO,M,6,Boxer,Queens,M,917,1127255,NICO,
+LUCILLE,F,6,"Bull Dog, English",Queens,M,917,7769846,LUCILLE,
+BUDDY,M,8,Labrador Retriever,Queens,L,917,2274677,BUDDY,
+TRUFFLE,F,5,Pomeranian,Queens,S,917,3030470,TRUFFLE,
+MI,M,3,Pomeranian,Queens,S,917,1258681,MI,
+SILVER,M,6,Pomeranian,Queens,S,917,1352676,SILVER,
+SANS,F,7,Pomeranian,Queens,S,917,7132850,SANS,
+LUCKY,M,16,Poodle,Queens,L,917,1325684,LUCKY,
+MATEO,M,9,Poodle,Queens,L,917,8171662,MATEO,
+LILY,F,13,"Schnauzer, Miniature",Queens,S,917,6733506,LILY,
+OLLIE,M,4,Tibetan Spaniel,Queens,S,917,9710228,OLLIE,
+LAKOTA,F,9,Siberian Husky,Queens,L,917,6239131,LAKOTA,
+LOUIE,M,8,Boxer,Staten Island,M,718,3328150,LOUIE,
+COSMO,M,11,"Bull Dog, English",Staten Island,M,718,5346325,COSMO,
+TOSIA,F,17,Pomeranian,Staten Island,S,718,9044234,TOSIA,
+BUDDY,M,12,"Schnauzer, Miniature",Staten Island,S,718,1555265,BUDDY,
+TITUS,M,2,Airedale Terrier,Staten Island,L,718,2594434,TITUS,
