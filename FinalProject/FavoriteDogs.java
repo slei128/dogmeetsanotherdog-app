@@ -18,7 +18,7 @@ public class FavoriteDogs
     /**
      * Constructor for objects of class FavoriteDogs
      */
-    public FavoriteDogs(String filename)
+    public FavoriteDogs(String filename, Dog owndog)
     {
         DogCollection collection = new DogCollection(filename);
         this.hash = new Hashtable<Dog, Vector<Dog>>();
@@ -28,8 +28,10 @@ public class FavoriteDogs
         sortByCriteria("age");
         Sorting.mergeSort(subset,new AgeComparator());
         GUIPanel gp = new GUIPanel();
-        owndog = gp.getOwnDog();
-        System.out.println(owndog);
+        //owndog = gp.getOwnDog();
+        //owndog = new Dog ("Daisy", "F", 5, "Bulldog", "Manhattan", "S");
+        this.owndog=owndog;
+        //System.out.println(owndog);
         hashing();
         //in hashtable, put the user's dog and the filtered results from before
         //hash.put(owndog,filteredCollection);
@@ -69,13 +71,16 @@ public class FavoriteDogs
         return hash;
     }
     
-    public static void main(String[] args){
-        FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_50.csv");
-        //System.out.println(fDogs);
+    
+    
+    
+    // public static void main(String[] args){
+        // FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_50.csv");
+        // //System.out.println(fDogs);
 
-        fDogs.sortByCriteria("age");
-        Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
-        fDogs.hashing();
-        System.out.println(fDogs);
-    }
+        // fDogs.sortByCriteria("age");
+        // Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
+        // fDogs.hashing();
+        // System.out.println(fDogs);
+    // }
 }
