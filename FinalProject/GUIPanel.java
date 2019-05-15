@@ -13,7 +13,7 @@ public class GUIPanel extends JPanel {
     private JLabel sizeLabel;
     private JLabel areaLabel;
     private JLabel phoneLabel;
-    private JLabel confirmationLabel, resultsLabel;
+    private JLabel confirmationLabel, resultsLabel,clickedGraphLabel;
     
     private JTextField nameField;
     private JTextField sexField;
@@ -24,7 +24,7 @@ public class GUIPanel extends JPanel {
     private JTextField areaField;
     private JTextField phoneField;
 
-    private JButton submitButton;
+    private JButton submitButton,generateGraphButton;
     private JPanel createPanel;
     private JPanel buttonPanel;
     private String name,sex,breed,borough,size,area,phone;
@@ -98,6 +98,11 @@ public class GUIPanel extends JPanel {
         add(confirmationLabel);
         resultsLabel = new JLabel("");
         add(resultsLabel);
+        
+        generateGraphButton = new JButton("Generate dog connections graph!");
+        generateGraphButton.addActionListener(new ButtonListener());
+        clickedGraphLabel = new JLabel("123");
+        
         setPreferredSize(new Dimension(700,500));
         setBackground(Color.pink);
         //add(nameLabel);
@@ -126,18 +131,15 @@ public class GUIPanel extends JPanel {
                 //remove(buttonPanel);
                 //add(newPanel);
                 
-                
-                
-                
-                
+
                 //Lay out the label and scroll pane from top to bottom.
                 
                 JPanel allDogsDiv = new JPanel();
                 //EDIT
 
-        //add(vertical);
+                //add(vertical);
                 //dogScroller.setAlignmentX(LEFT_ALIGNMENT);
-                FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_50.csv", daisy);
+                FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size.csv", daisy);
                 fDogs.sortByCriteria("age");
                 Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
                 fDogs.hashing();
@@ -187,7 +189,21 @@ public class GUIPanel extends JPanel {
                 //everytime (slow), and sorted by a specfici dimension only 
                 //if that speciic button is clicked
                 //4. dont need to pass Dog into gui
+                
+                add(generateGraphButton);
+                add(clickedGraphLabel);
+                
             }
+            
+            if (e.getSource() == generateGraphButton){
+                //JPanel dogGraph = new JPanel();
+                    clickedGraphLabel.setText("Your dog graph is generated"); 
+                    AllDogsGraph dogConnections = new AllDogsGraph(daisy);
+                    System.out.println("Clicked");
+                    //saves tgf ??
+                    //dogGraph.add(dogConnections);
+                    //add(dogGraph);
+                }
         }
     }
     

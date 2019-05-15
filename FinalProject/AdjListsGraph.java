@@ -180,7 +180,53 @@ public class AdjListsGraph<T> {
         StringBuilder sb = new StringBuilder();
         sb.append("# vertices in graph: " + this.getNumVertices());
         sb.append("# arcs in graph: " + this.getNumArcs());
+        for (T v: arcs.keySet()){
+            sb.append(v);
+            //s += graph.get(v);
+        }
         return sb.toString();
+    }
+    
+    /******************************************************************
+     * Saves the current graph into a .tgf file.
+     * If the file does not exist, it is created. If it exists, it is overwitten. 
+     * If it cannot save the file, a message is printed. 
+     * @param fName     The name of the file to write to 
+     *****************************************************************/
+    public void saveTGF(String fName) {
+        
+        try {
+            int counter = 1;
+            PrintWriter writer = new PrintWriter(new File(fName));
+            
+            //write vertices by iterating through vector "vertices"
+            //for (int i = 0; i < arcs.keySet().size(); i++) {
+                
+            for (T v : arcs.keySet()) {
+                writer.print(counter + " " + v);
+                //writer.print
+                counter++;
+                writer.println("");
+            }
+            writer.print("#"); 
+            writer.println("");
+
+            //write arcs by iterating through arcs vector
+            int counterarc = 1;
+            for (T v : arcs.keySet()) { //for each linked list in arcs
+            
+                for (T successor :arcs.get(v)) {
+                //for (T v : arcs.keySet()) {
+                    //int index2 = vertices.indexOf(vertex);
+                    writer.print(v + " " + successor);
+                    counterarc++;
+                    writer.println("");
+                }
+            }
+            writer.close();
+        } catch (IOException ex) {
+            System.out.println("**ERROR**" +  fName + " could not be written: " + ex);
+        }
     }
     
     /**
@@ -222,6 +268,7 @@ public class AdjListsGraph<T> {
         g.addArc("J", "H");
 
         System.out.println(g.breadthFirstSearch("A"));
+        g.saveTGF("output.tgf"); 
     }
 
 }
