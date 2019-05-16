@@ -199,6 +199,16 @@
 	phone=1352676
 }
 21 Dog {
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
+}
+22 Dog {
 	name=BRIGGS
 	sex=M
 	age=4
@@ -208,7 +218,7 @@
 	area=212
 	phone=5771253
 }
-22 Dog {
+23 Dog {
 	name=HAZEL
 	sex=F
 	age=2
@@ -218,7 +228,7 @@
 	area=929
 	phone=1278797
 }
-23 Dog {
+24 Dog {
 	name=MATEO
 	sex=M
 	age=9
@@ -228,7 +238,7 @@
 	area=917
 	phone=8171662
 }
-24 Dog {
+25 Dog {
 	name=UNKNOWN
 	sex=M
 	age=1
@@ -238,7 +248,7 @@
 	area=929
 	phone=3290666
 }
-25 Dog {
+26 Dog {
 	name=CHARLIE
 	sex=F
 	age=15
@@ -248,7 +258,7 @@
 	area=212
 	phone=3736080
 }
-26 Dog {
+27 Dog {
 	name=MORGAN
 	sex=F
 	age=1
@@ -258,7 +268,7 @@
 	area=212
 	phone=7483688
 }
-27 Dog {
+28 Dog {
 	name=CORA
 	sex=F
 	age=4
@@ -268,7 +278,7 @@
 	area=929
 	phone=4929928
 }
-28 Dog {
+29 Dog {
 	name=LUCILLE
 	sex=F
 	age=6
@@ -278,7 +288,7 @@
 	area=917
 	phone=7769846
 }
-29 Dog {
+30 Dog {
 	name=SARA
 	sex=F
 	age=6
@@ -288,7 +298,7 @@
 	area=212
 	phone=2099896
 }
-30 Dog {
+31 Dog {
 	name=BUDDY
 	sex=M
 	age=2
@@ -298,7 +308,7 @@
 	area=212
 	phone=6071760
 }
-31 Dog {
+32 Dog {
 	name=NELSON
 	sex=M
 	age=16
@@ -308,7 +318,7 @@
 	area=929
 	phone=1925515
 }
-32 Dog {
+33 Dog {
 	name=HERMES
 	sex=M
 	age=11
@@ -318,7 +328,7 @@
 	area=212
 	phone=9643728
 }
-33 Dog {
+34 Dog {
 	name=BEAR
 	sex=M
 	age=3
@@ -328,7 +338,7 @@
 	area=929
 	phone=5546382
 }
-34 Dog {
+35 Dog {
 	name=TITUS
 	sex=M
 	age=2
@@ -338,7 +348,7 @@
 	area=718
 	phone=2594434
 }
-35 Dog {
+36 Dog {
 	name=NICO
 	sex=M
 	age=6
@@ -348,7 +358,7 @@
 	area=917
 	phone=1127255
 }
-36 Dog {
+37 Dog {
 	name=TAZER
 	sex=M
 	age=3
@@ -358,7 +368,7 @@
 	area=917
 	phone=5873573
 }
-37 Dog {
+38 Dog {
 	name=TEDDY
 	sex=M
 	age=9
@@ -368,7 +378,7 @@
 	area=929
 	phone=3057549
 }
-38 Dog {
+39 Dog {
 	name=MACARONI
 	sex=M
 	age=1
@@ -378,7 +388,7 @@
 	area=212
 	phone=2123226
 }
-39 Dog {
+40 Dog {
 	name=CINDY
 	sex=F
 	age=16
@@ -388,7 +398,7 @@
 	area=917
 	phone=3664554
 }
-40 Dog {
+41 Dog {
 	name=HANA
 	sex=F
 	age=6
@@ -398,7 +408,7 @@
 	area=929
 	phone=8898269
 }
-41 Dog {
+42 Dog {
 	name=MISKA
 	sex=F
 	age=8
@@ -408,7 +418,7 @@
 	area=917
 	phone=7124846
 }
-42 Dog {
+43 Dog {
 	name=SILAS
 	sex=M
 	age=6
@@ -418,7 +428,7 @@
 	area=212
 	phone=9338353
 }
-43 Dog {
+44 Dog {
 	name=MERCEDES
 	sex=F
 	age=9
@@ -428,7 +438,7 @@
 	area=212
 	phone=7786850
 }
-44 Dog {
+45 Dog {
 	name=OZZY
 	sex=M
 	age=3
@@ -438,7 +448,7 @@
 	area=929
 	phone=4401173
 }
-45 Dog {
+46 Dog {
 	name=JAX
 	sex=M
 	age=1
@@ -448,7 +458,7 @@
 	area=929
 	phone=8887701
 }
-46 Dog {
+47 Dog {
 	name=EINSTEIN
 	sex=M
 	age=1
@@ -458,7 +468,7 @@
 	area=212
 	phone=2031492
 }
-47 Dog {
+48 Dog {
 	name=SHEENA
 	sex=F
 	age=9
@@ -468,7 +478,7 @@
 	area=929
 	phone=5734409
 }
-48 Dog {
+49 Dog {
 	name=DIAMOND
 	sex=F
 	age=3
@@ -478,7 +488,7 @@
 	area=929
 	phone=7410313
 }
-49 Dog {
+50 Dog {
 	name=PARRIS
 	sex=F
 	age=11
@@ -488,7 +498,7 @@
 	area=212
 	phone=1959973
 }
-50 Dog {
+51 Dog {
 	name=LUCKY
 	sex=M
 	age=16
@@ -498,7 +508,7 @@
 	area=917
 	phone=1325684
 }
-51 Dog {
+52 Dog {
 	name=FABIO
 	sex=M
 	age=8
@@ -508,7 +518,7 @@
 	area=929
 	phone=6771089
 }
-52 Dog {
+53 Dog {
 	name=BUDDY
 	sex=M
 	age=12
@@ -518,7 +528,7 @@
 	area=718
 	phone=1555265
 }
-53 Dog {
+54 Dog {
 	name=RICO
 	sex=M
 	age=1
@@ -528,7 +538,7 @@
 	area=929
 	phone=9523754
 }
-54 Dog {
+55 Dog {
 	name=TOSIA
 	sex=F
 	age=17
@@ -538,7 +548,7 @@
 	area=718
 	phone=9044234
 }
-55 Dog {
+56 Dog {
 	name=BEEF
 	sex=M
 	age=7
@@ -548,7 +558,7 @@
 	area=929
 	phone=6308877
 }
-56 Dog {
+57 Dog {
 	name=ANDY
 	sex=M
 	age=4
@@ -558,7 +568,7 @@
 	area=929
 	phone=8353569
 }
-57 Dog {
+58 Dog {
 	name=PATSY
 	sex=F
 	age=3
@@ -568,7 +578,7 @@
 	area=212
 	phone=5907214
 }
-58 Dog {
+59 Dog {
 	name=BALEIA
 	sex=F
 	age=2
@@ -578,7 +588,7 @@
 	area=212
 	phone=7619482
 }
-59 Dog {
+60 Dog {
 	name=LOUIE
 	sex=M
 	age=4
@@ -588,7 +598,7 @@
 	area=929
 	phone=1047993
 }
-60 Dog {
+61 Dog {
 	name=EVA
 	sex=F
 	age=4
@@ -598,7 +608,7 @@
 	area=212
 	phone=5950097
 }
-61 Dog {
+62 Dog {
 	name=TIKI
 	sex=M
 	age=11
@@ -608,7 +618,7 @@
 	area=212
 	phone=5643720
 }
-62 Dog {
+63 Dog {
 	name=TRUFFLE
 	sex=F
 	age=5
@@ -618,7 +628,7 @@
 	area=917
 	phone=3030470
 }
-63 Dog {
+64 Dog {
 	name=CARTER
 	sex=M
 	age=9
@@ -628,7 +638,7 @@
 	area=212
 	phone=2459357
 }
-64 Dog {
+65 Dog {
 	name=GYPSY
 	sex=F
 	age=3
@@ -637,16 +647,6 @@
 	size=S
 	area=929
 	phone=9475786
-}
-65 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
 }
 66 Dog {
 	name=MACY
@@ -1019,33 +1019,14 @@ Dog {
 	area=212
 	phone=9339383
 } Dog {
-	name=MAXIMILLION
+	name=LOUIE
 	sex=M
-	age=10
-	breed=Tibetan Spaniel
-	location=Brooklyn
+	age=4
+	breed=Shih Tzu
+	location=Bronx
 	size=S
 	area=929
-	phone=6841831
-}
-Dog {
-	name=SHORTY
-	sex=M
-	age=2
-	breed=Perro de Presa Canario
-	location=Brooklyn
-	size=L
-	area=929
-	phone=1081057
-} Dog {
-	name=CORKY
-	sex=M
-	age=14
-	breed=Poodle
-	location=Bronx
-	size=L
-	area=929
-	phone=3563953
+	phone=1047993
 }
 Dog {
 	name=GIZMO
@@ -1057,14 +1038,14 @@ Dog {
 	area=212
 	phone=4795056
 } Dog {
-	name=HAZEL
-	sex=F
-	age=2
-	breed=Perro de Presa Canario
-	location=Bronx
-	size=L
+	name=MACY
+	sex=M
+	age=9
+	breed=Pomeranian
+	location=Brooklyn
+	size=S
 	area=929
-	phone=1278797
+	phone=2818751
 }
 Dog {
 	name=CITO
@@ -1076,14 +1057,14 @@ Dog {
 	area=212
 	phone=7068414
 } Dog {
-	name=GYPSY
+	name=CHARLIE
 	sex=F
-	age=3
-	breed=Pomeranian
-	location=Bronx
+	age=15
+	breed=Affenpinscher
+	location=Manhattan
 	size=S
-	area=929
-	phone=9475786
+	area=212
+	phone=3736080
 }
 Dog {
 	name=TUBBA
@@ -1095,14 +1076,14 @@ Dog {
 	area=917
 	phone=5275816
 } Dog {
-	name=SHEENA
-	sex=F
-	age=9
-	breed=Akita
+	name=BEAR
+	sex=M
+	age=3
+	breed=Labrador Retriever
 	location=Brooklyn
-	size=M
+	size=L
 	area=929
-	phone=5734409
+	phone=5546382
 }
 Dog {
 	name=BUDDY
@@ -1114,52 +1095,14 @@ Dog {
 	area=917
 	phone=2274677
 } Dog {
-	name=NELSON
+	name=KING
 	sex=M
-	age=16
-	breed=Pomeranian
-	location=Brooklyn
-	size=S
-	area=929
-	phone=1925515
-}
-Dog {
-	name=MYSTIC
-	sex=F
-	age=6
-	breed=Pug
-	location=Brooklyn
-	size=S
-	area=929
-	phone=5481825
-} Dog {
-	name=DIAMOND
-	sex=F
 	age=3
-	breed=American Pit Bull Mix / Pit Bull Mix
-	location=Brooklyn
-	size=M
-	area=929
-	phone=7410313
-}
-Dog {
-	name=MOGWAI
-	sex=M
-	age=15
-	breed=Pekingese
+	breed=Affenpinscher
 	location=Brooklyn
 	size=S
 	area=929
-	phone=6616377
-} Dog {
-	name=BEEF
-	sex=M
-	age=7
-	breed=Bull Dog, English
-	location=Brooklyn
-	size=M
-	area=929
-	phone=6308877
+	phone=6160344
 }
 Dog {
 	name=BLEU
@@ -1171,14 +1114,14 @@ Dog {
 	area=212
 	phone=2127324
 } Dog {
-	name=ROCKO
+	name=LOUIE
 	sex=M
-	age=1
-	breed=Perro de Presa Canario
-	location=Bronx
-	size=L
+	age=6
+	breed=Shih Tzu
+	location=Brooklyn
+	size=S
 	area=929
-	phone=6958244
+	phone=3865593
 }
 Dog {
 	name=MISTER
@@ -1190,14 +1133,14 @@ Dog {
 	area=212
 	phone=3929178
 } Dog {
-	name=SMOKIE
+	name=RICO
 	sex=M
 	age=1
-	breed=Pekingese
+	breed=Perro de Presa Canario
 	location=Brooklyn
-	size=S
+	size=L
 	area=929
-	phone=2857534
+	phone=9523754
 }
 Dog {
 	name=CUDDLES
@@ -1228,14 +1171,14 @@ Dog {
 	area=212
 	phone=5879203
 } Dog {
-	name=CORKY
-	sex=M
-	age=14
-	breed=Poodle
-	location=Bronx
-	size=L
+	name=MYSTIC
+	sex=F
+	age=6
+	breed=Pug
+	location=Brooklyn
+	size=S
 	area=929
-	phone=3563953
+	phone=5481825
 }
 Dog {
 	name=ASKHIM
@@ -1247,33 +1190,14 @@ Dog {
 	area=929
 	phone=2333797
 } Dog {
-	name=CORKY
+	name=ROCKO
 	sex=M
-	age=14
-	breed=Poodle
+	age=1
+	breed=Perro de Presa Canario
 	location=Bronx
 	size=L
 	area=929
-	phone=3563953
-}
-Dog {
-	name=MISTY
-	sex=F
-	age=9
-	breed=Afghan Hound
-	location=Bronx
-	size=L
-	area=929
-	phone=4011873
-} Dog {
-	name=HANA
-	sex=F
-	age=6
-	breed=Boston Terrier
-	location=Bronx
-	size=S
-	area=929
-	phone=8898269
+	phone=6958244
 }
 Dog {
 	name=HANNIBAL
@@ -1285,14 +1209,14 @@ Dog {
 	area=212
 	phone=7934027
 } Dog {
-	name=DIVA
-	sex=F
-	age=11
-	breed=Chihuahua
+	name=LOUIE
+	sex=M
+	age=6
+	breed=Shih Tzu
 	location=Brooklyn
 	size=S
 	area=929
-	phone=8198910
+	phone=3865593
 }
 Dog {
 	name=LOUIE
@@ -1314,25 +1238,6 @@ Dog {
 	phone=8198910
 }
 Dog {
-	name=DIVA
-	sex=F
-	age=11
-	breed=Chihuahua
-	location=Brooklyn
-	size=S
-	area=929
-	phone=8198910
-} Dog {
-	name=OSO
-	sex=M
-	age=5
-	breed=Akita Crossbreed
-	location=Brooklyn
-	size=M
-	area=929
-	phone=9901609
-}
-Dog {
 	name=SILVER
 	sex=M
 	age=6
@@ -1341,557 +1246,6 @@ Dog {
 	size=S
 	area=917
 	phone=1352676
-} Dog {
-	name=TOFU
-	sex=M
-	age=6
-	breed=Poodle
-	location=Brooklyn
-	size=L
-	area=929
-	phone=8867770
-}
-Dog {
-	name=BRIGGS
-	sex=M
-	age=4
-	breed=Portuguese Water Dog
-	location=Manhattan
-	size=M
-	area=212
-	phone=5771253
-} Dog {
-	name=CORKY
-	sex=M
-	age=14
-	breed=Poodle
-	location=Bronx
-	size=L
-	area=929
-	phone=3563953
-}
-Dog {
-	name=HAZEL
-	sex=F
-	age=2
-	breed=Perro de Presa Canario
-	location=Bronx
-	size=L
-	area=929
-	phone=1278797
-} Dog {
-	name=GYPSY
-	sex=F
-	age=3
-	breed=Pomeranian
-	location=Bronx
-	size=S
-	area=929
-	phone=9475786
-}
-Dog {
-	name=MATEO
-	sex=M
-	age=9
-	breed=Poodle
-	location=Queens
-	size=L
-	area=917
-	phone=8171662
-} Dog {
-	name=HAZEL
-	sex=F
-	age=2
-	breed=Perro de Presa Canario
-	location=Bronx
-	size=L
-	area=929
-	phone=1278797
-}
-Dog {
-	name=CHARLIE
-	sex=F
-	age=15
-	breed=Affenpinscher
-	location=Manhattan
-	size=S
-	area=212
-	phone=3736080
-} Dog {
-	name=HANA
-	sex=F
-	age=6
-	breed=Boston Terrier
-	location=Bronx
-	size=S
-	area=929
-	phone=8898269
-}
-Dog {
-	name=MORGAN
-	sex=F
-	age=1
-	breed=Portuguese Water Dog
-	location=Manhattan
-	size=M
-	area=212
-	phone=7483688
-} Dog {
-	name=RICO
-	sex=M
-	age=1
-	breed=Perro de Presa Canario
-	location=Brooklyn
-	size=L
-	area=929
-	phone=9523754
-}
-Dog {
-	name=LUCILLE
-	sex=F
-	age=6
-	breed=Bull Dog, English
-	location=Queens
-	size=M
-	area=917
-	phone=7769846
-} Dog {
-	name=SHORTY
-	sex=M
-	age=2
-	breed=Perro de Presa Canario
-	location=Brooklyn
-	size=L
-	area=929
-	phone=1081057
-}
-Dog {
-	name=SARA
-	sex=F
-	age=6
-	breed=Pembroke Welsh Corgi
-	location=Manhattan
-	size=M
-	area=212
-	phone=2099896
-} Dog {
-	name=BALEIA
-	sex=F
-	age=2
-	breed=Airedale Terrier
-	location=Manhattan
-	size=L
-	area=212
-	phone=7619482
-}
-Dog {
-	name=BUDDY
-	sex=M
-	age=2
-	breed=Schnauzer, Miniature
-	location=Manhattan
-	size=S
-	area=212
-	phone=6071760
-} Dog {
-	name=BALEIA
-	sex=F
-	age=2
-	breed=Airedale Terrier
-	location=Manhattan
-	size=L
-	area=212
-	phone=7619482
-}
-Dog {
-	name=HERMES
-	sex=M
-	age=11
-	breed=Portuguese Water Dog
-	location=Manhattan
-	size=M
-	area=212
-	phone=9643728
-} Dog {
-	name=OSO
-	sex=M
-	age=5
-	breed=Akita Crossbreed
-	location=Brooklyn
-	size=M
-	area=929
-	phone=9901609
-}
-Dog {
-	name=BEAR
-	sex=M
-	age=3
-	breed=Labrador Retriever
-	location=Brooklyn
-	size=L
-	area=929
-	phone=5546382
-} Dog {
-	name=MAX
-	sex=M
-	age=2
-	breed=Perro de Presa Canario
-	location=Bronx
-	size=L
-	area=929
-	phone=6070814
-}
-Dog {
-	name=TITUS
-	sex=M
-	age=2
-	breed=Airedale Terrier
-	location=Staten Island
-	size=L
-	area=718
-	phone=2594434
-} Dog {
-	name=JAX
-	sex=M
-	age=1
-	breed=Siberian Husky
-	location=Brooklyn
-	size=L
-	area=929
-	phone=8887701
-}
-Dog {
-	name=NICO
-	sex=M
-	age=6
-	breed=Boxer
-	location=Queens
-	size=M
-	area=917
-	phone=1127255
-} Dog {
-	name=LOUIE
-	sex=M
-	age=6
-	breed=Shih Tzu
-	location=Brooklyn
-	size=S
-	area=929
-	phone=3865593
-}
-Dog {
-	name=TAZER
-	sex=M
-	age=3
-	breed=Akita
-	location=Queens
-	size=M
-	area=917
-	phone=5873573
-} Dog {
-	name=JAX
-	sex=M
-	age=1
-	breed=Siberian Husky
-	location=Brooklyn
-	size=L
-	area=929
-	phone=8887701
-}
-Dog {
-	name=TEDDY
-	sex=M
-	age=9
-	breed=Pomeranian
-	location=Brooklyn
-	size=S
-	area=929
-	phone=3057549
-} Dog {
-	name=KING
-	sex=M
-	age=3
-	breed=Affenpinscher
-	location=Brooklyn
-	size=S
-	area=929
-	phone=6160344
-}
-Dog {
-	name=MACARONI
-	sex=M
-	age=1
-	breed=Pembroke Welsh Corgi
-	location=Manhattan
-	size=M
-	area=212
-	phone=2123226
-} Dog {
-	name=ASKHIM
-	sex=M
-	age=5
-	breed=Akita Crossbreed
-	location=Brooklyn
-	size=M
-	area=929
-	phone=2333797
-}
-Dog {
-	name=CINDY
-	sex=F
-	age=16
-	breed=Boston Terrier
-	location=Queens
-	size=S
-	area=917
-	phone=3664554
-} Dog {
-	name=GIZMO
-	sex=M
-	age=7
-	breed=Petit Basset Griffon Vendeen
-	location=Brooklyn
-	size=M
-	area=929
-	phone=9591204
-}
-Dog {
-	name=MISKA
-	sex=F
-	age=8
-	breed=Boxer
-	location=Queens
-	size=M
-	area=917
-	phone=7124846
-} Dog {
-	name=SHORTY
-	sex=M
-	age=2
-	breed=Perro de Presa Canario
-	location=Brooklyn
-	size=L
-	area=929
-	phone=1081057
-}
-Dog {
-	name=SILAS
-	sex=M
-	age=6
-	breed=Labrador Retriever
-	location=Manhattan
-	size=L
-	area=212
-	phone=9338353
-} Dog {
-	name=HANA
-	sex=F
-	age=6
-	breed=Boston Terrier
-	location=Bronx
-	size=S
-	area=929
-	phone=8898269
-}
-Dog {
-	name=MERCEDES
-	sex=F
-	age=9
-	breed=Pekingese
-	location=Manhattan
-	size=S
-	area=212
-	phone=7786850
-} Dog {
-	name=CHARLIE
-	sex=F
-	age=15
-	breed=Affenpinscher
-	location=Manhattan
-	size=S
-	area=212
-	phone=3736080
-}
-Dog {
-	name=OZZY
-	sex=M
-	age=3
-	breed=Boston Terrier
-	location=Brooklyn
-	size=S
-	area=929
-	phone=4401173
-} Dog {
-	name=MISTY
-	sex=F
-	age=9
-	breed=Afghan Hound
-	location=Bronx
-	size=L
-	area=929
-	phone=4011873
-}
-Dog {
-	name=JAX
-	sex=M
-	age=1
-	breed=Siberian Husky
-	location=Brooklyn
-	size=L
-	area=929
-	phone=8887701
-} Dog {
-	name=CHRISTMAS
-	sex=M
-	age=13
-	breed=Shih Tzu
-	location=Brooklyn
-	size=S
-	area=929
-	phone=8137117
-}
-Dog {
-	name=PARRIS
-	sex=F
-	age=11
-	breed=Shiba Inu
-	location=Manhattan
-	size=M
-	area=212
-	phone=1959973
-} Dog {
-	name=CORA
-	sex=F
-	age=4
-	breed=Boston Terrier
-	location=Brooklyn
-	size=S
-	area=929
-	phone=4929928
-}
-Dog {
-	name=LUCKY
-	sex=M
-	age=16
-	breed=Poodle
-	location=Queens
-	size=L
-	area=917
-	phone=1325684
-} Dog {
-	name=CORA
-	sex=F
-	age=4
-	breed=Boston Terrier
-	location=Brooklyn
-	size=S
-	area=929
-	phone=4929928
-}
-Dog {
-	name=BUDDY
-	sex=M
-	age=12
-	breed=Schnauzer, Miniature
-	location=Staten Island
-	size=S
-	area=718
-	phone=1555265
-} Dog {
-	name=RICO
-	sex=M
-	age=1
-	breed=Perro de Presa Canario
-	location=Brooklyn
-	size=L
-	area=929
-	phone=9523754
-}
-Dog {
-	name=TOSIA
-	sex=F
-	age=17
-	breed=Pomeranian
-	location=Staten Island
-	size=S
-	area=718
-	phone=9044234
-} Dog {
-	name=BEAR
-	sex=M
-	age=3
-	breed=Labrador Retriever
-	location=Brooklyn
-	size=L
-	area=929
-	phone=5546382
-}
-Dog {
-	name=PATSY
-	sex=F
-	age=3
-	breed=Portuguese Water Dog
-	location=Manhattan
-	size=M
-	area=212
-	phone=5907214
-} Dog {
-	name=LOUIE
-	sex=M
-	age=4
-	breed=Shih Tzu
-	location=Bronx
-	size=S
-	area=929
-	phone=1047993
-}
-Dog {
-	name=BALEIA
-	sex=F
-	age=2
-	breed=Airedale Terrier
-	location=Manhattan
-	size=L
-	area=212
-	phone=7619482
-} Dog {
-	name=UNKNOWN
-	sex=M
-	age=1
-	breed=Pembroke Welsh Corgi
-	location=Brooklyn
-	size=M
-	area=929
-	phone=3290666
-}
-Dog {
-	name=EVA
-	sex=F
-	age=4
-	breed=Portuguese Water Dog
-	location=Manhattan
-	size=M
-	area=212
-	phone=5950097
-} Dog {
-	name=ROCKO
-	sex=M
-	age=1
-	breed=Perro de Presa Canario
-	location=Bronx
-	size=L
-	area=929
-	phone=6958244
-}
-Dog {
-	name=TIKI
-	sex=M
-	age=11
-	breed=Shiba Inu
-	location=Manhattan
-	size=M
-	area=212
-	phone=5643720
 } Dog {
 	name=SHEENA
 	sex=F
@@ -1903,71 +1257,14 @@ Dog {
 	phone=5734409
 }
 Dog {
-	name=TRUFFLE
-	sex=F
-	age=5
-	breed=Pomeranian
-	location=Queens
-	size=S
-	area=917
-	phone=3030470
-} Dog {
-	name=TELLY
+	name=Daisy
 	sex=F
 	age=6
-	breed=American Pit Bull Mix / Pit Bull Mix
-	location=Manhattan
-	size=M
-	area=212
-	phone=3074671
-}
-Dog {
-	name=CARTER
-	sex=M
-	age=9
-	breed=Chihuahua
-	location=Manhattan
-	size=S
-	area=212
-	phone=2459357
-} Dog {
-	name=EINSTEIN
-	sex=M
-	age=1
-	breed=Affenpinscher
-	location=Manhattan
-	size=S
-	area=212
-	phone=2031492
-}
-Dog {
-	name=GYPSY
-	sex=F
-	age=3
-	breed=Pomeranian
-	location=Bronx
+	breed=Bulldog
+	location=Brooklyn
 	size=S
 	area=929
-	phone=9475786
-} Dog {
-	name=GYPSY
-	sex=F
-	age=3
-	breed=Pomeranian
-	location=Bronx
-	size=S
-	area=929
-	phone=9475786
-}
-Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	phone=3357889
 } Dog {
 	name=MISTY
 	sex=F
@@ -1979,14 +1276,14 @@ Dog {
 	phone=4011873
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=HANA
 	sex=F
@@ -1998,14 +1295,14 @@ Dog {
 	phone=8898269
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MAX
 	sex=M
@@ -2017,14 +1314,14 @@ Dog {
 	phone=6070814
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=HAZEL
 	sex=F
@@ -2036,14 +1333,14 @@ Dog {
 	phone=1278797
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=ROCKO
 	sex=M
@@ -2055,14 +1352,14 @@ Dog {
 	phone=6958244
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=GYPSY
 	sex=F
@@ -2074,14 +1371,14 @@ Dog {
 	phone=9475786
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=SABACHE
 	sex=M
@@ -2093,14 +1390,14 @@ Dog {
 	phone=4628839
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=CORKY
 	sex=M
@@ -2112,14 +1409,14 @@ Dog {
 	phone=3563953
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=LOUIE
 	sex=M
@@ -2131,14 +1428,14 @@ Dog {
 	phone=1047993
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=KING
 	sex=M
@@ -2150,14 +1447,14 @@ Dog {
 	phone=6160344
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=DOSIE
 	sex=F
@@ -2169,14 +1466,14 @@ Dog {
 	phone=6452273
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=SHEENA
 	sex=F
@@ -2188,14 +1485,14 @@ Dog {
 	phone=5734409
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=OSO
 	sex=M
@@ -2207,14 +1504,14 @@ Dog {
 	phone=9901609
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=ASKHIM
 	sex=M
@@ -2226,14 +1523,14 @@ Dog {
 	phone=2333797
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=DIAMOND
 	sex=F
@@ -2245,14 +1542,14 @@ Dog {
 	phone=7410313
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=OZZY
 	sex=M
@@ -2264,14 +1561,14 @@ Dog {
 	phone=4401173
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=CORA
 	sex=F
@@ -2283,14 +1580,14 @@ Dog {
 	phone=4929928
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=BEEF
 	sex=M
@@ -2302,14 +1599,14 @@ Dog {
 	phone=6308877
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=DIVA
 	sex=F
@@ -2321,14 +1618,14 @@ Dog {
 	phone=8198910
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=ANDY
 	sex=M
@@ -2340,14 +1637,14 @@ Dog {
 	phone=8353569
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=BEAR
 	sex=M
@@ -2359,14 +1656,14 @@ Dog {
 	phone=5546382
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=SMOKIE
 	sex=M
@@ -2378,14 +1675,14 @@ Dog {
 	phone=2857534
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MOGWAI
 	sex=M
@@ -2397,14 +1694,14 @@ Dog {
 	phone=6616377
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=UNKNOWN
 	sex=M
@@ -2416,14 +1713,14 @@ Dog {
 	phone=3290666
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=SHORTY
 	sex=M
@@ -2435,14 +1732,14 @@ Dog {
 	phone=1081057
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=RICO
 	sex=M
@@ -2454,14 +1751,14 @@ Dog {
 	phone=9523754
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=FABIO
 	sex=M
@@ -2473,14 +1770,14 @@ Dog {
 	phone=6771089
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=GIZMO
 	sex=M
@@ -2492,14 +1789,14 @@ Dog {
 	phone=9591204
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MACY
 	sex=M
@@ -2511,14 +1808,14 @@ Dog {
 	phone=2818751
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TEDDY
 	sex=M
@@ -2530,14 +1827,14 @@ Dog {
 	phone=3057549
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=HOWARD
 	sex=M
@@ -2549,14 +1846,14 @@ Dog {
 	phone=9694010
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=NELSON
 	sex=M
@@ -2568,14 +1865,14 @@ Dog {
 	phone=1925515
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TOFU
 	sex=M
@@ -2587,14 +1884,14 @@ Dog {
 	phone=8867770
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=WILEY
 	sex=M
@@ -2606,14 +1903,14 @@ Dog {
 	phone=3472440
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MYSTIC
 	sex=F
@@ -2625,14 +1922,14 @@ Dog {
 	phone=5481825
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=LOUIE
 	sex=M
@@ -2644,14 +1941,14 @@ Dog {
 	phone=3865593
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=CHRISTMAS
 	sex=M
@@ -2663,14 +1960,14 @@ Dog {
 	phone=8137117
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MAXIMILLION
 	sex=M
@@ -2682,14 +1979,14 @@ Dog {
 	phone=6841831
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=JAX
 	sex=M
@@ -2701,14 +1998,14 @@ Dog {
 	phone=8887701
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=EINSTEIN
 	sex=M
@@ -2720,14 +2017,14 @@ Dog {
 	phone=2031492
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=CHARLIE
 	sex=F
@@ -2739,14 +2036,14 @@ Dog {
 	phone=3736080
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=CARLO
 	sex=M
@@ -2758,14 +2055,14 @@ Dog {
 	phone=6931968
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=BALEIA
 	sex=F
@@ -2777,14 +2074,14 @@ Dog {
 	phone=7619482
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=DEXTER
 	sex=M
@@ -2796,14 +2093,14 @@ Dog {
 	phone=9339383
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TELLY
 	sex=F
@@ -2815,14 +2112,14 @@ Dog {
 	phone=3074671
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=FLOYD
 	sex=M
@@ -2834,14 +2131,14 @@ Dog {
 	phone=5879203
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=RUDE
 	sex=M
@@ -2853,14 +2150,14 @@ Dog {
 	phone=2245336
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=CARTER
 	sex=M
@@ -2872,14 +2169,14 @@ Dog {
 	phone=2459357
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=VARRO
 	sex=M
@@ -2891,14 +2188,14 @@ Dog {
 	phone=8149012
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=CITO
 	sex=M
@@ -2910,14 +2207,14 @@ Dog {
 	phone=7068414
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=PANSY
 	sex=M
@@ -2929,14 +2226,14 @@ Dog {
 	phone=3009473
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TOM
 	sex=M
@@ -2948,14 +2245,14 @@ Dog {
 	phone=2373558
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=LUCY
 	sex=F
@@ -2967,14 +2264,14 @@ Dog {
 	phone=5733712
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=SILAS
 	sex=M
@@ -2986,14 +2283,14 @@ Dog {
 	phone=9338353
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MERCEDES
 	sex=F
@@ -3005,14 +2302,14 @@ Dog {
 	phone=7786850
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=ROMAN
 	sex=M
@@ -3024,14 +2321,14 @@ Dog {
 	phone=7089407
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MIU
 	sex=F
@@ -3043,14 +2340,14 @@ Dog {
 	phone=3164386
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=BLEU
 	sex=F
@@ -3062,14 +2359,14 @@ Dog {
 	phone=2127324
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MACARONI
 	sex=M
@@ -3081,14 +2378,14 @@ Dog {
 	phone=2123226
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=SARA
 	sex=F
@@ -3100,14 +2397,14 @@ Dog {
 	phone=2099896
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=HANNIBAL
 	sex=M
@@ -3119,14 +2416,14 @@ Dog {
 	phone=7934027
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=LACEY
 	sex=F
@@ -3138,14 +2435,14 @@ Dog {
 	phone=6824797
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=PIPER
 	sex=M
@@ -3157,14 +2454,14 @@ Dog {
 	phone=9049062
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MISTER
 	sex=M
@@ -3176,14 +2473,14 @@ Dog {
 	phone=3929178
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=CUDDLES
 	sex=F
@@ -3195,14 +2492,14 @@ Dog {
 	phone=3642792
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=CONFETTA
 	sex=F
@@ -3214,14 +2511,14 @@ Dog {
 	phone=4235917
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=PATSY
 	sex=F
@@ -3233,14 +2530,14 @@ Dog {
 	phone=5907214
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=BRIGGS
 	sex=M
@@ -3252,14 +2549,14 @@ Dog {
 	phone=5771253
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MORGAN
 	sex=F
@@ -3271,14 +2568,14 @@ Dog {
 	phone=7483688
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=NALA
 	sex=F
@@ -3290,14 +2587,14 @@ Dog {
 	phone=3881356
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MILO
 	sex=M
@@ -3309,14 +2606,14 @@ Dog {
 	phone=3960811
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=HERMES
 	sex=M
@@ -3328,14 +2625,14 @@ Dog {
 	phone=9643728
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=EVA
 	sex=F
@@ -3347,14 +2644,14 @@ Dog {
 	phone=5950097
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TEDDY
 	sex=M
@@ -3366,14 +2663,14 @@ Dog {
 	phone=4764069
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=BUDDY
 	sex=M
@@ -3385,14 +2682,14 @@ Dog {
 	phone=6071760
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TIKI
 	sex=M
@@ -3404,14 +2701,14 @@ Dog {
 	phone=5643720
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=PARRIS
 	sex=F
@@ -3423,14 +2720,14 @@ Dog {
 	phone=1959973
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=BISCUIT
 	sex=M
@@ -3442,14 +2739,14 @@ Dog {
 	phone=3164155
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=GIZMO
 	sex=M
@@ -3461,14 +2758,14 @@ Dog {
 	phone=4795056
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TAZER
 	sex=M
@@ -3480,14 +2777,14 @@ Dog {
 	phone=5873573
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TUBBA
 	sex=M
@@ -3499,14 +2796,14 @@ Dog {
 	phone=5275816
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=CINDY
 	sex=F
@@ -3518,14 +2815,14 @@ Dog {
 	phone=3664554
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MISKA
 	sex=F
@@ -3537,14 +2834,14 @@ Dog {
 	phone=7124846
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=NICO
 	sex=M
@@ -3556,14 +2853,14 @@ Dog {
 	phone=1127255
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=LUCILLE
 	sex=F
@@ -3575,14 +2872,14 @@ Dog {
 	phone=7769846
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=BUDDY
 	sex=M
@@ -3594,14 +2891,14 @@ Dog {
 	phone=2274677
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TRUFFLE
 	sex=F
@@ -3613,14 +2910,14 @@ Dog {
 	phone=3030470
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MI
 	sex=M
@@ -3632,14 +2929,14 @@ Dog {
 	phone=1258681
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=SILVER
 	sex=M
@@ -3651,14 +2948,14 @@ Dog {
 	phone=1352676
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=SANS
 	sex=F
@@ -3670,14 +2967,14 @@ Dog {
 	phone=7132850
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=LUCKY
 	sex=M
@@ -3689,14 +2986,14 @@ Dog {
 	phone=1325684
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=MATEO
 	sex=M
@@ -3708,14 +3005,14 @@ Dog {
 	phone=8171662
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=LILY
 	sex=F
@@ -3727,14 +3024,14 @@ Dog {
 	phone=6733506
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=OLLIE
 	sex=M
@@ -3746,14 +3043,14 @@ Dog {
 	phone=9710228
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=LAKOTA
 	sex=F
@@ -3765,14 +3062,14 @@ Dog {
 	phone=6239131
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=LOUIE
 	sex=M
@@ -3784,14 +3081,14 @@ Dog {
 	phone=3328150
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=COSMO
 	sex=M
@@ -3803,14 +3100,14 @@ Dog {
 	phone=5346325
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TOSIA
 	sex=F
@@ -3822,14 +3119,14 @@ Dog {
 	phone=9044234
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=BUDDY
 	sex=M
@@ -3841,14 +3138,14 @@ Dog {
 	phone=1555265
 }
 Dog {
-	name=fa
-	sex=fa
-	age=4
-	breed=fa
-	location=fa
-	size=fa
-	area=fa
-	phone=fa
+	name=Daisy
+	sex=F
+	age=6
+	breed=Bulldog
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3357889
 } Dog {
 	name=TITUS
 	sex=M
@@ -3860,128 +3157,90 @@ Dog {
 	phone=2594434
 }
 Dog {
-	name=MACY
+	name=BRIGGS
+	sex=M
+	age=4
+	breed=Portuguese Water Dog
+	location=Manhattan
+	size=M
+	area=212
+	phone=5771253
+} Dog {
+	name=TEDDY
 	sex=M
 	age=9
 	breed=Pomeranian
 	location=Brooklyn
 	size=S
 	area=929
-	phone=2818751
-} Dog {
-	name=CORKY
+	phone=3057549
+}
+Dog {
+	name=MATEO
 	sex=M
-	age=14
+	age=9
 	breed=Poodle
-	location=Bronx
-	size=L
-	area=929
-	phone=3563953
-}
-Dog {
-	name=BISCUIT
-	sex=M
-	age=5
-	breed=Shiba Inu
-	location=Manhattan
-	size=M
-	area=212
-	phone=3164155
-} Dog {
-	name=BEEF
-	sex=M
-	age=7
-	breed=Bull Dog, English
-	location=Brooklyn
-	size=M
-	area=929
-	phone=6308877
-}
-Dog {
-	name=WILEY
-	sex=M
-	age=3
-	breed=Poodle
-	location=Brooklyn
-	size=L
-	area=929
-	phone=3472440
-} Dog {
-	name=MOGWAI
-	sex=M
-	age=15
-	breed=Pekingese
-	location=Brooklyn
-	size=S
-	area=929
-	phone=6616377
-}
-Dog {
-	name=ROMAN
-	sex=M
-	age=5
-	breed=Pekingese
-	location=Manhattan
-	size=S
-	area=212
-	phone=7089407
-} Dog {
-	name=TELLY
-	sex=F
-	age=6
-	breed=American Pit Bull Mix / Pit Bull Mix
-	location=Manhattan
-	size=M
-	area=212
-	phone=3074671
-}
-Dog {
-	name=MI
-	sex=M
-	age=3
-	breed=Pomeranian
 	location=Queens
-	size=S
-	area=917
-	phone=1258681
-} Dog {
-	name=MISTY
-	sex=F
-	age=9
-	breed=Afghan Hound
-	location=Bronx
 	size=L
-	area=929
-	phone=4011873
-}
-Dog {
-	name=RUDE
+	area=917
+	phone=8171662
+} Dog {
+	name=MAX
 	sex=M
 	age=2
-	breed=Boston Terrier
-	location=Manhattan
-	size=S
-	area=212
-	phone=2245336
-} Dog {
-	name=DIVA
-	sex=F
-	age=11
-	breed=Chihuahua
-	location=Brooklyn
-	size=S
+	breed=Perro de Presa Canario
+	location=Bronx
+	size=L
 	area=929
-	phone=8198910
+	phone=6070814
 }
 Dog {
-	name=CARLO
-	sex=M
-	age=3
-	breed=Afghan Hound
+	name=CHARLIE
+	sex=F
+	age=15
+	breed=Affenpinscher
 	location=Manhattan
-	size=L
+	size=S
 	area=212
-	phone=6931968
+	phone=3736080
+} Dog {
+	name=GYPSY
+	sex=F
+	age=3
+	breed=Pomeranian
+	location=Bronx
+	size=S
+	area=929
+	phone=9475786
+}
+Dog {
+	name=MORGAN
+	sex=F
+	age=1
+	breed=Portuguese Water Dog
+	location=Manhattan
+	size=M
+	area=212
+	phone=7483688
+} Dog {
+	name=UNKNOWN
+	sex=M
+	age=1
+	breed=Pembroke Welsh Corgi
+	location=Brooklyn
+	size=M
+	area=929
+	phone=3290666
+}
+Dog {
+	name=LUCILLE
+	sex=F
+	age=6
+	breed=Bull Dog, English
+	location=Queens
+	size=M
+	area=917
+	phone=7769846
 } Dog {
 	name=DIAMOND
 	sex=F
@@ -3993,14 +3252,394 @@ Dog {
 	phone=7410313
 }
 Dog {
-	name=TELLY
+	name=SARA
 	sex=F
 	age=6
-	breed=American Pit Bull Mix / Pit Bull Mix
+	breed=Pembroke Welsh Corgi
 	location=Manhattan
 	size=M
 	area=212
-	phone=3074671
+	phone=2099896
+} Dog {
+	name=MISTY
+	sex=F
+	age=9
+	breed=Afghan Hound
+	location=Bronx
+	size=L
+	area=929
+	phone=4011873
+}
+Dog {
+	name=BUDDY
+	sex=M
+	age=2
+	breed=Schnauzer, Miniature
+	location=Manhattan
+	size=S
+	area=212
+	phone=6071760
+} Dog {
+	name=BALEIA
+	sex=F
+	age=2
+	breed=Airedale Terrier
+	location=Manhattan
+	size=L
+	area=212
+	phone=7619482
+}
+Dog {
+	name=NELSON
+	sex=M
+	age=16
+	breed=Pomeranian
+	location=Brooklyn
+	size=S
+	area=929
+	phone=1925515
+} Dog {
+	name=OZZY
+	sex=M
+	age=3
+	breed=Boston Terrier
+	location=Brooklyn
+	size=S
+	area=929
+	phone=4401173
+}
+Dog {
+	name=HERMES
+	sex=M
+	age=11
+	breed=Portuguese Water Dog
+	location=Manhattan
+	size=M
+	area=212
+	phone=9643728
+} Dog {
+	name=DEXTER
+	sex=M
+	age=3
+	breed=Akita
+	location=Manhattan
+	size=M
+	area=212
+	phone=9339383
+}
+Dog {
+	name=TITUS
+	sex=M
+	age=2
+	breed=Airedale Terrier
+	location=Staten Island
+	size=L
+	area=718
+	phone=2594434
+} Dog {
+	name=KING
+	sex=M
+	age=3
+	breed=Affenpinscher
+	location=Brooklyn
+	size=S
+	area=929
+	phone=6160344
+}
+Dog {
+	name=NICO
+	sex=M
+	age=6
+	breed=Boxer
+	location=Queens
+	size=M
+	area=917
+	phone=1127255
+} Dog {
+	name=CARLO
+	sex=M
+	age=3
+	breed=Afghan Hound
+	location=Manhattan
+	size=L
+	area=212
+	phone=6931968
+}
+Dog {
+	name=TAZER
+	sex=M
+	age=3
+	breed=Akita
+	location=Queens
+	size=M
+	area=917
+	phone=5873573
+} Dog {
+	name=ASKHIM
+	sex=M
+	age=5
+	breed=Akita Crossbreed
+	location=Brooklyn
+	size=M
+	area=929
+	phone=2333797
+}
+Dog {
+	name=TEDDY
+	sex=M
+	age=9
+	breed=Pomeranian
+	location=Brooklyn
+	size=S
+	area=929
+	phone=3057549
+} Dog {
+	name=MISTY
+	sex=F
+	age=9
+	breed=Afghan Hound
+	location=Bronx
+	size=L
+	area=929
+	phone=4011873
+}
+Dog {
+	name=MACARONI
+	sex=M
+	age=1
+	breed=Pembroke Welsh Corgi
+	location=Manhattan
+	size=M
+	area=212
+	phone=2123226
+} Dog {
+	name=MACY
+	sex=M
+	age=9
+	breed=Pomeranian
+	location=Brooklyn
+	size=S
+	area=929
+	phone=2818751
+}
+Dog {
+	name=CINDY
+	sex=F
+	age=16
+	breed=Boston Terrier
+	location=Queens
+	size=S
+	area=917
+	phone=3664554
+} Dog {
+	name=HAZEL
+	sex=F
+	age=2
+	breed=Perro de Presa Canario
+	location=Bronx
+	size=L
+	area=929
+	phone=1278797
+}
+Dog {
+	name=MISKA
+	sex=F
+	age=8
+	breed=Boxer
+	location=Queens
+	size=M
+	area=917
+	phone=7124846
+} Dog {
+	name=CHARLIE
+	sex=F
+	age=15
+	breed=Affenpinscher
+	location=Manhattan
+	size=S
+	area=212
+	phone=3736080
+}
+Dog {
+	name=SILAS
+	sex=M
+	age=6
+	breed=Labrador Retriever
+	location=Manhattan
+	size=L
+	area=212
+	phone=9338353
+} Dog {
+	name=OSO
+	sex=M
+	age=5
+	breed=Akita Crossbreed
+	location=Brooklyn
+	size=M
+	area=929
+	phone=9901609
+}
+Dog {
+	name=MERCEDES
+	sex=F
+	age=9
+	breed=Pekingese
+	location=Manhattan
+	size=S
+	area=212
+	phone=7786850
+} Dog {
+	name=BALEIA
+	sex=F
+	age=2
+	breed=Airedale Terrier
+	location=Manhattan
+	size=L
+	area=212
+	phone=7619482
+}
+Dog {
+	name=JAX
+	sex=M
+	age=1
+	breed=Siberian Husky
+	location=Brooklyn
+	size=L
+	area=929
+	phone=8887701
+} Dog {
+	name=KING
+	sex=M
+	age=3
+	breed=Affenpinscher
+	location=Brooklyn
+	size=S
+	area=929
+	phone=6160344
+}
+Dog {
+	name=PARRIS
+	sex=F
+	age=11
+	breed=Shiba Inu
+	location=Manhattan
+	size=M
+	area=212
+	phone=1959973
+} Dog {
+	name=MISTY
+	sex=F
+	age=9
+	breed=Afghan Hound
+	location=Bronx
+	size=L
+	area=929
+	phone=4011873
+}
+Dog {
+	name=LUCKY
+	sex=M
+	age=16
+	breed=Poodle
+	location=Queens
+	size=L
+	area=917
+	phone=1325684
+} Dog {
+	name=CORKY
+	sex=M
+	age=14
+	breed=Poodle
+	location=Bronx
+	size=L
+	area=929
+	phone=3563953
+}
+Dog {
+	name=BUDDY
+	sex=M
+	age=12
+	breed=Schnauzer, Miniature
+	location=Staten Island
+	size=S
+	area=718
+	phone=1555265
+} Dog {
+	name=RUDE
+	sex=M
+	age=2
+	breed=Boston Terrier
+	location=Manhattan
+	size=S
+	area=212
+	phone=2245336
+}
+Dog {
+	name=RICO
+	sex=M
+	age=1
+	breed=Perro de Presa Canario
+	location=Brooklyn
+	size=L
+	area=929
+	phone=9523754
+} Dog {
+	name=HAZEL
+	sex=F
+	age=2
+	breed=Perro de Presa Canario
+	location=Bronx
+	size=L
+	area=929
+	phone=1278797
+}
+Dog {
+	name=TOSIA
+	sex=F
+	age=17
+	breed=Pomeranian
+	location=Staten Island
+	size=S
+	area=718
+	phone=9044234
+} Dog {
+	name=MAXIMILLION
+	sex=M
+	age=10
+	breed=Tibetan Spaniel
+	location=Brooklyn
+	size=S
+	area=929
+	phone=6841831
+}
+Dog {
+	name=ANDY
+	sex=M
+	age=4
+	breed=Labrador Retriever
+	location=Brooklyn
+	size=L
+	area=929
+	phone=8353569
+} Dog {
+	name=GYPSY
+	sex=F
+	age=3
+	breed=Pomeranian
+	location=Bronx
+	size=S
+	area=929
+	phone=9475786
+}
+Dog {
+	name=PATSY
+	sex=F
+	age=3
+	breed=Portuguese Water Dog
+	location=Manhattan
+	size=M
+	area=212
+	phone=5907214
 } Dog {
 	name=JAX
 	sex=M
@@ -4012,14 +3651,33 @@ Dog {
 	phone=8887701
 }
 Dog {
-	name=VARRO
-	sex=M
+	name=BALEIA
+	sex=F
 	age=2
-	breed=Chihuahua
+	breed=Airedale Terrier
 	location=Manhattan
-	size=S
+	size=L
 	area=212
-	phone=8149012
+	phone=7619482
+} Dog {
+	name=MAXIMILLION
+	sex=M
+	age=10
+	breed=Tibetan Spaniel
+	location=Brooklyn
+	size=S
+	area=929
+	phone=6841831
+}
+Dog {
+	name=EVA
+	sex=F
+	age=4
+	breed=Portuguese Water Dog
+	location=Manhattan
+	size=M
+	area=212
+	phone=5950097
 } Dog {
 	name=GIZMO
 	sex=M
@@ -4031,14 +3689,204 @@ Dog {
 	phone=9591204
 }
 Dog {
-	name=SANS
+	name=TIKI
+	sex=M
+	age=11
+	breed=Shiba Inu
+	location=Manhattan
+	size=M
+	area=212
+	phone=5643720
+} Dog {
+	name=LOUIE
+	sex=M
+	age=4
+	breed=Shih Tzu
+	location=Bronx
+	size=S
+	area=929
+	phone=1047993
+}
+Dog {
+	name=TRUFFLE
 	sex=F
-	age=7
+	age=5
 	breed=Pomeranian
 	location=Queens
 	size=S
 	area=917
-	phone=7132850
+	phone=3030470
+} Dog {
+	name=WILEY
+	sex=M
+	age=3
+	breed=Poodle
+	location=Brooklyn
+	size=L
+	area=929
+	phone=3472440
+}
+Dog {
+	name=CARTER
+	sex=M
+	age=9
+	breed=Chihuahua
+	location=Manhattan
+	size=S
+	area=212
+	phone=2459357
+} Dog {
+	name=MAX
+	sex=M
+	age=2
+	breed=Perro de Presa Canario
+	location=Bronx
+	size=L
+	area=929
+	phone=6070814
+}
+Dog {
+	name=MACY
+	sex=M
+	age=9
+	breed=Pomeranian
+	location=Brooklyn
+	size=S
+	area=929
+	phone=2818751
+} Dog {
+	name=DIAMOND
+	sex=F
+	age=3
+	breed=American Pit Bull Mix / Pit Bull Mix
+	location=Brooklyn
+	size=M
+	area=929
+	phone=7410313
+}
+Dog {
+	name=BISCUIT
+	sex=M
+	age=5
+	breed=Shiba Inu
+	location=Manhattan
+	size=M
+	area=212
+	phone=3164155
+} Dog {
+	name=DEXTER
+	sex=M
+	age=3
+	breed=Akita
+	location=Manhattan
+	size=M
+	area=212
+	phone=9339383
+}
+Dog {
+	name=WILEY
+	sex=M
+	age=3
+	breed=Poodle
+	location=Brooklyn
+	size=L
+	area=929
+	phone=3472440
+} Dog {
+	name=WILEY
+	sex=M
+	age=3
+	breed=Poodle
+	location=Brooklyn
+	size=L
+	area=929
+	phone=3472440
+}
+Dog {
+	name=ROMAN
+	sex=M
+	age=5
+	breed=Pekingese
+	location=Manhattan
+	size=S
+	area=212
+	phone=7089407
+} Dog {
+	name=DEXTER
+	sex=M
+	age=3
+	breed=Akita
+	location=Manhattan
+	size=M
+	area=212
+	phone=9339383
+}
+Dog {
+	name=MI
+	sex=M
+	age=3
+	breed=Pomeranian
+	location=Queens
+	size=S
+	area=917
+	phone=1258681
+} Dog {
+	name=ASKHIM
+	sex=M
+	age=5
+	breed=Akita Crossbreed
+	location=Brooklyn
+	size=M
+	area=929
+	phone=2333797
+}
+Dog {
+	name=RUDE
+	sex=M
+	age=2
+	breed=Boston Terrier
+	location=Manhattan
+	size=S
+	area=212
+	phone=2245336
+} Dog {
+	name=FABIO
+	sex=M
+	age=8
+	breed=Peruvian Inca Orchid
+	location=Brooklyn
+	size=L
+	area=929
+	phone=6771089
+}
+Dog {
+	name=CARLO
+	sex=M
+	age=3
+	breed=Afghan Hound
+	location=Manhattan
+	size=L
+	area=212
+	phone=6931968
+} Dog {
+	name=CHRISTMAS
+	sex=M
+	age=13
+	breed=Shih Tzu
+	location=Brooklyn
+	size=S
+	area=929
+	phone=8137117
+}
+Dog {
+	name=TELLY
+	sex=F
+	age=6
+	breed=American Pit Bull Mix / Pit Bull Mix
+	location=Manhattan
+	size=M
+	area=212
+	phone=3074671
 } Dog {
 	name=TOFU
 	sex=M
@@ -4048,6 +3896,44 @@ Dog {
 	size=L
 	area=929
 	phone=8867770
+}
+Dog {
+	name=VARRO
+	sex=M
+	age=2
+	breed=Chihuahua
+	location=Manhattan
+	size=S
+	area=212
+	phone=8149012
+} Dog {
+	name=CARLO
+	sex=M
+	age=3
+	breed=Afghan Hound
+	location=Manhattan
+	size=L
+	area=212
+	phone=6931968
+}
+Dog {
+	name=SANS
+	sex=F
+	age=7
+	breed=Pomeranian
+	location=Queens
+	size=S
+	area=917
+	phone=7132850
+} Dog {
+	name=ROCKO
+	sex=M
+	age=1
+	breed=Perro de Presa Canario
+	location=Bronx
+	size=L
+	area=929
+	phone=6958244
 }
 Dog {
 	name=MILO
@@ -4097,14 +3983,14 @@ Dog {
 	area=212
 	phone=6824797
 } Dog {
-	name=DIAMOND
-	sex=F
-	age=3
-	breed=American Pit Bull Mix / Pit Bull Mix
+	name=MOGWAI
+	sex=M
+	age=15
+	breed=Pekingese
 	location=Brooklyn
-	size=M
+	size=S
 	area=929
-	phone=7410313
+	phone=6616377
 }
 Dog {
 	name=LAKOTA
@@ -4116,14 +4002,14 @@ Dog {
 	area=917
 	phone=6239131
 } Dog {
-	name=SMOKIE
+	name=CHRISTMAS
 	sex=M
-	age=1
-	breed=Pekingese
+	age=13
+	breed=Shih Tzu
 	location=Brooklyn
 	size=S
 	area=929
-	phone=2857534
+	phone=8137117
 }
 Dog {
 	name=COSMO
@@ -4135,14 +4021,14 @@ Dog {
 	area=718
 	phone=5346325
 } Dog {
-	name=GIZMO
+	name=FLOYD
 	sex=M
 	age=7
-	breed=Petit Basset Griffon Vendeen
-	location=Brooklyn
-	size=M
-	area=929
-	phone=9591204
+	breed=Boston Terrier
+	location=Manhattan
+	size=S
+	area=212
+	phone=5879203
 }
 Dog {
 	name=MIU
@@ -4154,14 +4040,14 @@ Dog {
 	area=212
 	phone=3164386
 } Dog {
-	name=DIAMOND
+	name=DOSIE
 	sex=F
-	age=3
-	breed=American Pit Bull Mix / Pit Bull Mix
+	age=7
+	breed=Afghan Hound
 	location=Brooklyn
-	size=M
+	size=L
 	area=929
-	phone=7410313
+	phone=6452273
 }
 Dog {
 	name=MAXIMILLION
@@ -4173,14 +4059,33 @@ Dog {
 	area=929
 	phone=6841831
 } Dog {
-	name=RICO
+	name=TOFU
 	sex=M
-	age=1
-	breed=Perro de Presa Canario
+	age=6
+	breed=Poodle
 	location=Brooklyn
 	size=L
 	area=929
-	phone=9523754
+	phone=8867770
+}
+Dog {
+	name=CHRISTMAS
+	sex=M
+	age=13
+	breed=Shih Tzu
+	location=Brooklyn
+	size=S
+	area=929
+	phone=8137117
+} Dog {
+	name=DIVA
+	sex=F
+	age=11
+	breed=Chihuahua
+	location=Brooklyn
+	size=S
+	area=929
+	phone=8198910
 }
 Dog {
 	name=LILY
@@ -4192,14 +4097,14 @@ Dog {
 	area=917
 	phone=6733506
 } Dog {
-	name=TOFU
+	name=CORKY
 	sex=M
-	age=6
+	age=14
 	breed=Poodle
-	location=Brooklyn
+	location=Bronx
 	size=L
 	area=929
-	phone=8867770
+	phone=3563953
 }
 Dog {
 	name=NALA
@@ -4211,14 +4116,14 @@ Dog {
 	area=212
 	phone=3881356
 } Dog {
-	name=UNKNOWN
+	name=ROCKO
 	sex=M
 	age=1
-	breed=Pembroke Welsh Corgi
-	location=Brooklyn
-	size=M
+	breed=Perro de Presa Canario
+	location=Bronx
+	size=L
 	area=929
-	phone=3290666
+	phone=6958244
 }
 Dog {
 	name=PANSY
@@ -4230,14 +4135,14 @@ Dog {
 	area=212
 	phone=3009473
 } Dog {
-	name=FABIO
+	name=ANDY
 	sex=M
-	age=8
-	breed=Peruvian Inca Orchid
+	age=4
+	breed=Labrador Retriever
 	location=Brooklyn
 	size=L
 	area=929
-	phone=6771089
+	phone=8353569
 }
 Dog {
 	name=LUCY
@@ -4249,33 +4154,14 @@ Dog {
 	area=212
 	phone=5733712
 } Dog {
-	name=TOFU
+	name=BEAR
 	sex=M
-	age=6
-	breed=Poodle
+	age=3
+	breed=Labrador Retriever
 	location=Brooklyn
 	size=L
 	area=929
-	phone=8867770
-}
-Dog {
-	name=GIZMO
-	sex=M
-	age=7
-	breed=Petit Basset Griffon Vendeen
-	location=Brooklyn
-	size=M
-	area=929
-	phone=9591204
-} Dog {
-	name=FABIO
-	sex=M
-	age=8
-	breed=Peruvian Inca Orchid
-	location=Brooklyn
-	size=L
-	area=929
-	phone=6771089
+	phone=5546382
 }
 Dog {
 	name=OLLIE
@@ -4287,14 +4173,14 @@ Dog {
 	area=917
 	phone=9710228
 } Dog {
-	name=CHRISTMAS
+	name=BEEF
 	sex=M
-	age=13
-	breed=Shih Tzu
+	age=7
+	breed=Bull Dog, English
 	location=Brooklyn
-	size=S
+	size=M
 	area=929
-	phone=8137117
+	phone=6308877
 }
 Dog {
 	name=TEDDY
@@ -4306,14 +4192,14 @@ Dog {
 	area=212
 	phone=4764069
 } Dog {
-	name=FABIO
+	name=GIZMO
 	sex=M
-	age=8
-	breed=Peruvian Inca Orchid
+	age=7
+	breed=Petit Basset Griffon Vendeen
 	location=Brooklyn
-	size=L
+	size=M
 	area=929
-	phone=6771089
+	phone=9591204
 }
 Dog {
 	name=PIPER
@@ -4325,14 +4211,33 @@ Dog {
 	area=212
 	phone=9049062
 } Dog {
-	name=LOUIE
+	name=UNKNOWN
 	sex=M
-	age=6
-	breed=Shih Tzu
+	age=1
+	breed=Pembroke Welsh Corgi
 	location=Brooklyn
-	size=S
+	size=M
 	area=929
-	phone=3865593
+	phone=3290666
+}
+Dog {
+	name=DOSIE
+	sex=F
+	age=7
+	breed=Afghan Hound
+	location=Brooklyn
+	size=L
+	area=929
+	phone=6452273
+} Dog {
+	name=ROCKO
+	sex=M
+	age=1
+	breed=Perro de Presa Canario
+	location=Bronx
+	size=L
+	area=929
+	phone=6958244
 }
 Dog {
 	name=TOFU
@@ -4344,14 +4249,14 @@ Dog {
 	area=929
 	phone=8867770
 } Dog {
-	name=SHORTY
-	sex=M
-	age=2
-	breed=Perro de Presa Canario
+	name=DIVA
+	sex=F
+	age=11
+	breed=Chihuahua
 	location=Brooklyn
-	size=L
+	size=S
 	area=929
-	phone=1081057
+	phone=8198910
 }
 Dog {
 	name=TOM
@@ -4363,12 +4268,12 @@ Dog {
 	area=212
 	phone=2373558
 } Dog {
-	name=TOFU
+	name=FABIO
 	sex=M
-	age=6
-	breed=Poodle
+	age=8
+	breed=Peruvian Inca Orchid
 	location=Brooklyn
 	size=L
 	area=929
-	phone=8867770
+	phone=6771089
 }
