@@ -1,10 +1,9 @@
 /**
- * filename: Row.java
- * description: Initializes Row class
- * date: 01/09/19
- * @author Angelina Li
- *
- * NOTE: Do NOT modify this class.
+ * Initializes the Row class. 
+ * Note: Modified from Angelina Li. 
+ * 
+ * @author Shirley Lei, Willa Sun, Emily Yin
+ * @version May 15 2019
  */
 
 import java.util.HashMap;

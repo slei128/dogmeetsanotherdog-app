@@ -1,10 +1,9 @@
 /**
- * filename: FilterPredicate.java
- * description: Represents a predicate that is used to filter a collection of items.
- * date: 04/01/19
- * @author Angelina Li
- *
- * NOTE: Do NOT modify this class.
+ * Represents a predicate that is used to filter a collection of items. 
+ * Note: Modified from Angelina Li. 
+ * 
+ * @author Shirley Lei, Willa Sun, Emily Yin
+ * @version May 15 2019
  */
 
 public interface FilterPredicate<T> {

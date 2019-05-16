@@ -13,7 +13,7 @@ public class FilterToMale implements FilterPredicate<Row>
      * Determines whether the dog is of male gender.  
      *
      * @param element the row to be filtered
-     * @return boolean true if the borough of the dog is male gender, false otherwise 
+     * @return boolean true if the sex of the dog is male, false otherwise 
      */
     public boolean apply(Row element){
         return element.getSex().equals("M");
