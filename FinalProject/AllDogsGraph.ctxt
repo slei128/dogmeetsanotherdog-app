@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=AllDogsGraph
-comment1.params=inputHash
-comment1.target=AllDogsGraph(java.util.Hashtable)
+comment1.params=dogInput\ owndog
+comment1.target=AllDogsGraph(java.util.Vector,\ Dog)
 comment1.text=\n\ Constructor\ for\ objects\ of\ class\ DogsGraph\n
 numComments=2

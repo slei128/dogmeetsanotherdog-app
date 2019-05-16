@@ -10,21 +10,22 @@ import java.util.Hashtable;
 public class FavoriteDogs
 {
     // instance variables - replace the example below with your own
-    private Hashtable<Dog, Vector<Dog>> hash;
+    //private Hashtable<Dog, Vector<Dog>> hash;
     private Vector<Dog> filteredDogCollection;
     private Dog owndog;
-    private FilterableDataset subset;
+    private FilterableDataset inputDS;
 
     /**
      * Constructor for objects of class FavoriteDogs
      */
-    public FavoriteDogs(Vector<Dog> vectorDogs, Dog owndog)
+    public FavoriteDogs(FilterableDataset inputDS, Dog owndog)
     {
 
         //DogCollection collection = new DogCollection(filename);
         //vectorDogs = collection.getCollection();
         this.owndog = owndog;
-        this.hash = new Hashtable<Dog, Vector<Dog>>();
+        this.inputDS = inputDS;
+        //this.hash = new Hashtable<Dog, Vector<Dog>>();
         //filter by criterion specified earlier by the user
         //filteredDogCollection = new Vector<Dog>();
         //subset = collection.getFilteredDataset();
@@ -35,46 +36,56 @@ public class FavoriteDogs
         //owndog = new Dog ("Daisy", "F", 5, "Bulldog", "Manhattan", "S");
         //this.owndog = owndog;
         //System.out.println(owndog);
-        hashing();
         //in hashtable, put the user's dog and the filtered results from before
         //hash.put(owndog,filteredCollection);
     }
     
-    public void sortByCriteria(String criteria){
+    public FilterableDataset sortByCriteria(String criteria){
         System.out.println("called sort");
         if (criteria.equals("age")){
-            System.out.println(subset);
-            Sorting.mergeSort(subset,new AgeComparator());
+            System.out.println(inputDS);
+            Sorting.mergeSort(inputDS,new AgeComparator());
         }
+        return inputDS;
     }
     
-    public void hashing(){
-        for (Row dog: subset){
+    public Vector<Dog> getCollection(){
+        for (Row dog: inputDS){
             Dog current = new Dog(dog.getName(),dog.getSex(), 
                 dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize(),
                 dog.getArea(),dog.getPhone());
             this.filteredDogCollection.add(current);
         }
-        hash.put(owndog,filteredDogCollection);
+        return filteredDogCollection;
     }
     
+    /*
+    public void hashing(){
+        for (Row dog: inputDS){
+            System.out.println("current dog is " + dog);
+            Dog current = new Dog(dog.getName(),dog.getSex(), 
+                dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize(),
+                dog.getArea(),dog.getPhone());
+            this.filteredDogCollection.add(current);
+            System.out.println("now our filtered dog collection looks like: " + filteredDogCollection);
+        }
+        hash.put(owndog,filteredDogCollection);
+    }
+    */
+    
+   
     public String toString(){
         String s = "";
-        for (Dog d: hash.keySet()){
-            s += d;
-            s += hash.get(d);
+        for (Row dog: inputDS){
+            s += dog.getName() + dog.getSex() + dog.getAge() + dog.getBreed() + dog.getBorough() + dog.getSize();
+            s += dog.getArea() + dog.getPhone() + "\n";
         }
         return s;
     }
     
     public FilterableDataset getSubset(){
-        return subset;
+        return inputDS;
     }
-    
-    public Hashtable<Dog, Vector<Dog>> getHash(){
-        return hash;
-    }
-    
     
     
     

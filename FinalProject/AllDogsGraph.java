@@ -21,7 +21,7 @@ public class AllDogsGraph
     /**
      * Constructor for objects of class DogsGraph
      */
-    public AllDogsGraph(Hashtable<Dog, Vector<Dog>> inputHash)
+    public AllDogsGraph(Vector<Dog> dogInput,Dog owndog)
     {
         // create an empty graph
         graph = new AdjListsGraph<Dog>();
@@ -29,15 +29,10 @@ public class AllDogsGraph
         //this.owndog = owndog;
         //fDogs = new FavoriteDogs("datasets/dogs_100_size.csv",owndog);
         //System.out.println(fDogs);
-        hash = inputHash;
-        for (Dog d:hash.keySet()){
+        graph.addVertex(owndog);
+        for (Dog d: dogInput){
             //System.out.println(d);
-            graph.addVertex(d);
-            Vector<Dog> favDogs = hash.get(d);
-            for (Dog favDog: favDogs){
-                graph.addVertex(favDog);
-                graph.addArc(d,favDog);
-            }
+            graph.addArc(owndog,d);
         }
         graph.saveTGF("TESTER.tgf"); 
         System.out.println(graph);

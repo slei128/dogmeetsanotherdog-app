@@ -15,7 +15,7 @@ public class DogCollection
     private String category,criteria;
     private FilterableDataset fd;
     private Vector<Dog> dogCollection;
-    private FilterableDataset filteredSet;
+    private FilterableDataset filteredSet,filteredSet1;
     //private FilterableDataset 
 
     /**
@@ -31,14 +31,13 @@ public class DogCollection
             this.dogCollection = new Vector<Dog>();
             //create a copy of the original dataset so it can be used for other
             //filtering criterion
-            this.filteredSet = new FilterableDataset();
-            
+            //this.filteredSet = new FilterableDataset();
+            this.filteredSet1 = new FilterableDataset();
+            //populate dataset with all
             for (Row row: fd){
-                //filteredSet1.add(row);
-                filteredSet.add(row);
+                filteredSet1.add(row);
+                //filteredSet.add(row);
             }
-            
-            getCollection();
         } catch (IOException e){
             System.out.println(e);
         }
@@ -51,54 +50,59 @@ public class DogCollection
      * @return    the sum of x and y
      */
     public FilterableDataset filterCollection(String category, String criteria){
-
-        for (Row r: filteredSet){
-            filteredSet.add(r);
-        }
+        FilterableDataset outputFiltered = new FilterableDataset();
+        // for (Row r: filteredSet1){
+            // filteredSet1.add(r);
+        // }
         //filter by borough
         if (category.equals("borough")){
             if (criteria.equals("Manhattan"))
-                filteredSet.filterBy(new FilterToManhattan());
+                outputFiltered = filteredSet1.filterBy(new FilterToManhattan());
             else if (criteria.equals("Brooklyn"))
-                filteredSet.filterBy(new FilterToBrooklyn());
+                outputFiltered = filteredSet1.filterBy(new FilterToBrooklyn());
             else if (criteria.equals("Bronx"))
-                filteredSet.filterBy(new FilterToBronx());
+                outputFiltered = filteredSet1.filterBy(new FilterToBronx());
             else if (criteria.equals("Queens"))
-                filteredSet.filterBy(new FilterToQueens());
+                outputFiltered = filteredSet1.filterBy(new FilterToQueens());
             else if (criteria.equals("Staten Island"))
-                filteredSet.filterBy(new FilterToStatenIsland());
+                outputFiltered = filteredSet1.filterBy(new FilterToStatenIsland());
         //filter by age
         } else if (category.equals("age")){
             if (criteria.equals("Old"))
-                filteredSet.filterBy(new FilterToOld());
+                outputFiltered = filteredSet1.filterBy(new FilterToOld());
             else if (criteria.equals("Young"))
-                filteredSet.filterBy(new FilterToYoung());
+                outputFiltered = filteredSet1.filterBy(new FilterToYoung());
         //filter by sex
         } else if (category.equals("sex")){
-            if (criteria.equals("F"))
-                filteredSet.filterBy(new FilterToFemale());
-            else if (criteria.equals("M"))
-                filteredSet.filterBy(new FilterToMale());
-        //filter by size
+            //System.out.println("got the right catergory");
+            if (criteria.equals("F")) {
+                //System.out.println("got the right catera");
+                outputFiltered = filteredSet1.filterBy(new FilterToFemale());
+            }else if (criteria.equals("M")) {
+                outputFiltered = filteredSet1.filterBy(new FilterToMale());
+            }
+                //filter by size
         } else if (category.equals("size")){
             if (criteria.equals("L"))
-                filteredSet.filterBy(new FilterToL());
+                outputFiltered = filteredSet1.filterBy(new FilterToL());
             else if (criteria.equals("M"))
-                filteredSet.filterBy(new FilterToM());
+                outputFiltered = filteredSet1.filterBy(new FilterToM());
             else if (criteria.equals("S"))
-                filteredSet.filterBy(new FilterToS());
+                outputFiltered = filteredSet1.filterBy(new FilterToS());
         }
 
         //Sorting.mergeSort(subset,new AgeComparator());
-        return filteredSet;
+        //return filteredSet1
+        //System.out.println(outputFiltered + "\n-------");
+        return outputFiltered;
     }
     
     public FilterableDataset getFilteredDataset(){
-        return filteredSet;
+        return filteredSet1;
     }
     
     public Vector<Dog> getCollection(){
-        for (Row dog: filteredSet){
+        for (Row dog: fd){
             Dog current = new Dog(dog.getName(),dog.getSex(), 
                 dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize(),
                 dog.getArea(),dog.getPhone());
@@ -106,8 +110,25 @@ public class DogCollection
         }
         return dogCollection;
     }
+
+    
+    public String toString() {
+        String s = "";
+        //s+="hello + \n";
+        for (Row v: filteredSet1) {
+            //s+=v.getName();
+            s+=v.getSex();
+            //s+=v.getBorough();
+        }
+        return s;
+    }
     
     public static void main (String[] args){
         DogCollection test = new DogCollection("datasets/dogs_100_size.csv");
+        
+        System.out.println(test.filterCollection("borough", "Brooklyn"));
+        // System.out.println(test);
+        // System.out.println("____________________________________________");
+        // System.out.println(test.getFilteredDataset());
     }
 }
