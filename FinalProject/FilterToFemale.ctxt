@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=FilterToFemale
-comment0.text=\n\ Write\ a\ description\ of\ class\ FilterToFemalehere.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Filters\ the\ dataset\ to\ female\ dogs.\ \ \n\n\ @author\ Shirley\ Lei,\ Willa\ Sun,\ Emily\ Yin\n\ @version\ May\ 15\ 2019\n
 comment1.params=element
 comment1.target=boolean\ apply(Row)
+comment1.text=\n\ Determines\ whether\ the\ dog\ is\ of\ female\ gender.\ \ \n\n\ @param\ element\ the\ row\ to\ be\ filtered\n\ @return\ boolean\ true\ if\ the\ borough\ of\ the\ dog\ is\ female\ gender,\ false\ otherwise\ \n
 numComments=2

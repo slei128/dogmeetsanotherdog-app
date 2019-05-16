@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=FilterToM
-comment0.text=\n\ Write\ a\ description\ of\ class\ FilterToManhattan\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Filters\ the\ dataset\ to\ medium\ dogs.\ \n\n\ @author\ Shirley\ Lei,\ Willa\ Sun,\ Emily\ Yin\n\ @version\ May\ 15\ 2019\n
 comment1.params=element
 comment1.target=boolean\ apply(Row)
+comment1.text=\n\ Determines\ whether\ the\ dog\ is\ of\ medium\ size.\ \n\n\ @param\ element\ the\ row\ to\ be\ filtered\n\ @return\ boolean\ true\ if\ the\ borough\ of\ the\ dog\ is\ medium\ size,\ false\ otherwise\ \n
 numComments=2

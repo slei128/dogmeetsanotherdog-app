@@ -1,17 +1,16 @@
 #BlueJ class context
 comment0.target=FavoriteDogs
 comment0.text=\n\ Sorts\ a\ dog's\ favourite\ dogs\ list\ by\ preferences\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=filename\ owndog
-comment1.target=FavoriteDogs(java.lang.String,\ Dog)
+comment1.params=inputDS\ owndog
+comment1.target=FavoriteDogs(FilterableDataset,\ Dog)
 comment1.text=\n\ Constructor\ for\ objects\ of\ class\ FavoriteDogs\n
 comment2.params=criteria
-comment2.target=void\ sortByCriteria(java.lang.String)
+comment2.target=FilterableDataset\ sortByCriteria(java.lang.String)
 comment3.params=
-comment3.target=void\ hashing()
+comment3.target=java.util.Vector\ getCollection()
 comment4.params=
 comment4.target=java.lang.String\ toString()
+comment4.text=\n\ \ \ \ public\ void\ hashing(){\n\ \ \ \ \ \ \ \ for\ (Row\ dog\:\ inputDS){\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("current\ dog\ is\ "\ +\ dog);\n\ \ \ \ \ \ \ \ \ \ \ \ Dog\ current\ \=\ new\ Dog(dog.getName(),dog.getSex(),\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize(),\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ dog.getArea(),dog.getPhone());\n\ \ \ \ \ \ \ \ \ \ \ \ this.filteredDogCollection.add(current);\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("now\ our\ filtered\ dog\ collection\ looks\ like\:\ "\ +\ filteredDogCollection);\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ hash.put(owndog,filteredDogCollection);\n\ \ \ \ }\n
 comment5.params=
 comment5.target=FilterableDataset\ getSubset()
-comment6.params=
-comment6.target=java.util.Hashtable\ getHash()
-numComments=7
+numComments=6

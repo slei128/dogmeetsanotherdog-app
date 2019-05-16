@@ -1,14 +1,20 @@
 import fastcsv.*;
 
 /**
- * Write a description of class FilterToManhattan here.
+ * Filters the dataset to the dogs who live in Brooklyn. 
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Shirley Lei, Willa Sun, Emily Yin
+ * @version May 15 2019
  */
+
 public class FilterToBrooklyn implements FilterPredicate<Row>
 {
-    // instance variables - replace the example below with your own
+    /**
+     * Determines whether the borough location corresponds to Brooklyn. 
+     *
+     * @param element the row to be filtered
+     * @return boolean true if the borough of the dog is Brooklyn, false otherwise 
+     */
     public boolean apply(Row element){
         // System.out.println("Called brooklyn filter.");
         // System.out.println("current element is: " + element.getName());

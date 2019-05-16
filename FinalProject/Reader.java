@@ -1,10 +1,9 @@
 /**
- * filename: Reader.java
- * description: Takes a CSV datafile and converts it into an array of Rows
- * date: 01/09/19
- * @author Angelina Li
- *
- * NOTE: Do NOT modify this class.
+ * Takes a CSV datafile and converts it into data rows 
+ * (created based on Reader by Angelina Li from Problem Set 6)
+ * 
+ * @author (Shirley Lei, Willa Sun, Emily Yin)
+ * @version (16 May 2019)
  */
 
 import java.io.File;
@@ -14,20 +13,14 @@ import java.util.Map;
 import java.util.Vector;
 import java.util.HashMap;
 import fastcsv.*;
-
-/**
- * A utility class for reading in 
- */
 public class Reader {
-
-    //private final AdjListsGraph<Person> g;
-    //private final Map<String, Dog> nameMap;
+    //declare empty FilterableDataset to hold the data 
     private final FilterableDataset data;
-    //private final Vector<Dog> v;
-    
-
     /**
-     * Constructor for Reader class. 
+     * Constructor reads in data from a given filepath 
+     * @param filepath the path to the file containing the data
+     * @throws IOException
+     * 
      */
     public Reader(String filepath) throws IOException {
         this.data = new FilterableDataset();
@@ -36,37 +29,27 @@ public class Reader {
         CsvReader reader = new CsvReader();
         reader.setContainsHeader(true);
         //System.out.println("Reading in Dog dataset:");
-        //this.v = new Vector<Dog>();
-
-        // reading nodes
-        /*
-        System.out.println("==> Reading in Dog objects...");
-        CsvParser nodesParser = getParser(dataFilepath);
-        CsvRow nodeRow;
-        this.nameMap = new HashMap<String, Dog>();
-        */
-       try (CsvParser parser = reader.parse(file, StandardCharsets.UTF_8)) {
+        
+        try (CsvParser parser = reader.parse(file, StandardCharsets.UTF_8)) {
             CsvRow dataRow;
-            //int currentNumberRows = 0;
+            //while next row
             while  ((dataRow = parser.nextRow()) != null) {
+                //get data in the fields of the row
                 Row row = new Row(
-                dataRow.getField("FullName"),
-                dataRow.getField("AnimalGender"),
-                getIntField(dataRow,"AgeAsOf2015"),
-                dataRow.getField("BreedName"),
-                dataRow.getField("Borough"),
-                dataRow.getField("Size"),
-                dataRow.getField("AreaCode"),
-                dataRow.getField("PhoneNum") 
-            );
-            //v.add(dog);
-            data.add(row);
-            //currentNumberRows ++;
-            //this.nameMap.put(dog.getData("AnimalName"), dog);
+                        dataRow.getField("FullName"),
+                        dataRow.getField("AnimalGender"),
+                        getIntField(dataRow,"AgeAsOf2015"),
+                        dataRow.getField("BreedName"),
+                        dataRow.getField("Borough"),
+                        dataRow.getField("Size"),
+                        dataRow.getField("AreaCode"),
+                        dataRow.getField("PhoneNum") 
+                    );
+                //add the read row into the data
+                data.add(row);
+            }
         }
-        System.out.println("==> All done!");
     }
-}
 
     /**
      * Given a filepath, will return a CsvParser that can be used to iterate 
@@ -85,31 +68,20 @@ public class Reader {
         return parser;
     }
 
+    /**
+     * Helper method to get the integer field (for getting Age of the dog)
+     *
+     * @param row - the row we are trying to get the age from.
+     * @param field - the data field
+     * @return the integer that is the content of the field
+     */
     private static int getIntField(CsvRow row, String field) {
         return Integer.parseInt(row.getField(field));
     }
-    
-    // /**
-     // * Returns all dogs in the vector
-     // * @return 
-     // */
-    // public Vector<Dog> getAllDogsVector() { 
-        // return this.v;
-    // }
 
-    // /**
-     // * Returns a mapping between names and Dogs
-     // * @return a Map between each name in the dataset and the Dog that name
-     // *         corresponds to.
-     // */
-    // public Map<String, Dog> getNameMap() {
-        // return this.nameMap;
-    // }
-    
     /**
-     * Returns the current filterableDataset created
-     * @return a Map between each name in the dataset and the Dog that name
-     *         corresponds to.
+     * Returns the data created from reading the dataset
+     * @return the data created from reading the dataset.
      */
     public final FilterableDataset getDataset() {
         //System.out.println(this.data);

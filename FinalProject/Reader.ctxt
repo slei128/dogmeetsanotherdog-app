@@ -1,15 +1,15 @@
 #BlueJ class context
 comment0.target=Reader
-comment0.text=\n\ A\ utility\ class\ for\ reading\ in\ \n
 comment1.params=filepath
 comment1.target=Reader(java.lang.String)
-comment1.text=\n\ Constructor\ for\ Reader\ class.\ \n
+comment1.text=\n\ Constructor\ reads\ in\ data\ from\ a\ given\ filepath\ \n\ @param\ filepath\ the\ path\ to\ the\ file\ containing\ the\ data\n\ @throws\ IOException\n\ \n
 comment2.params=filepath
 comment2.target=fastcsv.CsvParser\ getParser(java.lang.String)
 comment2.text=\n\ Given\ a\ filepath,\ will\ return\ a\ CsvParser\ that\ can\ be\ used\ to\ iterate\ \n\ over\ the\ rows\ of\ the\ dataset.\ Assumes\ that\ the\ file\ contains\ a\ header,\n\ and\ that\ the\ data\ are\ in\ UTF_8\ format.\n\n\ @throws\ IOException\n\ @param\ filepath\ -\ the\ filepath\ to\ this\ file.\n\ @return\ the\ parser\ over\ this\ file.\n
 comment3.params=row\ field
 comment3.target=int\ getIntField(fastcsv.CsvRow,\ java.lang.String)
+comment3.text=\n\ Helper\ method\ to\ get\ the\ integer\ field\ (for\ getting\ Age\ of\ the\ dog)\n\n\ @param\ row\ -\ the\ row\ we\ are\ trying\ to\ get\ the\ age\ from.\n\ @param\ field\ -\ the\ data\ field\n\ @return\ the\ integer\ that\ is\ the\ content\ of\ the\ field\n
 comment4.params=
 comment4.target=FilterableDataset\ getDataset()
-comment4.text=\n\ Returns\ the\ current\ filterableDataset\ created\n\ @return\ a\ Map\ between\ each\ name\ in\ the\ dataset\ and\ the\ Dog\ that\ name\n\ \ \ \ \ \ \ \ \ corresponds\ to.\n
+comment4.text=\n\ Returns\ the\ data\ created\ from\ reading\ the\ dataset\n\ @return\ the\ data\ created\ from\ reading\ the\ dataset.\n
 numComments=5

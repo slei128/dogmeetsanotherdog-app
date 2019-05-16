@@ -1,14 +1,20 @@
 import fastcsv.*;
 
 /**
- * Write a description of class FilterToManhattan here.
+ * Filters the dataset to small dogs. 
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Shirley Lei, Willa Sun, Emily Yin
+ * @version May 15 2019
  */
+
 public class FilterToS implements FilterPredicate<Row>
 {
-    // instance variables - replace the example below with your own
+    /**
+     * Determines whether the dog is of small size. 
+     *
+     * @param element the row to be filtered
+     * @return boolean true if the borough of the dog is small size, false otherwise 
+     */
     public boolean apply(Row element){
         return element.getSize().equals("S");
     }

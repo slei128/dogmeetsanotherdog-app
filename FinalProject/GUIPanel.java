@@ -254,18 +254,18 @@ public class GUIPanel extends JPanel {
             }
             if (e.getSource() == sortButton){//if the source of the event is the click of the sort button
                 //System.out.println("Clickedd");
-                //favList = new FavoriteDogs((allDogs.filterCollection("sex","F")),daisy);
                 //System.out.println("fav list is " + favList);
                 
-                //sort the favList
+                //Sort the favList by age
                 FilterableDataset result = favList.sortByCriteria("age");
                 //System.out.println("result is " + result);
                 //FilterableDataset result = Sorting.mergeSort(favList.getCollection(),new AgeComparator());
+                //create a new empty panel
                 JPanel sortedDogsDiv = new JPanel();
-                //for each row in the resulting filerableDataset
+                //for each row (containing information about each dog) in the resulting filerableDataset, create a "card" visual and add to the sortedDogsDiv
                 for (Row row: result) {
                     JPanel rowDiv = new JPanel(new BorderLayout());
-
+                    //get information from the row
                     rowDiv.setLayout(new BoxLayout(rowDiv, BoxLayout.PAGE_AXIS));
                     JLabel nameLabel = new JLabel(row.getName());
                     JLabel sexLabel = new JLabel(row.getSex());
@@ -275,7 +275,7 @@ public class GUIPanel extends JPanel {
                     JLabel sizeLabel = new JLabel(row.getSize());
                     JLabel areaLabel = new JLabel(row.getArea());
                     JLabel phoneLabel = new JLabel(row.getPhone());
-
+                    //add information from the row to the labels
                     rowDiv.add(nameLabel);
                     rowDiv.add(sexLabel);
                     rowDiv.add(ageLabel);
@@ -287,33 +287,25 @@ public class GUIPanel extends JPanel {
                     rowDiv.add(Box.createRigidArea(new Dimension(0,5)));
 
                     rowDiv.setBorder(BorderFactory.createLineBorder(Color.black));
+                    //add rows to the overall panel
                     sortedDogsDiv.add(rowDiv);
                 }
                 //sortScroller.add(sortedDogsDiv); 
-                clickedSortLabel.setText("Sorted!");
+                clickedSortLabel.setText("Sorted!"); //provide confirmation text
                 sortScroller = new JScrollPane(sortedDogsDiv);
                 sortScroller.setPreferredSize(new Dimension(1000, 200));
                 sortScroller.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
                 add(sortScroller);
             }
-
+            //if the source of the event is the click of the generate graph button:
             if (e.getSource() == generateGraphButton){
-                System.out.println(favList);
-                //JPanel dogGraph = new JPanel();
+                //System.out.println(favList);
                 clickedGraphLabel.setText("Your dog graph is saved to your computer"); 
-
+                //saves tgf to user's computer
                 AllDogsGraph dogConnections = new AllDogsGraph(originalDogs.getCollection(),daisy);
-                System.out.println("dogConnection \n" + dogConnections);
-                
-                System.out.println("Clicked");
-                //saves tgf
-                //dogGraph.add(dogConnections);
-                //add(dogGraph);
+                //System.out.println("dogConnection \n" + dogConnections);
+                //System.out.println("Clicked");
             }
-
         }
-    
     } 
- 
-
 }

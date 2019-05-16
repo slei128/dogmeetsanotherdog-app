@@ -1,14 +1,20 @@
 import fastcsv.*;
 
 /**
- * Write a description of class Fitlter to young here.
+ * Filters the dataset to male dogs.  
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Shirley Lei, Willa Sun, Emily Yin
+ * @version May 15 2019
  */
+
 public class FilterToMale implements FilterPredicate<Row>
 {
-    // instance variables - replace the example below with your own
+    /**
+     * Determines whether the dog is of male gender.  
+     *
+     * @param element the row to be filtered
+     * @return boolean true if the borough of the dog is male gender, false otherwise 
+     */
     public boolean apply(Row element){
         return element.getSex().equals("M");
     }

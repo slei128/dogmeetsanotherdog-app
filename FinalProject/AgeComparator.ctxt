@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=AgeComparator
-comment0.text=\n\ This\ class\ sorts\ the\ data\ by\ eviction\ rate\ (in\ ascending\ order).\n\n\ @\ Anneli\ Xie\ &\ Willa\ Sun\n\ @\ 04/20/2019\n
+comment0.text=\n\ Sorts\ the\ dataset\ by\ age\ (in\ ascending\ order).\n\n\ @author\ Shirley\ Lei,\ Willa\ Sun,\ Emily\ Yin\n\ @\ May\ 15\ 2019\n
 comment1.params=row1\ row2
 comment1.target=int\ compare(Row,\ Row)
-comment1.text=\n\ Sorts\ the\ data\ by\ eviction\ rate\ (in\ ascending\ order).\n\n\ @param\ row\ 1\ \ \ \ \ The\ first\ row\ to\ be\ compared.\n\ @param\ row\ 2\ \ \ \ \ The\ second\ row\ to\ be\ compared.\n\ @return\ int\ \ \ \ \ \ a\ negative\ integer,\ zero,\ or\ a\ positive\ integer\ as\ the\ \n\ first\ argument\ is\ less\ than,\ equal\ to,\ or\ greater\ than\ the\ second.\n
+comment1.text=\n\ Sorts\ the\ data\ by\ age\ in\ ascending\ order.\ \n\n\ @param\ row\ 1\ The\ first\ row\ to\ be\ compared\n\ @param\ row\ 2\ The\ second\ row\ to\ be\ compared\n\ @return\ int\ a\ negative\ integer,\ zero,\ or\ a\ positive\ integer\ depending\ on\ whether\ the\ \n\ first\ argument\ is\ less\ than,\ equal\ to,\ or\ greater\ than\ the\ second\ argument\n
 numComments=2
