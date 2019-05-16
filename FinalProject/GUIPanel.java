@@ -235,7 +235,8 @@ public class GUIPanel extends JPanel {
             }
             if (e.getSource() == sameBoroughButton){
                 //createFilteredCards("borough",daisy.getData("borough"));
-                 favList = new FavoriteDogs((allDogs.filterCollection("borough",daisy.getData("borough"))),daisy);
+                 //favList = new FavoriteDogs((allDogs.filterCollection("borough",daisy.getData("borough"))),daisy);
+                 favList = new FavoriteDogs((allDogs.filterCollection("borough",daisy.getData("location"))),daisy);
                 filterConfirmLabel.setText("Filter set to borough!");
             }
             if (e.getSource() == sameSizeButton){

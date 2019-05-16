@@ -55,7 +55,13 @@ public class DogCollection
             // filteredSet1.add(r);
         // }
         //filter by borough
-        if (category.equals("borough")){
+        if  (category.equals("age")){
+            if (criteria.equals("Old"))
+                outputFiltered = filteredSet1.filterBy(new FilterToOld());
+            else if (criteria.equals("Young"))
+                outputFiltered = filteredSet1.filterBy(new FilterToYoung());
+        }
+        else if (category.equals("borough")){
             if (criteria.equals("Manhattan"))
                 outputFiltered = filteredSet1.filterBy(new FilterToManhattan());
             else if (criteria.equals("Brooklyn"))
@@ -67,11 +73,7 @@ public class DogCollection
             else if (criteria.equals("Staten Island"))
                 outputFiltered = filteredSet1.filterBy(new FilterToStatenIsland());
         //filter by age
-        } else if (category.equals("age")){
-            if (criteria.equals("Old"))
-                outputFiltered = filteredSet1.filterBy(new FilterToOld());
-            else if (criteria.equals("Young"))
-                outputFiltered = filteredSet1.filterBy(new FilterToYoung());
+
         //filter by sex
         } else if (category.equals("sex")){
             //System.out.println("got the right catergory");
