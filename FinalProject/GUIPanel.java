@@ -6,10 +6,10 @@ import javax.swing.*;
 public class GUIPanel extends JPanel {
     private Dog dog;
 
-    private JPanel allDogsDiv,filteredDogsDiv;
+    private JPanel allDogsDiv,filteredDogsDiv,headerDiv, subHeaderDiv;
     private FilterableDataset filteredOutput;
 
-    private JLabel nameLabel;
+    private JLabel nameLabel, headerLabel, subheaderLabel;
     private JLabel sexLabel;
     private JLabel ageLabel;
     private JLabel breedLabel;
@@ -23,69 +23,79 @@ public class GUIPanel extends JPanel {
     private JTextField nameField, sexField, ageField, breedField, boroughField, sizeField, areaField, phoneField;
 
     private JButton submitButton,generateGraphButton,sameSexButton,sameBoroughButton,sameSizeButton, sortButton;
-    private JPanel createPanel;
+    private JPanel createPanel, filterConfirmPanel;
     private JPanel buttonPanel;
     private String name,sex,breed,borough,size,area,phone;
     private int age;
 
     private Dog daisy;
 
-    private DogCollection allDogs;
+    private DogCollection allDogs,originalDogs;
+    
 
     private JScrollPane filterScroller,sortScroller;
 
     private FavoriteDogs favList;
+    
+    private FilterableDataset origin;
 
     public GUIPanel(){
-
         this.dog = dog;
-
-        // Constructor. Notice how it takes an instance of the game as input!
-        // public TicTacToePanel(TicTacToe g) {
-        // this.game = g;
-
-        //setCanvasSize(1000, 1000);
-
+        
+        headerDiv = new JPanel();
+        headerDiv.setPreferredSize(new Dimension(1200,40));
+        headerLabel = new JLabel("DogMeetsAnotherDogTM");
+        headerLabel.setFont(new Font("SanSerif", Font.PLAIN, 20));
+        headerDiv.add(headerLabel);
+        add(headerDiv);
+        
         createPanel = new JPanel();
         createPanel.setPreferredSize(new Dimension(500,400));
         //createPanel.setBorder(BorderFactory.createLineBorder(Color.red, 10));
+        
+        subHeaderDiv = new JPanel();
+        subHeaderDiv.setPreferredSize(new Dimension(500,40));
+        subheaderLabel = new JLabel("Create your dog profile!");
+        subheaderLabel.setFont(new Font("SanSerif", Font.PLAIN, 14));
+        subHeaderDiv.add(subheaderLabel);
+        createPanel.add(subHeaderDiv);
 
-        nameLabel = new JLabel("Enter name.");
+        nameLabel = new JLabel("Name:");
         createPanel.add(nameLabel);
         nameField = new JTextField(5);
         createPanel.add(nameField);
 
-        sexLabel = new JLabel("Enter sex.");
+        sexLabel = new JLabel("Sex(F/M):");
         createPanel.add(sexLabel);
         sexField = new JTextField(5);
         createPanel.add(sexField);
 
-        ageLabel = new JLabel("Enter age.");
+        ageLabel = new JLabel("Age:");
         createPanel.add(ageLabel);
         ageField = new JTextField(5);
         createPanel.add(ageField);
 
-        breedLabel = new JLabel("Enter breed.");
+        breedLabel = new JLabel("Breed:");
         createPanel.add(breedLabel);
         breedField = new JTextField(5);
         createPanel.add(breedField);
 
-        boroughLabel = new JLabel("Enter borough.");
+        boroughLabel = new JLabel("Borough:");
         createPanel.add(boroughLabel);
         boroughField = new JTextField(5);
         createPanel.add(boroughField);
 
-        sizeLabel = new JLabel("Enter size.");
+        sizeLabel = new JLabel("Size (S/M/L):");
         createPanel.add(sizeLabel);
         sizeField = new JTextField(5);
         createPanel.add(sizeField);
 
-        areaLabel = new JLabel("Enter area code.");
+        areaLabel = new JLabel("Area code (XXX):");
         createPanel.add(areaLabel);
         areaField = new JTextField(5);
         createPanel.add(areaField);
 
-        phoneLabel = new JLabel("Enter phone number.");
+        phoneLabel = new JLabel("Phone number (XXX-XXXX):");
         createPanel.add(phoneLabel);
         phoneField = new JTextField(5);
         createPanel.add(phoneField);
@@ -103,8 +113,8 @@ public class GUIPanel extends JPanel {
         submitButton = new JButton("Submit!");
         submitButton.addActionListener(new ButtonListener());
         buttonPanel = new JPanel();
-        buttonPanel.setPreferredSize(new Dimension(250,100));
-        buttonPanel.setBackground (Color.blue);
+        buttonPanel.setPreferredSize(new Dimension(500,50));
+        buttonPanel.setBackground (new Color(249, 129, 69));
         buttonPanel.add(submitButton);
         createPanel.add(buttonPanel);
         //add(submitButton);
@@ -113,25 +123,33 @@ public class GUIPanel extends JPanel {
         resultsLabel = new JLabel("");
         add(resultsLabel);
 
-        JPanel filterConfirmPanel = new JPanel();
-        filterConfirmLabel = new JLabel("FILTER GOES THER");
-        filterConfirmPanel.add(filterConfirmLabel);
-        add(filterConfirmPanel);
+        
         sortButton = new JButton("Sort by age.");
         sortButton.addActionListener(new ButtonListener());
         clickedSortLabel = new JLabel("");
-
-        //add(filterConfirmLabel);
+        
+        JPanel filterConfirmPanel = new JPanel();
+        filterConfirmLabel = new JLabel("");
+        filterConfirmPanel.add(filterConfirmLabel);
+        add(filterConfirmPanel);
 
         generateGraphButton = new JButton("Generate dog connections graph!");
         generateGraphButton.addActionListener(new ButtonListener());
         clickedGraphLabel = new JLabel("");
 
         setPreferredSize(new Dimension(700,500));
-        setBackground(Color.pink);
+        setBackground(new Color(247,209,96));
         //add(nameLabel);
         add(createPanel);
-
+        allDogs = new DogCollection("datasets/dogs_100_size.csv");
+        originalDogs = new DogCollection("datasets/dogs_100_size.csv");
+        //System.out.println(originalDogs.getCollection());
+        
+        System.out.println("____________________________________________________");
+        //origin = new FilterableDataset();
+        // origin = originalDogs.getFilteredDataset();
+        // System.out.println(origin);
+        // System.out.println("___________________________________________________");
     }
 
     private class ButtonListener implements ActionListener {
@@ -167,7 +185,7 @@ public class GUIPanel extends JPanel {
                 filteredDogsDiv.setPreferredSize(new Dimension(1000,800));
                 //add(vertical);
                 //dogScroller.setAlignmentX(LEFT_ALIGNMENT);
-                allDogs = new DogCollection("datasets/dogs_100_size.csv");
+                
                 //FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size.csv", daisy);
                 //fDogs.sortByCriteria("age");
                 //Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
@@ -218,7 +236,8 @@ public class GUIPanel extends JPanel {
                 //everytime (slow), and sorted by a specfici dimension only 
                 //if that speciic button is clicked
                 //4. dont need to pass Dog into gui
-
+                //filterConfirmPanel = new JPanel();
+                
                 add(generateGraphButton);
                 add(clickedGraphLabel);
                 add(sortButton);
@@ -231,12 +250,12 @@ public class GUIPanel extends JPanel {
                 //createFilteredCards("sex",daisy.getData("sex"));
                 //add(filterConfirmLabel);
                 filterConfirmLabel.setText("Filter set to sex!");
-
+                //add(filterConfirmPanel);
             }
             if (e.getSource() == sameBoroughButton){
                 //createFilteredCards("borough",daisy.getData("borough"));
                  //favList = new FavoriteDogs((allDogs.filterCollection("borough",daisy.getData("borough"))),daisy);
-                 favList = new FavoriteDogs((allDogs.filterCollection("borough",daisy.getData("location"))),daisy);
+                favList = new FavoriteDogs((allDogs.filterCollection("borough",daisy.getData("location"))),daisy);
                 filterConfirmLabel.setText("Filter set to borough!");
             }
             if (e.getSource() == sameSizeButton){
@@ -291,10 +310,13 @@ public class GUIPanel extends JPanel {
             }
 
             if (e.getSource() == generateGraphButton){
-                JPanel dogGraph = new JPanel();
+                System.out.println(favList);
+                //JPanel dogGraph = new JPanel();
                 clickedGraphLabel.setText("Your dog graph is saved to your computer"); 
 
-                AllDogsGraph dogConnections = new AllDogsGraph(favList.getCollection(),daisy);
+                AllDogsGraph dogConnections = new AllDogsGraph(originalDogs.getCollection(),daisy);
+                System.out.println("dogConnection \n" + dogConnections);
+                
                 System.out.println("Clicked");
                 //saves tgf
                 //dogGraph.add(dogConnections);

@@ -8,6 +8,7 @@
 
 import java.util.Vector;
 import java.util.Hashtable;
+import java.util.Random;
 
 public class AllDogsGraph
 {
@@ -32,20 +33,30 @@ public class AllDogsGraph
         graph.addVertex(owndog);
         for (Dog d: dogInput){
             //System.out.println(d);
+            graph.addVertex(d);
             graph.addArc(owndog,d);
+            Random rand = new Random(); 
+            if (!dogInput.get(rand.nextInt(50)).equals(d)){
+                graph.addArc(d,dogInput.get(rand.nextInt(50)));
+            }
         }
-        graph.saveTGF("TESTER.tgf"); 
+        
+        graph.addArc(dogInput.get(0), dogInput.get(1));
+        graph.addArc(dogInput.get(3), dogInput.get(5));
+        
+        graph.saveTGF("DogConnections.tgf"); 
         System.out.println(graph);
     }
     
-    // public String toString(){
-        // String s = "";
-        // for (Dog v: graph.getVertices()){
-            // s += v;
-            // s += v.get
-        // }
-        // return s;
-    // }
+    public String toString(){
+        String s = "---------------toString() from AllDogsGraph------------\n";
+       
+        for (Dog v: graph.getVertices()){
+            s += v + ":";
+            s += graph.getSuccessors(v);
+        }
+        return s;
+    }
     
     // public static void main(String[] args){
        // AdjListsGraph<Dog> hack = new AdjListsGraph<Dog>();
