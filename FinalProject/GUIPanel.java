@@ -1,4 +1,12 @@
 
+/**
+ * DogCollection class reads from a file filled with rows of dog information, creates a FilterableDataset from it,
+ * and provides method to filter the dataset by certain criteria
+ *
+ * @author (Shirley Lei, Willa Sun, Emily Yin)
+ * @version (16 May 2019)
+ */
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -124,7 +132,7 @@ public class GUIPanel extends JPanel {
         add(resultsLabel);
 
         
-        sortButton = new JButton("Sort by age.");
+        sortButton = new JButton("Show filtered results (sorted by age)");
         sortButton.addActionListener(new ButtonListener());
         clickedSortLabel = new JLabel("");
         
@@ -171,9 +179,15 @@ public class GUIPanel extends JPanel {
                 phone = phoneField.getText();
                 daisy = new Dog(name,sex,age,breed,borough,size,area,phone);
                 //confirmationLabel.setPreferredSize(new Dimension(1350,500));
+                
+                JPanel dogIntroDiv = new JPanel();
+                dogIntroDiv.setPreferredSize(new Dimension(1000,40));
                 confirmationLabel.setLocation(900,1000);
-                confirmationLabel.setText("Your dog profile " + daisy + " is created.");
-
+                confirmationLabel.setText("Your dog profile for " + daisy.getData("name") + " is created! " + 
+                    "We got that " + daisy.getData("name")  + "is a " + daisy.getData("age")  + " year old " + daisy.getData("breed")  + " from " 
+                     + daisy.getData("location")  + "!");
+                dogIntroDiv.add(confirmationLabel);
+                add(dogIntroDiv);
                 remove(createPanel);
 
                 //Lay out the label and scroll pane from top to bottom.

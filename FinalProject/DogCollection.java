@@ -1,9 +1,10 @@
 
 /**
- * Write a description of class DogCollection here.
+ * DogCollection class reads from a file filled with rows of dog information, creates a FilterableDataset from it,
+ * and provides method to filter the dataset by certain criteria
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Shirley Lei, Willa Sun, Emily Yin)
+ * @version (16 May 2019)
  */
 
 import java.io.*;

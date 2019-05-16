@@ -2,7 +2,7 @@
 comment0.target=AllDogsGraph
 comment1.params=dogInput\ owndog
 comment1.target=AllDogsGraph(java.util.Vector,\ Dog)
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ DogsGraph\n
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ DogsGraph\n\ \n\ @param\ dogInput\ -\ of\ type\ Vector<Dog>,\ dogs\ from\ which\ we\ are\ creating\ the\ graph\ from\n\ @param\ owndog\ -\ of\ type\ Dog,\ which\ the\ user\ will\ be\ prompted\ to\ create\ and\ will\ be\ included\ in\ the\ graph\n
 comment2.params=
 comment2.target=java.lang.String\ toString()
 numComments=3
