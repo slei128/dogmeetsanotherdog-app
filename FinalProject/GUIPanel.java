@@ -1,7 +1,6 @@
 
 /**
- * DogCollection class reads from a file filled with rows of dog information, creates a FilterableDataset from it,
- * and provides method to filter the dataset by certain criteria
+ * GUIPanel creates the main panel in the graphical interface of DogMeetsAnotherDog.
  *
  * @author (Shirley Lei, Willa Sun, Emily Yin)
  * @version (16 May 2019)
@@ -12,44 +11,32 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class GUIPanel extends JPanel {
-    private Dog dog;
-
+    //create variables for components for the GUI
     private JPanel allDogsDiv,filteredDogsDiv,headerDiv, subHeaderDiv;
     private FilterableDataset filteredOutput;
 
-    private JLabel nameLabel, headerLabel, subheaderLabel;
-    private JLabel sexLabel;
-    private JLabel ageLabel;
-    private JLabel breedLabel;
-    private JLabel boroughLabel;
-    private JLabel sizeLabel;
-    private JLabel areaLabel;
-    private JLabel phoneLabel;
-    private JLabel confirmationLabel, resultsLabel,clickedGraphLabel,filterInstruction, filterConfirmLabel;
-    private JLabel filteredLabel, clickedSortLabel,confirmFilter;
-
+    private JLabel nameLabel, headerLabel, subheaderLabel,sexLabel,ageLabel,breedLabel,boroughLabel,sizeLabel,areaLabel,phoneLabel;
+    private JLabel confirmationLabel, resultsLabel,clickedGraphLabel,filterInstruction, filterConfirmLabel,filteredLabel, clickedSortLabel,confirmFilter;
     private JTextField nameField, sexField, ageField, breedField, boroughField, sizeField, areaField, phoneField;
-
     private JButton submitButton,generateGraphButton,sameSexButton,sameBoroughButton,sameSizeButton, sortButton;
-    private JPanel createPanel, filterConfirmPanel;
-    private JPanel buttonPanel;
+    private JPanel createPanel, filterConfirmPanel,buttonPanel;
+    
     private String name,sex,breed,borough,size,area,phone;
     private int age;
 
-    private Dog daisy;
-
+    private Dog daisy; //daisy is the variable name for the dog that the user is prompted to created from the GUI
     private DogCollection allDogs,originalDogs;
-    
-
     private JScrollPane filterScroller,sortScroller;
-
     private FavoriteDogs favList;
-    
-    private FilterableDataset origin;
 
+    /**
+     * Constructor for GUIPanel()
+     * 
+     */
     public GUIPanel(){
-        this.dog = dog;
+        //instantiate components on the GUI
         
+        //add header
         headerDiv = new JPanel();
         headerDiv.setPreferredSize(new Dimension(1200,40));
         headerLabel = new JLabel("DogMeetsAnotherDogTM");
@@ -57,10 +44,11 @@ public class GUIPanel extends JPanel {
         headerDiv.add(headerLabel);
         add(headerDiv);
         
+        //add main panel where the creation of user's input dog takes place
         createPanel = new JPanel();
         createPanel.setPreferredSize(new Dimension(500,400));
-        //createPanel.setBorder(BorderFactory.createLineBorder(Color.red, 10));
         
+        //add subheader
         subHeaderDiv = new JPanel();
         subHeaderDiv.setPreferredSize(new Dimension(500,40));
         subheaderLabel = new JLabel("Create your dog profile!");
@@ -68,6 +56,7 @@ public class GUIPanel extends JPanel {
         subHeaderDiv.add(subheaderLabel);
         createPanel.add(subHeaderDiv);
 
+        //make labels for user input
         nameLabel = new JLabel("Name:");
         createPanel.add(nameLabel);
         nameField = new JTextField(5);
@@ -125,13 +114,11 @@ public class GUIPanel extends JPanel {
         buttonPanel.setBackground (new Color(249, 129, 69));
         buttonPanel.add(submitButton);
         createPanel.add(buttonPanel);
-        //add(submitButton);
         confirmationLabel = new JLabel("");
         add(confirmationLabel);
         resultsLabel = new JLabel("");
         add(resultsLabel);
 
-        
         sortButton = new JButton("Show filtered results (sorted by age)");
         sortButton.addActionListener(new ButtonListener());
         clickedSortLabel = new JLabel("");
@@ -153,14 +140,17 @@ public class GUIPanel extends JPanel {
         originalDogs = new DogCollection("datasets/dogs_100_size.csv");
         //System.out.println(originalDogs.getCollection());
         
-        System.out.println("____________________________________________________");
-        //origin = new FilterableDataset();
-        // origin = originalDogs.getFilteredDataset();
-        // System.out.println(origin);
-        // System.out.println("___________________________________________________");
     }
-
+    
+    /**
+     * Inner class ButtonListener defines events that are triggered by clicking various buttons. 
+     * 
+     */
     private class ButtonListener implements ActionListener {
+        /**
+         * ActionPerformed takes events and checks which button triggered the event, and defines appropriate action after button click
+         * @param e the event
+         */
         public void actionPerformed(ActionEvent e) {
             //System.out.println("WOW, YOU KNOW HOW TO CLICK A BUTTON! good for you.");
             if (e.getSource() == submitButton){
