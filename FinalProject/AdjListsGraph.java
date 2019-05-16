@@ -1,12 +1,11 @@
-/********************************************************************
- * AdjListsGraph.java @version 2019.04.11
- * Implementation of a traversable directed graph 
- * using Lists of Adjacent nodes
- *
- * KNOWN FEATURES/BUGS: 
- * It handles unweighted graphs only, but it can be extended.
- * It does not handle operations involving non-existing vertices
- ********************************************************************/
+/**
+ * AdjListsGraph is a implementation of a traversable directed graph 
+ * using Lists of Adjacent nodes, based upon the AdjListsGraph provided in the course materials, 
+ * but modified to include saveToTGF().
+ * 
+ * @author (Shirley Lei, Willa Sun, Emily Yin)
+ * @version (16 May 2019)
+*/
 
 import java.util.*;
 import java.io.*;
@@ -187,21 +186,18 @@ public class AdjListsGraph<T> {
         return sb.toString();
     }
     
-    /******************************************************************
+    /**
      * Saves the current graph into a .tgf file.
      * If the file does not exist, it is created. If it exists, it is overwitten. 
      * If it cannot save the file, a message is printed. 
      * @param fName     The name of the file to write to 
-     *****************************************************************/
+    */
     public void saveTGF(String fName) {
-        
         try {
             int counter = 1;
             PrintWriter writer = new PrintWriter(new File(fName));
             
-            //write vertices by iterating through vector "vertices"
-            //for (int i = 0; i < arcs.keySet().size(); i++) {
-                
+            //write vertices by iterating through "vertices"
             for (T v : arcs.keySet()) {
                 writer.print(counter + " " + v);
                 //writer.print
@@ -210,15 +206,11 @@ public class AdjListsGraph<T> {
             }
             writer.print("#"); 
             writer.println("");
-
             //write arcs by iterating through arcs vector
             int counterarc = 1;
             for (T v : arcs.keySet()) { //for each linked list in arcs
-            
-                for (T successor :arcs.get(v)) {
-                //for (T v : arcs.keySet()) {
-                    //int index2 = vertices.indexOf(vertex);
-                    writer.print(v + " " + successor);
+                for (T successor : arcs.get(v)) { 
+                    writer.print(v + " " + successor); //write the arc between the current vertex and each of its successors
                     counterarc++;
                     writer.println("");
                 }
