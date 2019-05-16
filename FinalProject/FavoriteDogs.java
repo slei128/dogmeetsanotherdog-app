@@ -2,53 +2,46 @@ import java.util.LinkedList;
 import java.util.Vector;
 import java.util.Hashtable;
 /**
- * Sorts a dog's favourite dogs list by preferences
+ * FavoriteDogs represents the favorite dogs of the user-inputed dog, and 
+ * provides method for user to sort the order displayed of these dogs.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Shirley Lei, Willa Sun, Emily Yin)
+ * @version (16 May 2019)
  */
-public class FavoriteDogs
-{
-    // instance variables - replace the example below with your own
-    //private Hashtable<Dog, Vector<Dog>> hash;
-    private Vector<Dog> filteredDogCollection;
-    private Dog owndog;
-    private FilterableDataset inputDS;
-
+public class FavoriteDogs {   
+    private Vector<Dog> filteredDogCollection; //initiate the collection of dogs that is gotten from the sub-dataset
+    private Dog owndog; //the dog that the user input creates
+    private FilterableDataset inputDS; //the sub-dataset that the constructor takes to sort from
     /**
      * Constructor for objects of class FavoriteDogs
+     * @param inputDS the dataset of type FilterableDataset for which sort will be performed later on
+     * @param owndog the dog that the user input creates
      */
-    public FavoriteDogs(FilterableDataset inputDS, Dog owndog)
-    {
-
-        //DogCollection collection = new DogCollection(filename);
-        //vectorDogs = collection.getCollection();
+    public FavoriteDogs(FilterableDataset inputDS, Dog owndog) { 
         this.owndog = owndog;
         this.inputDS = inputDS;
-        //this.hash = new Hashtable<Dog, Vector<Dog>>();
-        //filter by criterion specified earlier by the user
-        //filteredDogCollection = new Vector<Dog>();
-        //subset = collection.getFilteredDataset();
-        //sortByCriteria("age");
-        //Sorting.mergeSort(subset,new AgeComparator());
-        //GUIPanel gp = new GUIPanel();
-        //owndog = gp.getOwnDog();
-        //owndog = new Dog ("Daisy", "F", 5, "Bulldog", "Manhattan", "S");
-        //this.owndog = owndog;
-        //System.out.println(owndog);
-        //in hashtable, put the user's dog and the filtered results from before
-        //hash.put(owndog,filteredCollection);
     }
     
+    /**
+     * Sorts the given dataset of dogs of type FilterableDataset by a given criteria
+     * @param criteria the criteria that the given dataset is sorted by
+     * @return the sorted FilterableDataset
+     */
     public FilterableDataset sortByCriteria(String criteria){
-        System.out.println("called sort");
-        if (criteria.equals("age")){
-            System.out.println(inputDS);
-            Sorting.mergeSort(inputDS,new AgeComparator());
+        //System.out.println("called sort");
+        if (criteria.equals("age")){ //the sorting criteria is age
+            //System.out.println(inputDS);
+            Sorting.mergeSort(inputDS,new AgeComparator()); //perform mergesort and use age comparator
         }
+        //return the sorted FilterableDataset
         return inputDS;
     }
     
+    /**
+     * Getter for the collection of dogs in the given dataset 
+     * 
+     * @return the collection of dogs in the given dataset 
+     */
     public Vector<Dog> getCollection(){
         for (Row dog: inputDS){
             Dog current = new Dog(dog.getName(),dog.getSex(), 
@@ -59,21 +52,11 @@ public class FavoriteDogs
         return filteredDogCollection;
     }
     
-    /*
-    public void hashing(){
-        for (Row dog: inputDS){
-            System.out.println("current dog is " + dog);
-            Dog current = new Dog(dog.getName(),dog.getSex(), 
-                dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize(),
-                dog.getArea(),dog.getPhone());
-            this.filteredDogCollection.add(current);
-            System.out.println("now our filtered dog collection looks like: " + filteredDogCollection);
-        }
-        hash.put(owndog,filteredDogCollection);
-    }
-    */
-    
-   
+    /**
+     * String representation of each row (i.e. dog) in the given dataset
+     * 
+     * @return a string representation of each row (i.e. dog) in the given dataset
+     */
     public String toString(){
         String s = "";
         for (Row dog: inputDS){
@@ -82,21 +65,4 @@ public class FavoriteDogs
         }
         return s;
     }
-    
-    public FilterableDataset getSubset(){
-        return inputDS;
-    }
-    
-    
-    
-    // public static void main(String[] args){
-        // FavoriteDogs fDogs = new FavoriteDogs("datasets/dogs_100_size.csv",
-                // new Dog("Daisy","F",12,"Bulldog","L","A","A","A"));
-        // System.out.println(fDogs);
-
-        // fDogs.sortByCriteria("age");
-        // Sorting.mergeSort(fDogs.getSubset(),new AgeComparator());
-        // fDogs.hashing();
-        // System.out.println(fDogs);
-    // }
 }

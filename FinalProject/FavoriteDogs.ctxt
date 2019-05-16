@@ -1,16 +1,16 @@
 #BlueJ class context
 comment0.target=FavoriteDogs
-comment0.text=\n\ Sorts\ a\ dog's\ favourite\ dogs\ list\ by\ preferences\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ FavoriteDogs\ represents\ the\ favorite\ dogs\ of\ the\ user-inputed\ dog,\ and\ \n\ provides\ method\ for\ user\ to\ sort\ the\ order\ displayed\ of\ these\ dogs.\n\n\ @author\ (Shirley\ Lei,\ Willa\ Sun,\ Emily\ Yin)\n\ @version\ (16\ May\ 2019)\n
 comment1.params=inputDS\ owndog
 comment1.target=FavoriteDogs(FilterableDataset,\ Dog)
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ FavoriteDogs\n
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ FavoriteDogs\n\ @param\ inputDS\ the\ dataset\ of\ type\ FilterableDataset\ for\ which\ sort\ will\ be\ performed\ later\ on\n\ @param\ owndog\ the\ dog\ that\ the\ user\ input\ creates\n
 comment2.params=criteria
 comment2.target=FilterableDataset\ sortByCriteria(java.lang.String)
+comment2.text=\n\ Sorts\ the\ given\ dataset\ of\ dogs\ of\ type\ FilterableDataset\ by\ a\ given\ criteria\n\ @param\ criteria\ the\ criteria\ that\ the\ given\ dataset\ is\ sorted\ by\n\ @return\ the\ sorted\ FilterableDataset\n
 comment3.params=
 comment3.target=java.util.Vector\ getCollection()
+comment3.text=\n\ Getter\ for\ the\ collection\ of\ dogs\ in\ the\ given\ dataset\ \n\ \n\ @return\ the\ collection\ of\ dogs\ in\ the\ given\ dataset\ \n
 comment4.params=
 comment4.target=java.lang.String\ toString()
-comment4.text=\n\ \ \ \ public\ void\ hashing(){\n\ \ \ \ \ \ \ \ for\ (Row\ dog\:\ inputDS){\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("current\ dog\ is\ "\ +\ dog);\n\ \ \ \ \ \ \ \ \ \ \ \ Dog\ current\ \=\ new\ Dog(dog.getName(),dog.getSex(),\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ dog.getAge(),dog.getBreed(),dog.getBorough(),dog.getSize(),\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ dog.getArea(),dog.getPhone());\n\ \ \ \ \ \ \ \ \ \ \ \ this.filteredDogCollection.add(current);\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("now\ our\ filtered\ dog\ collection\ looks\ like\:\ "\ +\ filteredDogCollection);\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ hash.put(owndog,filteredDogCollection);\n\ \ \ \ }\n
-comment5.params=
-comment5.target=FilterableDataset\ getSubset()
-numComments=6
+comment4.text=\n\ String\ representation\ of\ each\ row\ (i.e.\ dog)\ in\ the\ given\ dataset\n\ \n\ @return\ a\ string\ representation\ of\ each\ row\ (i.e.\ dog)\ in\ the\ given\ dataset\n
+numComments=5
